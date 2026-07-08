@@ -1,0 +1,266 @@
+{
+  "id": "uebungssatz-03",
+  "hoeren": {
+    "teil1": {
+      "beispiel": {
+        "nr": 0,
+        "dialog": [
+          { "sprecher": "Verkäuferin", "text": "Guten Tag, kann ich Ihnen helfen?" },
+          { "sprecher": "Kundin", "text": "Ja, was kostet diese Tasche?" },
+          { "sprecher": "Verkäuferin", "text": "Die Tasche kostet 55 Euro." },
+          { "sprecher": "Kundin", "text": "Das ist aber teuer! Haben Sie auch eine kleinere?" },
+          { "sprecher": "Verkäuferin", "text": "Ja, die kleine Tasche kostet nur 15 Euro." }
+        ],
+        "frage": "Wie viel kostet die große Tasche?",
+        "optionen": { "a": "15 Euro", "b": "50 Euro", "c": "55 Euro" },
+        "loesung": "c",
+        "hoerdurchgaenge": 2
+      },
+      "items": [
+        {
+          "nr": 1,
+          "dialog": [
+            { "sprecher": "A", "text": "Hallo, wann beginnt der Film heute Abend?" },
+            { "sprecher": "B", "text": "Der Film beginnt um 20 Uhr 30. Um 20 Uhr ist noch Werbung." },
+            { "sprecher": "A", "text": "Gut, dann komme ich um 20 Uhr." }
+          ],
+          "frage": "Wann beginnt der Film?",
+          "optionen": { "a": "um 19 Uhr", "b": "um 20 Uhr", "c": "um 20 Uhr 30" },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 2,
+          "dialog": [
+            { "sprecher": "Kellner", "text": "Was möchten Sie trinken?" },
+            { "sprecher": "Gast", "text": "Haben Sie Kaffee?" },
+            { "sprecher": "Kellner", "text": "Ja, Kaffee oder Tee." },
+            { "sprecher": "Gast", "text": "Dann bitte einen Tee, aber ohne Zucker." }
+          ],
+          "frage": "Was trinkt der Gast?",
+          "optionen": { "a": "Kaffee", "b": "Tee", "c": "Wasser" },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 3,
+          "dialog": [
+            { "sprecher": "A", "text": "Hast du Kinder?" },
+            { "sprecher": "B", "text": "Ja, ich habe drei Kinder. Zwei Söhne und eine Tochter." }
+          ],
+          "frage": "Wie viele Kinder hat die Frau?",
+          "optionen": { "a": "zwei", "b": "drei", "c": "vier" },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 4,
+          "dialog": [
+            { "sprecher": "A", "text": "Entschuldigung, wo ist das Büro von Herrn Klein?" },
+            { "sprecher": "B", "text": "Das Büro ist im dritten Stock, Zimmer 305." },
+            { "sprecher": "A", "text": "Im dritten Stock, danke!" }
+          ],
+          "frage": "In welchem Stock ist das Büro?",
+          "optionen": { "a": "im zweiten Stock", "b": "im dritten Stock", "c": "im vierten Stock" },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 5,
+          "dialog": [
+            { "sprecher": "A", "text": "Wann fährt der nächste Zug nach Hamburg?" },
+            { "sprecher": "B", "text": "Um 9 Uhr 15 fährt ein Zug, aber der ist schon voll. Der nächste fährt um 10 Uhr 15." },
+            { "sprecher": "A", "text": "Gut, dann nehme ich den Zug um 10 Uhr 15." }
+          ],
+          "frage": "Wann fährt der Zug, den der Mann nimmt?",
+          "optionen": { "a": "um 9 Uhr 15", "b": "um 9 Uhr 50", "c": "um 10 Uhr 15" },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 6,
+          "dialog": [
+            { "sprecher": "A", "text": "Was kosten die Äpfel?" },
+            { "sprecher": "B", "text": "Ein Kilo Äpfel kostet 2 Euro 50." },
+            { "sprecher": "A", "text": "Dann nehme ich zwei Kilo, bitte." }
+          ],
+          "frage": "Wie viel kostet ein Kilo Äpfel?",
+          "optionen": { "a": "1,50 Euro", "b": "2,50 Euro", "c": "3,00 Euro" },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        }
+      ]
+    },
+    "teil2": {
+      "beispiel": {
+        "nr": 0,
+        "durchsage": "Achtung, eine Durchsage. Der Zug nach München, Abfahrt 14 Uhr 20, fährt heute von Gleis 7.",
+        "aussage": "Der Zug nach München fährt von Gleis 7.",
+        "loesung": "richtig"
+      },
+      "items": [
+        {
+          "nr": 7,
+          "durchsage": "Achtung, liebe Fluggäste. Der Flug nach Berlin hat 30 Minuten Verspätung. Bitte warten Sie am Ausgang.",
+          "aussage": "Der Flug nach Berlin hat keine Verspätung.",
+          "loesung": "falsch",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 8,
+          "durchsage": "Der Bus Linie 12 nach Hauptbahnhof fällt heute wegen einer Baustelle aus. Bitte nehmen Sie die Linie 14.",
+          "aussage": "Die Buslinie 12 fährt heute nicht.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 9,
+          "durchsage": "Achtung, Achtung! Bitte verlassen Sie sofort ruhig das Gebäude durch den nächsten Notausgang. Benutzen Sie nicht den Aufzug.",
+          "aussage": "Man soll den Aufzug benutzen.",
+          "loesung": "falsch",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 10,
+          "durchsage": "Wir haben eine schwarze Tasche gefunden. Bitte melden Sie sich beim Fundbüro, Schalter 3.",
+          "aussage": "Die gefundene Tasche ist schwarz.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        }
+      ]
+    },
+    "teil3": {
+      "items": [
+        {
+          "nr": 11,
+          "nachricht": "Hallo Lisa, hier ist Tom. Ich kann heute Abend leider nicht kommen, ich muss länger arbeiten. Können wir uns morgen treffen? Ruf mich zurück!",
+          "frage": "Warum kann Tom heute Abend nicht kommen?",
+          "optionen": { "a": "Er ist krank.", "b": "Er muss arbeiten.", "c": "Er hat keine Zeit für Lisa." },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 12,
+          "nachricht": "Guten Tag, hier ist die Praxis Dr. Meyer. Ihr Termin am Montag ist leider abgesagt. Bitte rufen Sie uns an, wir machen einen neuen Termin für Mittwoch.",
+          "frage": "Was soll die Person machen?",
+          "optionen": { "a": "Zur Praxis kommen", "b": "Die Praxis anrufen", "c": "Am Montag zum Termin kommen" },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 13,
+          "nachricht": "Hallo Mama, hier ist Anna. Wir kommen am Samstag zum Geburtstag, aber wir bringen auch die Kinder mit. Ist das okay? Bis bald!",
+          "frage": "Was möchte Anna wissen?",
+          "optionen": { "a": "Ob die Kinder mitkommen dürfen", "b": "Wann der Geburtstag ist", "c": "Wer noch kommt" },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 14,
+          "nachricht": "Hier ist Herr Wagner von der Firma Schmidt. Die Besprechung morgen beginnt nicht um 10 Uhr, sondern erst um 11 Uhr. Bitte informieren Sie die anderen Kollegen.",
+          "frage": "Wann beginnt die Besprechung?",
+          "optionen": { "a": "um 10 Uhr", "b": "um 11 Uhr", "c": "um 10 Uhr 30" },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 15,
+          "nachricht": "Hi, ich bin's, Paul. Mein Zug hat Verspätung, ich komme erst um 18 Uhr am Bahnhof an. Kannst du mich abholen?",
+          "frage": "Was möchte Paul?",
+          "optionen": { "a": "Dass jemand ihn abholt", "b": "Dass jemand ihm eine SMS schreibt", "c": "Dass jemand den Zug nimmt" },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        }
+      ]
+    }
+  },
+  "lesen": {
+    "teil1": {
+      "texte": [
+        {
+          "titel": "SMS von Marie",
+          "text": "Liebe Sonja, ich habe leider keine Zeit für das Kino am Freitag, ich muss meiner Mutter im Garten helfen. Können wir am Samstag ins Kino gehen? Der Film beginnt um 19 Uhr. Ruf mich an! Deine Marie",
+          "aussagen": [
+            { "nr": 1, "aussage": "Marie hat am Freitag keine Zeit.", "loesung": "richtig" },
+            { "nr": 2, "aussage": "Marie möchte am Samstag ins Kino gehen.", "loesung": "richtig" },
+            { "nr": 3, "aussage": "Der Film beginnt um 20 Uhr.", "loesung": "falsch" }
+          ]
+        },
+        {
+          "titel": "E-Mail von Herrn Klein",
+          "text": "Hallo Frau Bauer, der Termin am Montag findet nicht im Büro statt, sondern im Café Sonne. Bitte bringen Sie den Brief mit. Wir beginnen um 9 Uhr. Viele Grüße, Herr Klein",
+          "aussagen": [
+            { "nr": 4, "aussage": "Der Termin ist im Büro.", "loesung": "falsch" },
+            { "nr": 5, "aussage": "Frau Bauer soll den Brief mitbringen.", "loesung": "richtig" }
+          ]
+        }
+      ]
+    },
+    "teil2": {
+      "items": [
+        { "nr": 6, "situation": "Herr Yilmaz sucht eine günstige Wohnung in der Stadtmitte, 2 Zimmer.", "anzeige_a": "2-Zimmer-Wohnung, Stadtmitte, 650 Euro warm, ab sofort frei.", "anzeige_b": "3-Zimmer-Wohnung, am Stadtrand, 900 Euro kalt.", "loesung": "a" },
+        { "nr": 7, "situation": "Frau Kaya möchte am Wochenende Deutsch lernen, aber nur am Vormittag.", "anzeige_a": "Deutschkurs A1, Montag-Freitag, 9-11 Uhr.", "anzeige_b": "Deutschkurs A1, Samstag, 10-13 Uhr.", "loesung": "b" },
+        { "nr": 8, "situation": "Herr Braun sucht einen Job als Koch in einem Restaurant.", "anzeige_a": "Restaurant Adria sucht Koch/Köchin, Vollzeit, ab sofort.", "anzeige_b": "Café Post sucht Kellner/Kellnerin für Wochenenden.", "loesung": "a" },
+        { "nr": 9, "situation": "Familie Otto möchte ein gebrauchtes Auto kaufen, nicht zu teuer.", "anzeige_a": "VW Golf, 3 Jahre alt, 8.500 Euro.", "anzeige_b": "Neuer BMW, 35.000 Euro, sofort lieferbar.", "loesung": "a" },
+        { "nr": 10, "situation": "Herr Fischer sucht einen Deutschkurs für Anfänger am Abend.", "anzeige_a": "Deutschkurs B2, Dienstag und Donnerstag, 18-20 Uhr.", "anzeige_b": "Deutschkurs A1, Montag und Mittwoch, 18-20 Uhr.", "loesung": "b" }
+      ]
+    },
+    "teil3": {
+      "beispiel": { "nr": 0, "schild": "Museum für Geschichte - Geöffnet: Dienstag bis Sonntag, 9-17 Uhr. Montag geschlossen.", "aussage": "Das Museum hat am Montag geöffnet.", "loesung": "falsch" },
+      "items": [
+        { "nr": 11, "schild": "Restaurant Zur Post - Warme Küche von 12 bis 14 Uhr und von 18 bis 22 Uhr.", "aussage": "Man kann um 15 Uhr warm essen.", "loesung": "falsch" },
+        { "nr": 12, "schild": "Bushaltestelle Marktplatz - Bus Linie 5 fährt wegen Bauarbeiten bis 30. August von der Schillerstraße.", "aussage": "Der Bus 5 fährt zurzeit von der Schillerstraße.", "loesung": "richtig" },
+        { "nr": 13, "schild": "Schwimmbad Amalienstraße - Kinder unter 8 Jahren nur in Begleitung eines Erwachsenen.", "aussage": "Kleine Kinder dürfen alleine schwimmen.", "loesung": "falsch" },
+        { "nr": 14, "schild": "Apotheke am Markt - Notdienst am Wochenende: siehe Aushang an der Tür.", "aussage": "Am Wochenende gibt es einen Notdienst.", "loesung": "richtig" },
+        { "nr": 15, "schild": "Parkhaus City - 1. Stunde kostenlos, jede weitere Stunde 2 Euro.", "aussage": "Parken kostet immer Geld.", "loesung": "falsch" }
+      ]
+    }
+  },
+  "schreiben": {
+    "teil1": {
+      "ausgangstext": "Das ist Frau Elena Rossi. Sie kommt aus Italien und ist Verkäuferin von Beruf. Sie ist am 3. Mai 1990 geboren.",
+      "formularfelder": [
+        { "feld": "Nachname", "loesung": "Rossi" },
+        { "feld": "Vorname", "loesung": "Elena" },
+        { "feld": "Herkunftsland", "loesung": "Italien" },
+        { "feld": "Beruf", "loesung": "Verkäuferin" },
+        { "feld": "Geburtsdatum", "loesung": "3.5.1990" }
+      ]
+    },
+    "teil2": {
+      "situation": "Sie können am Samstag nicht zur Geburtstagsfeier von Ihrer Freundin Julia kommen. Schreiben Sie Julia eine Nachricht.",
+      "inhaltspunkte": [
+        "Warum schreiben Sie?",
+        "Sagen Sie, warum Sie nicht kommen können.",
+        "Fragen Sie, ob Sie Julia am Sonntag besuchen können."
+      ],
+      "musterloesung": "Liebe Julia, ich schreibe dir, weil ich am Samstag leider nicht zu deiner Geburtstagsfeier kommen kann. Ich bin dieses Wochenende krank und muss zu Hause bleiben. Kann ich dich am Sonntag besuchen? Ich habe ein Geschenk für dich! Liebe Grüße, Elena"
+    }
+  },
+  "sprechen": {
+    "teil1": {
+      "beschreibung": "Stellen Sie sich vor: Name, Herkunft, Wohnort, Sprachen, Hobby. Buchstabieren Sie Ihren Namen. Nennen Sie eine Nummer (Telefon, Handy oder Hausnummer).",
+      "fragen": [
+        "Wie heißen Sie?",
+        "Woher kommen Sie?",
+        "Wo wohnen Sie?",
+        "Welche Sprachen sprechen Sie?",
+        "Was ist Ihr Hobby?",
+        "Können Sie Ihren Namen buchstabieren?",
+        "Wie ist Ihre Telefonnummer?"
+      ]
+    },
+    "teil2": {
+      "themen": [
+        { "thema": "Einkaufen", "karten": ["Obst", "Kleidung", "Supermarkt", "Geld", "Geschäft", "Lebensmittel"] },
+        { "thema": "Wohnen", "karten": ["Miete", "Zimmer", "Möbel", "Adresse", "Nachbarn", "Wohnung"] }
+      ]
+    },
+    "teil3": {
+      "bildkarten": [
+        { "beschreibung": "Ein Fenster ist offen, es ist kalt im Zimmer.", "beispielbitte": "Kannst du bitte das Fenster zumachen?" },
+        { "beschreibung": "Eine Tasche ist sehr schwer.", "beispielbitte": "Kannst du mir bitte helfen, die Tasche zu tragen?" }
+      ]
+    }
+  }
+}

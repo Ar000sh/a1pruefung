@@ -60,16 +60,8 @@
     "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Da ist ein Brief für dich ohne Absender."
-    ]
-  },
-  {
-    "word": "Achtung",
-    "artikel": null,
-    "plural": null,
-    "wortart": null,
-    "beispiele": [
-      "Achtung! Das dürfen Sie nicht tun."
+      "Da ist ein Brief für dich ohne Absender.",
+      "Achtung Achtung! Das dürfen Sie nicht tun."
     ]
   },
   {
@@ -227,7 +219,16 @@
     "plural": null,
     "wortart": "verb",
     "beispiele": [
-      "Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen."
+      "Auf dem Formular müssen Sie an mehreren Stellen"
+    ]
+  },
+  {
+    "word": "etwas",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "ankreuzen."
     ]
   },
   {
@@ -236,16 +237,8 @@
     "plural": null,
     "wortart": "verb",
     "beispiele": [
-      "Mach bitte das Licht an!"
-    ]
-  },
-  {
-    "word": "(sich) anmelden",
-    "artikel": null,
-    "plural": null,
-    "wortart": "verb",
-    "beispiele": [
-      "Wo kann ich mich anmelden?"
+      "Mach bitte das Licht an!",
+      "(sich) anmelden Wo kann ich mich anmelden?"
     ]
   },
   {
@@ -286,12 +279,22 @@
     ]
   },
   {
-    "word": "Anrufbeantworter",
+    "word": "Anruf-",
     "artikel": "der",
     "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter."
+      "Wir sind im Moment nicht da. Sprechen Sie bitte auf"
+    ]
+  },
+  {
+    "word": "beantworter",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "den Anrufbeantworter.",
+      "Alphabetische Wortliste"
     ]
   },
   {
@@ -314,12 +317,12 @@
     ]
   },
   {
-    "word": "an sein",
+    "word": "an",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Heute Nacht war das Licht an."
+      "sein Heute Nacht war das Licht an."
     ]
   },
   {
@@ -346,16 +349,8 @@
     "plural": "-n",
     "wortart": "nomen",
     "beispiele": [
-      "Ich habe Ihre Anzeige in der Zeitung gelesen."
-    ]
-  },
-  {
-    "word": "(sich) anziehen",
-    "artikel": null,
-    "plural": null,
-    "wortart": "verb",
-    "beispiele": [
-      "Ich muss mich noch anziehen."
+      "Ich habe Ihre Anzeige in der Zeitung gelesen.",
+      "(sich) anziehen Ich muss mich noch anziehen."
     ]
   },
   {
@@ -409,8 +404,15 @@
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Es gibt bei uns viele Leute, die schon lange arbeitslos sind."
+      "Es gibt bei uns viele Leute, die schon lange arbeitslos"
     ]
+  },
+  {
+    "word": "sind.",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": []
   },
   {
     "word": "Arbeitsplatz",
@@ -479,12 +481,12 @@
     ]
   },
   {
-    "word": "auf sein",
+    "word": "auf",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Du brauchst den Schlüssel nicht. Die Wohnung ist auf."
+      "sein Du brauchst den Schlüssel nicht. Die Wohnung ist auf."
     ]
   },
   {
@@ -615,12 +617,12 @@
     ]
   },
   {
-    "word": "aus sein",
+    "word": "aus",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Das Licht ist aus.",
+      "sein Das Licht ist aus.",
       "Die Schule ist aus."
     ]
   },
@@ -639,16 +641,8 @@
     "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Hier ist mein Ausweis."
-    ]
-  },
-  {
-    "word": "(sich) ausziehen",
-    "artikel": null,
-    "plural": null,
-    "wortart": "verb",
-    "beispiele": [
-      "Zieh die Schuhe aus, bitte!"
+      "Hier ist mein Ausweis.",
+      "(sich) ausziehen Zieh die Schuhe aus, bitte!"
     ]
   },
   {
@@ -883,12 +877,12 @@
     ]
   },
   {
-    "word": "zum Beispiel/z. B.",
+    "word": "zum",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier."
+      "Beispiel/z. B. Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier."
     ]
   },
   {
@@ -983,7 +977,16 @@
     "wortart": "verb",
     "beispiele": [
       "Wir möchten bestellen, bitte.",
-      "Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?"
+      "Dieses Buch haben wir nicht – sollen wir es für Sie"
+    ]
+  },
+  {
+    "word": "bestellen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "?"
     ]
   },
   {
@@ -1430,12 +1433,12 @@
     ]
   },
   {
-    "word": "der, die, das",
+    "word": "der",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Ich nehme das da.",
+      "die, das Ich nehme das da.",
       "Hier ist der Brief, den du suchst.",
       "Die Fahrkarte bekommst du am Bahnhof."
     ]
@@ -1584,16 +1587,8 @@
     "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Hast du etwas zu trinken? Ich habe großen Durst."
-    ]
-  },
-  {
-    "word": "(sich) duschen",
-    "artikel": null,
-    "plural": null,
-    "wortart": "verb",
-    "beispiele": [
-      "Ich bade nicht so gern, ich dusche lieber."
+      "Hast du etwas zu trinken? Ich habe großen Durst.",
+      "(sich) duschen Ich bade nicht so gern, ich dusche lieber."
     ]
   },
   {
@@ -1617,19 +1612,19 @@
   {
     "word": "Ehefrau",
     "artikel": "die",
-    "plural": "-en",
+    "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
+      "-en/"
     ]
   },
   {
     "word": "Ehemann",
     "artikel": "der",
-    "plural": "ä, er",
+    "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
+      "ä, er Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
     ]
   },
   {
@@ -2232,16 +2227,8 @@
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Das weiß ich nicht; ich bin fremd hier."
-    ]
-  },
-  {
-    "word": "(sich) freuen",
-    "artikel": null,
-    "plural": null,
-    "wortart": "verb",
-    "beispiele": [
-      "Ich freue mich auf den Urlaub."
+      "Das weiß ich nicht; ich bin fremd hier.",
+      "(sich) freuen Ich freue mich auf den Urlaub."
     ]
   },
   {
@@ -2855,10 +2842,10 @@
   {
     "word": "Hausfrau",
     "artikel": "die",
-    "plural": "-en",
+    "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
+      "-en/"
     ]
   },
   {
@@ -2867,8 +2854,15 @@
     "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
+      "Die Hausfrau/der Hausmann wäscht, kocht und kauft"
     ]
+  },
+  {
+    "word": "ein.",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": []
   },
   {
     "word": "Heimat",
@@ -3110,7 +3104,16 @@
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ..."
+      "Unser Deutschkurs ist international: Silvana kommt"
+    ]
+  },
+  {
+    "word": "aus",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Italien, Conchi aus Spanien, Yin aus China ..."
     ]
   },
   {
@@ -3220,16 +3223,16 @@
     "beispiele": [
       "Ich schreibe meinen Bekannten eine Karte aus dem Urlaub.",
       "Wollen wir Karten spielen?",
-      "Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte."
+      "Ich möchte auch etwas essen. Bringen Sie mir die Karte,"
     ]
   },
   {
-    "word": "(Kredit)-Karte",
+    "word": "bitte.",
     "artikel": null,
-    "plural": "-n",
-    "wortart": "nomen",
+    "plural": null,
+    "wortart": null,
     "beispiele": [
-      "Kann ich auch mit Karte (be-) zahlen?"
+      "(Kredit)-Karte, -n Kann ich auch mit Karte (be-) zahlen?"
     ]
   },
   {
@@ -3347,7 +3350,16 @@
     "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Wo finde ich Kleidung? – Jacken im ersten, Jeans im zweiten Stock."
+      "Wo finde ich Kleidung? – Jacken im ersten, Jeans im"
+    ]
+  },
+  {
+    "word": "zweiten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Stock."
     ]
   },
   {
@@ -3439,7 +3451,16 @@
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett."
+      "Ich kann heute nicht zur Arbeit kommen, ich bin krank"
+    ]
+  },
+  {
+    "word": "und",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "liege im Bett."
     ]
   },
   {
@@ -3497,12 +3518,12 @@
     ]
   },
   {
-    "word": "sich kümmern",
+    "word": "sich",
     "artikel": null,
     "plural": null,
-    "wortart": "verb",
+    "wortart": null,
     "beispiele": [
-      "Jede Mutter kümmert sich um ihre kleinen Kinder."
+      "kümmern Jede Mutter kümmert sich um ihre kleinen Kinder."
     ]
   },
   {
@@ -3624,12 +3645,19 @@
     ]
   },
   {
-    "word": "Lebensmittel",
+    "word": "Lebens-",
     "artikel": "die",
-    "plural": "(pl.)",
+    "plural": null,
     "wortart": "nomen",
+    "beispiele": []
+  },
+  {
+    "word": "mittel",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
     "beispiele": [
-      "Lebensmittel bekommen Sie im Supermarkt."
+      "(pl.) Lebensmittel bekommen Sie im Supermarkt."
     ]
   },
   {
@@ -4355,9 +4383,11 @@
   {
     "word": "Partner",
     "artikel": "der",
-    "plural": "-",
+    "plural": null,
     "wortart": "nomen",
-    "beispiele": []
+    "beispiele": [
+      "-/"
+    ]
   },
   {
     "word": "Partnerin",
@@ -4425,12 +4455,12 @@
     ]
   },
   {
-    "word": "Pommes frites",
+    "word": "Pommes",
     "artikel": "die",
-    "plural": "(pl.)",
+    "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Die Kinder essen Hähnchen mit Pommes frites."
+      "frites (pl.)  Die Kinder essen Hähnchen mit Pommes frites."
     ]
   },
   {
@@ -5007,39 +5037,39 @@
     ]
   },
   {
-    "word": "an sein",
+    "word": "an",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Das Licht ist noch an."
+      "sein Das Licht ist noch an."
     ]
   },
   {
-    "word": "auf sein",
+    "word": "auf",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Das Fenster ist noch auf."
+      "sein Das Fenster ist noch auf."
     ]
   },
   {
-    "word": "weg sein",
+    "word": "weg",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Herr Meier ist schon weg."
+      "sein Herr Meier ist schon weg."
     ]
   },
   {
-    "word": "zu sein",
+    "word": "zu",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Die Tür ist zu."
+      "sein Die Tür ist zu."
     ]
   },
   {
@@ -5478,16 +5508,8 @@
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Sein Vater ist schon lange tot."
-    ]
-  },
-  {
-    "word": "(sich) treffen",
-    "artikel": null,
-    "plural": null,
-    "wortart": "verb",
-    "beispiele": [
-      "Ich treffe in der Stadt einen Kollegen.",
+      "Sein Vater ist schon lange tot.",
+      "(sich) treffen Ich treffe in der Stadt einen Kollegen.",
       "Wir treffen uns immer freitags."
     ]
   },
@@ -5809,16 +5831,17 @@
     "plural": null,
     "wortart": "nomen",
     "beispiele": [
-      "Vorsicht! Da kommt ein Auto."
+      "Vorsicht! Da kommt ein Auto.",
+      "(sich) vorstellen Wir wollen uns kennenlernen. Können Sie sich bitte"
     ]
   },
   {
-    "word": "(sich) vorstellen",
+    "word": "vorstellen",
     "artikel": null,
     "plural": null,
     "wortart": "verb",
     "beispiele": [
-      "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?"
+      "?"
     ]
   },
   {
@@ -5880,21 +5903,13 @@
     ]
   },
   {
-    "word": "was für ein",
+    "word": "was",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Was für eine Farbe möchten Sie?"
-    ]
-  },
-  {
-    "word": "(sich) waschen",
-    "artikel": null,
-    "plural": null,
-    "wortart": "verb",
-    "beispiele": [
-      "Wo kann ich mir die Hände waschen?",
+      "für ein Was für eine Farbe möchten Sie?",
+      "(sich) waschen Wo kann ich mir die Hände waschen?",
       "Ich muss morgen waschen."
     ]
   },
@@ -5908,12 +5923,12 @@
     ]
   },
   {
-    "word": "weh tun",
+    "word": "weh",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Ich muss zum Arzt. Mein Bein tut weh."
+      "tun Ich muss zum Arzt. Mein Bein tut weh."
     ]
   },
   {
@@ -6060,12 +6075,12 @@
     ]
   },
   {
-    "word": "wie viel",
+    "word": "wie",
     "artikel": null,
     "plural": null,
     "wortart": null,
     "beispiele": [
-      "Wie viel Milch nehmen Sie?"
+      "viel Wie viel Milch nehmen Sie?"
     ]
   },
   {
