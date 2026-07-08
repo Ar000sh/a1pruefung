@@ -1,0 +1,884 @@
+# Next.js Exam App Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Build a Next.js full-exam trainer for `uebungssatz-03` with resolve, answer reveal, redo, transcript playback, and Supabase-ready data boundaries.
+
+**Architecture:** Add a standard Next.js app to the existing Node/TypeScript repository without moving the content pipeline. Keep exam data access in `lib/exams.ts`, objective grading in `lib/grading.ts`, shared contracts in `lib/types.ts`, and interactive UI in `components/exam/ExamApp.tsx`; this keeps later Supabase integration isolated from the component tree. V1 uses local JSON and browser state only.
+
+**Tech Stack:** Next.js + React + TypeScript, Node native test runner (`node:test`), browser `speechSynthesis` for transcript playback fallback, no Supabase dependencies in v1.
+
+## Global Constraints
+
+- Keep the app Supabase-ready but do not add Supabase dependencies in v1.
+- Do not introduce generated audio or image assets unless the current exam data requires them.
+- Keep local exam content separate from UI logic.
+- Preserve UTF-8 for German text.
+- Avoid copying original Goethe exam content; this app displays the newly generated `uebungssatz-03` content.
+- Work in `main` per user instruction.
+- Preserve existing content-pipeline scripts: `extract-wordlist`, `check-vocab`, and `render-exam`.
+- Use `npm.cmd` on Windows if PowerShell blocks `npm.ps1`.
+
+---
+
+## File Structure
+
+- Modify `package.json`: add Next/React dependencies and `dev`, `build`, `start` scripts while preserving existing content scripts.
+- Modify `tsconfig.json`: make it compatible with Next.js JSX and JSON imports.
+- Create `next-env.d.ts`: Next.js TypeScript environment declarations.
+- Create `next.config.mjs`: minimal Next config.
+- Create `app/layout.tsx`: root metadata and HTML shell.
+- Create `app/page.tsx`: server entry that loads the local exam via `getExamById()` and renders `ExamApp`.
+- Create `app/globals.css`: restrained exam-trainer visual system and responsive layout.
+- Create `lib/types.ts`: exam, attempt, grading, media, and future speaking-agent contracts.
+- Create `lib/exams.ts`: local exam data boundary with `getExamById(id: string): Exam`.
+- Create `lib/grading.ts`: pure scoring and normalization functions.
+- Create `scripts/__tests__/exam-data.test.ts`: verifies local exam loading and item counts.
+- Create `scripts/__tests__/grading.test.ts`: verifies objective grading behavior.
+- Create `components/exam/ExamApp.tsx`: client-side attempt state, resolve/show answers/redo flow, and section composition.
+- Create `components/exam/TranscriptPlayer.tsx`: transcript display plus browser TTS control.
+
+---
+
+### Task 1: Next.js Scaffold and Package Scripts
+
+**Files:**
+- Modify: `package.json`
+- Modify: `tsconfig.json`
+- Create: `next-env.d.ts`
+- Create: `next.config.mjs`
+- Create: `app/layout.tsx`
+- Create: `app/page.tsx`
+- Create: `app/globals.css`
+
+**Interfaces:**
+- Produces: runnable Next.js app shell with `npm.cmd run dev`.
+- Consumes: no application modules yet.
+
+- [ ] **Step 1: Install Next.js, React, and TypeScript support**
+
+Run:
+```powershell
+npm.cmd install next react react-dom
+npm.cmd install --save-dev typescript @types/node @types/react @types/react-dom
+```
+
+Expected: `package.json` gains `dependencies` for `next`, `react`, and `react-dom`; `devDependencies` for `typescript`, `@types/node`, `@types/react`, and `@types/react-dom`; `package-lock.json` is created or updated.
+
+- [ ] **Step 2: Update `package.json` scripts**
+
+Edit `package.json` so it contains these scripts, preserving the existing package metadata:
+```json
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test \"scripts/__tests__/**/*.test.ts\"",
+    "extract-wordlist": "node scripts/extract-wordlist.ts",
+    "check-vocab": "node scripts/check-vocab.ts",
+    "render-exam": "node scripts/render-exam.ts"
+  }
+}
+```
+
+- [ ] **Step 3: Update `tsconfig.json` for Next.js**
+
+Replace `tsconfig.json` with:
+```json
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "es2022"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{ "name": "next" }]
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+```
+
+- [ ] **Step 4: Create `next-env.d.ts`**
+
+```ts
+/// <reference types="next" />
+/// <reference types="next/image-types/global" />
+
+// This file is generated by convention for Next.js TypeScript projects.
+```
+
+- [ ] **Step 5: Create `next.config.mjs`**
+
+```js
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default nextConfig;
+```
+
+- [ ] **Step 6: Create minimal app files**
+
+Create `app/layout.tsx`:
+```tsx
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "A1 Prüfungstrainer",
+  description: "Interaktiver Goethe A1 Übungssatz",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="de">
+      <body>{children}</body>
+    </html>
+  );
+}
+```
+
+Create `app/page.tsx`:
+```tsx
+export default function HomePage() {
+  return (
+    <main className="page-shell">
+      <h1>A1 Prüfungstrainer</h1>
+      <p>Der interaktive Übungssatz wird in den nächsten Tasks eingebunden.</p>
+    </main>
+  );
+}
+```
+
+Create `app/globals.css`:
+```css
+:root {
+  color-scheme: light;
+  --paper: #f7f5ef;
+  --ink: #202124;
+  --muted: #62645f;
+  --line: #d8d2c4;
+  --accent: #0f6b63;
+  --accent-strong: #0a4d47;
+  --correct: #1f7a4d;
+  --wrong: #b83a30;
+  --pending: #9a6a12;
+  --card: #fffdf8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.page-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 32px 0;
+}
+```
+
+- [ ] **Step 7: Verify scaffold builds**
+
+Run:
+```powershell
+npm.cmd run build
+```
+
+Expected: Next.js production build exits 0.
+
+- [ ] **Step 8: Commit**
+
+```powershell
+git add package.json package-lock.json tsconfig.json next-env.d.ts next.config.mjs app
+git commit -m "feat: scaffold next exam app"
+```
+
+---
+
+### Task 2: Exam Types and Local Data Boundary
+
+**Files:**
+- Create: `lib/types.ts`
+- Create: `lib/exams.ts`
+- Test: `scripts/__tests__/exam-data.test.ts`
+
+**Interfaces:**
+- Produces: `getExamById(id: string): Exam`, `Exam`, `ExamSectionId`, and item types.
+- Consumes: `content/exams/uebungssatz-03/exam.json`.
+
+- [ ] **Step 1: Write failing data-boundary test**
+
+Create `scripts/__tests__/exam-data.test.ts`:
+```ts
+import { test } from "node:test";
+import assert from "node:assert";
+import { getExamById } from "../../lib/exams.ts";
+
+test("loads uebungssatz-03 with all four sections", () => {
+  const exam = getExamById("uebungssatz-03");
+  assert.strictEqual(exam.id, "uebungssatz-03");
+  assert.ok(exam.hoeren);
+  assert.ok(exam.lesen);
+  assert.ok(exam.schreiben);
+  assert.ok(exam.sprechen);
+});
+
+test("uebungssatz-03 has the expected objective item counts", () => {
+  const exam = getExamById("uebungssatz-03");
+  const hoerenCount = exam.hoeren.teil1.items.length + exam.hoeren.teil2.items.length + exam.hoeren.teil3.items.length;
+  const lesenCount =
+    exam.lesen.teil1.texte.flatMap((text) => text.aussagen).length +
+    exam.lesen.teil2.items.length +
+    exam.lesen.teil3.items.length;
+
+  assert.strictEqual(hoerenCount, 15);
+  assert.strictEqual(lesenCount, 15);
+  assert.strictEqual(exam.schreiben.teil1.formularfelder.length, 5);
+  assert.strictEqual(exam.schreiben.teil2.inhaltspunkte.length, 3);
+  assert.strictEqual(exam.sprechen.teil2.themen.length, 2);
+  assert.deepStrictEqual(exam.sprechen.teil2.themen.map((thema) => thema.karten.length), [6, 6]);
+});
+
+test("unknown exam id throws a clear error", () => {
+  assert.throws(() => getExamById("missing"), /Unknown exam id: missing/);
+});
+```
+
+- [ ] **Step 2: Run test to verify it fails**
+
+Run:
+```powershell
+node --test "scripts/__tests__/exam-data.test.ts"
+```
+
+Expected: FAIL with module-not-found for `../../lib/exams.ts`.
+
+- [ ] **Step 3: Create `lib/types.ts`**
+
+```ts
+export type ExamSectionId = "hoeren" | "lesen" | "schreiben" | "sprechen";
+export type ObjectiveStatus = "unanswered" | "correct" | "wrong";
+
+export interface Optionen {
+  a: string;
+  b: string;
+  c?: string;
+}
+
+export interface DialogLine {
+  sprecher: string;
+  text: string;
+}
+
+export interface FutureMediaFields {
+  audioUrl?: string;
+  imageUrl?: string;
+  roleplayPrompt?: string;
+  partnerRole?: string;
+  teacherRubric?: string;
+  recordingUrl?: string;
+  agentFeedback?: string;
+}
+
+export interface HoerItem extends FutureMediaFields {
+  nr: number;
+  dialog?: DialogLine[];
+  durchsage?: string;
+  nachricht?: string;
+  frage?: string;
+  aussage?: string;
+  optionen?: Optionen;
+  loesung: string;
+  hoerdurchgaenge?: number;
+}
+
+export interface HoerTeil {
+  beispiel?: HoerItem;
+  items: HoerItem[];
+}
+
+export interface LesenAussage {
+  nr: number;
+  aussage: string;
+  loesung: string;
+}
+
+export interface LesenText {
+  titel: string;
+  text: string;
+  aussagen: LesenAussage[];
+}
+
+export interface LesenTeil2Item {
+  nr: number;
+  situation: string;
+  anzeige_a: string;
+  anzeige_b: string;
+  loesung: string;
+}
+
+export interface LesenTeil3Item extends FutureMediaFields {
+  nr: number;
+  schild: string;
+  aussage: string;
+  loesung: string;
+}
+
+export interface Exam {
+  id: string;
+  hoeren: { teil1: HoerTeil; teil2: HoerTeil; teil3: HoerTeil };
+  lesen: {
+    teil1: { texte: LesenText[] };
+    teil2: { items: LesenTeil2Item[] };
+    teil3: { beispiel?: LesenTeil3Item; items: LesenTeil3Item[] };
+  };
+  schreiben: {
+    teil1: { ausgangstext: string; formularfelder: { feld: string; loesung: string }[] };
+    teil2: { situation: string; inhaltspunkte: string[]; musterloesung: string };
+  };
+  sprechen: {
+    teil1: { beschreibung: string; fragen: string[] };
+    teil2: { themen: { thema: string; karten: string[] }[] };
+    teil3: { bildkarten: { beschreibung: string; beispielbitte: string }[] };
+  };
+}
+
+export interface AttemptAnswers {
+  objective: Record<string, string>;
+  schreibenTeil2: string;
+  sprechenNotes: string;
+  sprechenPracticed: boolean;
+}
+```
+
+- [ ] **Step 4: Create `lib/exams.ts`**
+
+```ts
+import uebungssatz03 from "../content/exams/uebungssatz-03/exam.json" with { type: "json" };
+import type { Exam } from "./types.ts";
+
+const exams: Record<string, Exam> = {
+  "uebungssatz-03": uebungssatz03 as Exam,
+};
+
+export function getExamById(id: string): Exam {
+  const exam = exams[id];
+  if (!exam) throw new Error(`Unknown exam id: ${id}`);
+  return exam;
+}
+```
+
+- [ ] **Step 5: Run test to verify it passes**
+
+Run:
+```powershell
+node --test "scripts/__tests__/exam-data.test.ts"
+```
+
+Expected: PASS, 3 tests.
+
+- [ ] **Step 6: Commit**
+
+```powershell
+git add lib/types.ts lib/exams.ts scripts/__tests__/exam-data.test.ts
+git commit -m "feat: add exam data boundary"
+```
+
+---
+
+### Task 3: Objective Grading Module
+
+**Files:**
+- Create: `lib/grading.ts`
+- Test: `scripts/__tests__/grading.test.ts`
+
+**Interfaces:**
+- Consumes: `Exam`, `AttemptAnswers`, and `ObjectiveStatus` from `lib/types.ts`.
+- Produces:
+  - `objectiveKey(section: string, part: string, nr: number): string`
+  - `normalizeAnswer(value: string): string`
+  - `gradeTextAnswer(answer: string | undefined, expected: string): ObjectiveStatus`
+  - `gradeChoiceAnswer(answer: string | undefined, expected: string): ObjectiveStatus`
+  - `gradeExam(exam: Exam, answers: AttemptAnswers): GradeResult`
+
+- [ ] **Step 1: Write failing grading tests**
+
+Create `scripts/__tests__/grading.test.ts`:
+```ts
+import { test } from "node:test";
+import assert from "node:assert";
+import { getExamById } from "../../lib/exams.ts";
+import {
+  gradeChoiceAnswer,
+  gradeExam,
+  gradeTextAnswer,
+  normalizeAnswer,
+  objectiveKey,
+} from "../../lib/grading.ts";
+
+test("objectiveKey creates stable ids", () => {
+  assert.strictEqual(objectiveKey("hoeren", "teil1", 6), "hoeren.teil1.6");
+});
+
+test("normalizeAnswer trims whitespace and ignores case", () => {
+  assert.strictEqual(normalizeAnswer("  rOsSi "), "rossi");
+});
+
+test("gradeChoiceAnswer returns correct, wrong, and unanswered", () => {
+  assert.strictEqual(gradeChoiceAnswer("b", "b"), "correct");
+  assert.strictEqual(gradeChoiceAnswer("a", "b"), "wrong");
+  assert.strictEqual(gradeChoiceAnswer(undefined, "b"), "unanswered");
+});
+
+test("gradeTextAnswer normalizes form-field answers", () => {
+  assert.strictEqual(gradeTextAnswer(" rossi ", "Rossi"), "correct");
+  assert.strictEqual(gradeTextAnswer("Rosso", "Rossi"), "wrong");
+  assert.strictEqual(gradeTextAnswer("", "Rossi"), "unanswered");
+});
+
+test("gradeExam scores objective sections and separates review sections", () => {
+  const exam = getExamById("uebungssatz-03");
+  const answers = {
+    objective: {
+      [objectiveKey("hoeren", "teil1", 1)]: "c",
+      [objectiveKey("hoeren", "teil1", 2)]: "a",
+      [objectiveKey("lesen", "teil1", 1)]: "richtig",
+      [objectiveKey("schreiben", "teil1", 0)]: "Rossi",
+    },
+    schreibenTeil2: "Liebe Julia, ich kann nicht kommen.",
+    sprechenNotes: "Teil 1 geübt.",
+    sprechenPracticed: true,
+  };
+
+  const result = gradeExam(exam, answers);
+  assert.strictEqual(result.objectiveTotal, 35);
+  assert.strictEqual(result.objectiveCorrect, 3);
+  assert.strictEqual(result.items[objectiveKey("hoeren", "teil1", 1)].status, "correct");
+  assert.strictEqual(result.items[objectiveKey("hoeren", "teil1", 2)].status, "wrong");
+  assert.strictEqual(result.review.schreibenTeil2, "answered");
+  assert.strictEqual(result.review.sprechen, "practiced");
+});
+```
+
+- [ ] **Step 2: Run test to verify it fails**
+
+Run:
+```powershell
+node --test "scripts/__tests__/grading.test.ts"
+```
+
+Expected: FAIL with module-not-found for `../../lib/grading.ts`.
+
+- [ ] **Step 3: Implement `lib/grading.ts`**
+
+```ts
+import type { AttemptAnswers, Exam, ObjectiveStatus } from "./types.ts";
+
+export interface GradeItem {
+  expected: string;
+  actual?: string;
+  status: ObjectiveStatus;
+}
+
+export interface GradeResult {
+  items: Record<string, GradeItem>;
+  objectiveCorrect: number;
+  objectiveTotal: number;
+  review: {
+    schreibenTeil2: "empty" | "answered";
+    sprechen: "not-practiced" | "practiced";
+  };
+}
+
+export function objectiveKey(section: string, part: string, nr: number): string {
+  return `${section}.${part}.${nr}`;
+}
+
+export function normalizeAnswer(value: string): string {
+  return value.trim().toLocaleLowerCase("de-DE");
+}
+
+export function gradeChoiceAnswer(answer: string | undefined, expected: string): ObjectiveStatus {
+  if (!answer) return "unanswered";
+  return answer === expected ? "correct" : "wrong";
+}
+
+export function gradeTextAnswer(answer: string | undefined, expected: string): ObjectiveStatus {
+  if (!answer || normalizeAnswer(answer) === "") return "unanswered";
+  return normalizeAnswer(answer) === normalizeAnswer(expected) ? "correct" : "wrong";
+}
+
+function addChoice(items: Record<string, GradeItem>, key: string, actual: string | undefined, expected: string) {
+  items[key] = { expected, actual, status: gradeChoiceAnswer(actual, expected) };
+}
+
+function addText(items: Record<string, GradeItem>, key: string, actual: string | undefined, expected: string) {
+  items[key] = { expected, actual, status: gradeTextAnswer(actual, expected) };
+}
+
+export function gradeExam(exam: Exam, answers: AttemptAnswers): GradeResult {
+  const items: Record<string, GradeItem> = {};
+
+  for (const item of exam.hoeren.teil1.items) {
+    const key = objectiveKey("hoeren", "teil1", item.nr);
+    addChoice(items, key, answers.objective[key], item.loesung);
+  }
+  for (const item of exam.hoeren.teil2.items) {
+    const key = objectiveKey("hoeren", "teil2", item.nr);
+    addChoice(items, key, answers.objective[key], item.loesung);
+  }
+  for (const item of exam.hoeren.teil3.items) {
+    const key = objectiveKey("hoeren", "teil3", item.nr);
+    addChoice(items, key, answers.objective[key], item.loesung);
+  }
+
+  for (const text of exam.lesen.teil1.texte) {
+    for (const aussage of text.aussagen) {
+      const key = objectiveKey("lesen", "teil1", aussage.nr);
+      addChoice(items, key, answers.objective[key], aussage.loesung);
+    }
+  }
+  for (const item of exam.lesen.teil2.items) {
+    const key = objectiveKey("lesen", "teil2", item.nr);
+    addChoice(items, key, answers.objective[key], item.loesung);
+  }
+  for (const item of exam.lesen.teil3.items) {
+    const key = objectiveKey("lesen", "teil3", item.nr);
+    addChoice(items, key, answers.objective[key], item.loesung);
+  }
+
+  exam.schreiben.teil1.formularfelder.forEach((field, index) => {
+    const key = objectiveKey("schreiben", "teil1", index);
+    addText(items, key, answers.objective[key], field.loesung);
+  });
+
+  const objectiveTotal = Object.keys(items).length;
+  const objectiveCorrect = Object.values(items).filter((item) => item.status === "correct").length;
+
+  return {
+    items,
+    objectiveCorrect,
+    objectiveTotal,
+    review: {
+      schreibenTeil2: normalizeAnswer(answers.schreibenTeil2) ? "answered" : "empty",
+      sprechen: answers.sprechenPracticed ? "practiced" : "not-practiced",
+    },
+  };
+}
+```
+
+- [ ] **Step 4: Run grading tests**
+
+Run:
+```powershell
+node --test "scripts/__tests__/grading.test.ts"
+```
+
+Expected: PASS, 5 tests.
+
+- [ ] **Step 5: Run full Node test suite**
+
+Run:
+```powershell
+node --test "scripts/__tests__/**/*.test.ts"
+```
+
+Expected: all tests pass.
+
+- [ ] **Step 6: Commit**
+
+```powershell
+git add lib/grading.ts scripts/__tests__/grading.test.ts
+git commit -m "feat: add objective exam grading"
+```
+
+---
+
+### Task 4: Client Exam Experience
+
+**Files:**
+- Modify: `app/page.tsx`
+- Create: `components/exam/ExamApp.tsx`
+- Create: `components/exam/TranscriptPlayer.tsx`
+
+**Interfaces:**
+- Consumes: `Exam`, `AttemptAnswers` from `lib/types.ts`; `gradeExam`, `objectiveKey` from `lib/grading.ts`; `getExamById` from `lib/exams.ts`.
+- Produces: interactive full-exam UI with resolve, show answers, redo, and transcript playback.
+
+- [ ] **Step 1: Update `app/page.tsx` to load local exam through boundary**
+
+```tsx
+import { ExamApp } from "../components/exam/ExamApp";
+import { getExamById } from "../lib/exams";
+
+export default function HomePage() {
+  const exam = getExamById("uebungssatz-03");
+  return <ExamApp exam={exam} />;
+}
+```
+
+- [ ] **Step 2: Create `components/exam/TranscriptPlayer.tsx`**
+
+```tsx
+"use client";
+
+import type { DialogLine } from "../../lib/types";
+
+interface TranscriptPlayerProps {
+  lines: DialogLine[];
+  label: string;
+}
+
+export function TranscriptPlayer({ lines, label }: TranscriptPlayerProps) {
+  function play() {
+    if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
+    window.speechSynthesis.cancel();
+    const text = lines.map((line) => `${line.sprecher}: ${line.text}`).join(" ");
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "de-DE";
+    window.speechSynthesis.speak(utterance);
+  }
+
+  const canSpeak = typeof window !== "undefined" && "speechSynthesis" in window;
+
+  return (
+    <div className="transcript">
+      <div className="transcript-actions">
+        <button type="button" className="small-button" onClick={play} disabled={!canSpeak}>
+          Play transcript
+        </button>
+        {!canSpeak ? <span className="muted">Browser playback unavailable</span> : null}
+      </div>
+      <div aria-label={label}>
+        {lines.map((line, index) => (
+          <p key={`${line.sprecher}-${index}`}>
+            <strong>{line.sprecher}:</strong> {line.text}
+          </p>
+        ))}
+      </div>
+    </div>
+  );
+}
+```
+
+- [ ] **Step 3: Create `components/exam/ExamApp.tsx`**
+
+Create the client component with these exact imports and state shape:
+```tsx
+"use client";
+
+import { useMemo, useState } from "react";
+import { gradeExam, objectiveKey, type GradeResult } from "../../lib/grading";
+import type { AttemptAnswers, Exam, HoerItem, LesenTeil3Item } from "../../lib/types";
+import { TranscriptPlayer } from "./TranscriptPlayer";
+
+const emptyAnswers: AttemptAnswers = {
+  objective: {},
+  schreibenTeil2: "",
+  sprechenNotes: "",
+  sprechenPracticed: false,
+};
+
+function cloneEmptyAnswers(): AttemptAnswers {
+  return { objective: {}, schreibenTeil2: "", sprechenNotes: "", sprechenPracticed: false };
+}
+```
+
+Then implement:
+- `ExamApp({ exam }: { exam: Exam })`
+- local state: `answers`, `resolved`, `showAnswers`
+- `grade = useMemo(() => resolved ? gradeExam(exam, answers) : null, [exam, answers, resolved])`
+- `setObjective(key: string, value: string)` updater
+- `resolve()` sets `resolved` true and `showAnswers` false
+- `redo()` resets answers to `cloneEmptyAnswers()`, `resolved` false, `showAnswers` false
+- render header, nav, all four sections, sticky action bar, and summary.
+
+Use these helper signatures inside the same file:
+```tsx
+function statusClass(grade: GradeResult | null, key: string): string
+function AnswerHint({ grade, itemKey, showAnswers }: { grade: GradeResult | null; itemKey: string; showAnswers: boolean }): JSX.Element | null
+function ChoiceGroup(props: { name: string; options: { value: string; label: string }[]; selected?: string; onChange: (value: string) => void; disabled: boolean }): JSX.Element
+function HoerItemCard(props: { item: HoerItem; part: string; answers: AttemptAnswers; setObjective: (key: string, value: string) => void; grade: GradeResult | null; showAnswers: boolean }): JSX.Element
+function LesenTeil3Card(props: { item: LesenTeil3Item; part: string; answers: AttemptAnswers; setObjective: (key: string, value: string) => void; grade: GradeResult | null; showAnswers: boolean }): JSX.Element
+```
+
+Behavior requirements:
+- Hören Teil 1 and Teil 3 render option radio groups for `a`, `b`, `c`.
+- Hören Teil 2 renders `richtig`/`falsch` radio groups.
+- Lesen Teil 1 and Teil 3 render `richtig`/`falsch` radio groups.
+- Lesen Teil 2 renders `a`/`b` radio groups.
+- Schreiben Teil 1 renders text inputs keyed with `objectiveKey("schreiben", "teil1", index)`.
+- Schreiben Teil 2 renders a textarea bound to `answers.schreibenTeil2`.
+- Sprechen renders prompts/cards, a practiced checkbox, and a notes textarea.
+- After resolve, inputs remain readable but are disabled until redo.
+- After show answers, `AnswerHint` shows `Correct answer: ${expected}`.
+
+- [ ] **Step 4: Run build**
+
+Run:
+```powershell
+npm.cmd run build
+```
+
+Expected: build exits 0. If TypeScript errors occur, fix only the errors in files touched by this task.
+
+- [ ] **Step 5: Commit**
+
+```powershell
+git add app/page.tsx components/exam/ExamApp.tsx components/exam/TranscriptPlayer.tsx
+git commit -m "feat: add interactive exam experience"
+```
+
+---
+
+### Task 5: Exam Trainer Styling and Responsive Polish
+
+**Files:**
+- Modify: `app/globals.css`
+- Modify: `components/exam/ExamApp.tsx` only if class hooks are missing
+
+**Interfaces:**
+- Consumes: class names emitted by `ExamApp`.
+- Produces: responsive exam-trainer UI with readable cards, sticky actions, clear grading states, and mobile-safe layout.
+
+- [ ] **Step 1: Update `app/globals.css` with complete UI styles**
+
+Append styles for these classes:
+```css
+.exam-shell { width: min(1240px, calc(100% - 28px)); margin: 0 auto; padding: 24px 0 120px; }
+.exam-header { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: end; padding: 18px 0 22px; border-bottom: 1px solid var(--line); }
+.exam-title { margin: 0; font-size: clamp(2rem, 5vw, 4.25rem); line-height: 0.95; letter-spacing: 0; }
+.exam-subtitle { margin: 10px 0 0; color: var(--muted); max-width: 720px; }
+.score-panel { border: 1px solid var(--line); background: var(--card); padding: 14px; min-width: 220px; }
+.score-value { display: block; font-size: 2rem; font-weight: 700; color: var(--accent-strong); }
+.section-nav { position: sticky; top: 0; z-index: 10; display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 0; background: color-mix(in srgb, var(--paper) 92%, white); border-bottom: 1px solid var(--line); }
+.section-nav a { color: var(--ink); text-decoration: none; border: 1px solid var(--line); background: var(--card); padding: 8px 10px; border-radius: 6px; }
+.exam-section { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.section-heading { margin: 0 0 16px; font-size: 1.75rem; }
+.question-card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin: 12px 0; }
+.question-card.correct { border-color: color-mix(in srgb, var(--correct) 60%, var(--line)); background: #f0faf4; }
+.question-card.wrong { border-color: color-mix(in srgb, var(--wrong) 60%, var(--line)); background: #fff1ef; }
+.question-card.unanswered { border-color: color-mix(in srgb, var(--pending) 60%, var(--line)); background: #fff8e8; }
+.question-title { margin: 0 0 10px; font-weight: 700; }
+.choice-list { display: grid; gap: 8px; margin-top: 10px; }
+.choice-item { display: flex; gap: 8px; align-items: flex-start; padding: 8px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+.text-input, .text-area { width: 100%; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: var(--ink); padding: 10px 12px; }
+.text-area { min-height: 130px; resize: vertical; }
+.answer-hint { margin-top: 10px; color: var(--accent-strong); font-weight: 700; }
+.muted { color: var(--muted); }
+.transcript { border-left: 3px solid var(--accent); padding-left: 12px; margin: 10px 0; }
+.transcript-actions { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+.small-button, .primary-button, .secondary-button { border: 1px solid var(--accent-strong); border-radius: 6px; cursor: pointer; }
+.small-button { padding: 6px 9px; color: var(--accent-strong); background: transparent; }
+.primary-button { padding: 11px 16px; color: #fff; background: var(--accent-strong); }
+.secondary-button { padding: 11px 16px; color: var(--accent-strong); background: var(--card); }
+.action-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: rgba(247, 245, 239, 0.96); border-top: 1px solid var(--line); }
+.action-bar-inner { width: min(1240px, calc(100% - 28px)); margin: 0 auto; padding: 12px 0; display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+@media (max-width: 760px) {
+  .exam-header { grid-template-columns: 1fr; }
+  .score-panel { min-width: 0; }
+  .action-bar-inner { justify-content: stretch; }
+  .action-bar-inner button { flex: 1 1 150px; }
+}
+```
+
+- [ ] **Step 2: Verify visual class hooks**
+
+Run:
+```powershell
+npm.cmd run build
+```
+
+Expected: build exits 0. If CSS class names are missing from `ExamApp`, add them to the corresponding elements without changing behavior.
+
+- [ ] **Step 3: Commit**
+
+```powershell
+git add app/globals.css components/exam/ExamApp.tsx
+git commit -m "style: polish exam trainer interface"
+```
+
+---
+
+### Task 6: Final Verification and Browser Run
+
+**Files:**
+- No required source changes unless verification exposes a defect.
+
+**Interfaces:**
+- Consumes: complete app from Tasks 1-5.
+- Produces: verified Next.js exam app and a local URL.
+
+- [ ] **Step 1: Run full Node tests**
+
+Run:
+```powershell
+node --test "scripts/__tests__/**/*.test.ts"
+```
+
+Expected: all tests pass.
+
+- [ ] **Step 2: Run production build**
+
+Run:
+```powershell
+npm.cmd run build
+```
+
+Expected: build exits 0.
+
+- [ ] **Step 3: Start dev server**
+
+Run:
+```powershell
+npm.cmd run dev -- --hostname 127.0.0.1 --port 3000
+```
+
+Expected: dev server prints a local URL for `http://127.0.0.1:3000`. If port 3000 is in use, retry with `--port 3001`.
+
+- [ ] **Step 4: Browser/manual verification**
+
+Open the app and verify:
+- Hören, Lesen, Schreiben, and Sprechen sections render.
+- Selecting one correct and one wrong objective answer then clicking `Resolve` marks them green/red.
+- Leaving an objective answer empty then clicking `Resolve` marks it amber/neutral.
+- `Show answers` reveals correct answers/model answers.
+- `Redo exam` clears selected answers, text inputs, grading classes, and answer hints.
+- A Hören transcript has a `Play transcript` button; if browser TTS is unavailable, the transcript remains visible.
+
+- [ ] **Step 5: Commit any verification fixes**
+
+If Step 4 required changes:
+```powershell
+git add app components lib scripts
+git commit -m "fix: address exam app verification issues"
+```
+
+If no changes were required, do not create an empty commit.
