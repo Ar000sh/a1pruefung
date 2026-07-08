@@ -1,0 +1,6307 @@
+[
+  {
+    "word": "ab",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ab morgen muss ich arbeiten."
+    ]
+  },
+  {
+    "word": "aber",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich bin oft im Büro, aber nur für wenige Stunden."
+    ]
+  },
+  {
+    "word": "abfahren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir fahren um zwölf Uhr ab."
+    ]
+  },
+  {
+    "word": "Abfahrt",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Vor der Abfahrt rufe ich an."
+    ]
+  },
+  {
+    "word": "abgeben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich muss meine Schlüssel abgeben."
+    ]
+  },
+  {
+    "word": "abholen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wann kann ich den Schrank bei dir abholen?",
+      "Wir müssen noch meinen Bruder abholen."
+    ]
+  },
+  {
+    "word": "Absender",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Da ist ein Brief für dich ohne Absender."
+    ]
+  },
+  {
+    "word": "Achtung",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Achtung! Das dürfen Sie nicht tun."
+    ]
+  },
+  {
+    "word": "Adresse",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Können Sie mir seine Adresse sagen?"
+    ]
+  },
+  {
+    "word": "all-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Alles Gute!",
+      "Das ist alles.",
+      "Sind alle da?",
+      "Alle Freunde kommen.",
+      "Hast du alles?"
+    ]
+  },
+  {
+    "word": "allein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Er kommt allein."
+    ]
+  },
+  {
+    "word": "also",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Also, es ist so: ...",
+      "Er hat Zeit, also muss er uns helfen."
+    ]
+  },
+  {
+    "word": "alt",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wie alt sind Sie?",
+      "Sie sehen aber nicht so alt aus.",
+      "Mein Auto ist schon sehr alt.",
+      "Wir wohnen in einem sehr alten Haus.",
+      "Köln ist eine alte Stadt."
+    ]
+  },
+  {
+    "word": "Alter",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Alter: 26 Jahre."
+    ]
+  },
+  {
+    "word": "an",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Fahren Sie an der nächsten Straße nach rechts.",
+      "Wir treffen uns am Bahnhof.",
+      "Am nächsten Montag geht es leider nicht."
+    ]
+  },
+  {
+    "word": "anbieten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Was darf ich dir anbieten?"
+    ]
+  },
+  {
+    "word": "Angebot",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Heute sind Sportschuhe im Angebot."
+    ]
+  },
+  {
+    "word": "ander-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "WiIlst du diese Jacke?",
+      "– Nein, ich möchte die andere."
+    ]
+  },
+  {
+    "word": "anfangen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Hier fängt die Bahnhofstraße an.",
+      "Der Unterricht fängt gleich an."
+    ]
+  },
+  {
+    "word": "Anfang",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Sie wohnt am Anfang der Straße.",
+      "Wir machen Anfang Juli Urlaub."
+    ]
+  },
+  {
+    "word": "anklicken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Da musst du dieses Wort anklicken."
+    ]
+  },
+  {
+    "word": "ankommen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wann kommt dieser Zug in Hamburg an?"
+    ]
+  },
+  {
+    "word": "Ankunft",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Auf diesem Plan steht nur die Ankunft(-szeit) der Züge."
+    ]
+  },
+  {
+    "word": "ankreuzen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Auf dem Formular müssen Sie an mehreren Stellen etwas ankreuzen."
+    ]
+  },
+  {
+    "word": "anmachen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Mach bitte das Licht an!"
+    ]
+  },
+  {
+    "word": "(sich) anmelden",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wo kann ich mich anmelden?"
+    ]
+  },
+  {
+    "word": "Anmeldung",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Eine Anmeldung für diesen Kurs ist nicht mehr möglich."
+    ]
+  },
+  {
+    "word": "Anrede",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Schreiben Sie auch eine Anrede und einen Gruß."
+    ]
+  },
+  {
+    "word": "anrufen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Kann man Sie anrufen?",
+      "Peter ruft kurz seine Freundin an."
+    ]
+  },
+  {
+    "word": "Anruf",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Sie bekommt viele Anrufe auf ihrem Handy."
+    ]
+  },
+  {
+    "word": "Anrufbeantworter",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir sind im Moment nicht da. Sprechen Sie bitte auf den Anrufbeantworter."
+    ]
+  },
+  {
+    "word": "Ansage",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Hören Sie die Ansagen."
+    ]
+  },
+  {
+    "word": "Anschluss",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "In Mannheim haben Sie Anschluss nach Saarbrücken.",
+      "Ist das die Anmeldung für einen Telefonanschluss?"
+    ]
+  },
+  {
+    "word": "an sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Heute Nacht war das Licht an."
+    ]
+  },
+  {
+    "word": "antworten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Er antwortet nicht."
+    ]
+  },
+  {
+    "word": "Antwort",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Er gibt leider keine Antwort."
+    ]
+  },
+  {
+    "word": "Anzeige",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe Ihre Anzeige in der Zeitung gelesen."
+    ]
+  },
+  {
+    "word": "(sich) anziehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich muss mich noch anziehen."
+    ]
+  },
+  {
+    "word": "Apartment",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir haben ein Apartment gemietet."
+    ]
+  },
+  {
+    "word": "Apfel",
+    "artikel": "der",
+    "plural": "-Ä",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ein Pfund Äpfel bitte."
+    ]
+  },
+  {
+    "word": "Appetit",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Guten Appetit!"
+    ]
+  },
+  {
+    "word": "arbeiten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wo arbeiten Sie?"
+    ]
+  },
+  {
+    "word": "Arbeit",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Bruder sucht Arbeit."
+    ]
+  },
+  {
+    "word": "arbeitslos",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Es gibt bei uns viele Leute, die schon lange arbeitslos sind."
+    ]
+  },
+  {
+    "word": "Arbeitsplatz",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "An meinem Arbeitsplatz fehlt ein Drucker."
+    ]
+  },
+  {
+    "word": "Arm",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Arm tut weh."
+    ]
+  },
+  {
+    "word": "Arzt",
+    "artikel": "der",
+    "plural": "-Ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Morgen habe ich einen Termin bei meiner Ärztin."
+    ]
+  },
+  {
+    "word": "auch",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich bin auch Spanier."
+    ]
+  },
+  {
+    "word": "auf",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Kinder spielen auf der Straße.",
+      "Auf Wiedersehen.",
+      "Wie heißt das auf Deutsch?"
+    ]
+  },
+  {
+    "word": "Aufgabe",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist eine schwere Aufgabe."
+    ]
+  },
+  {
+    "word": "aufhören",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Der Kurs hört in einer Woche auf.",
+      "Hier hört die Bahnhofstraße auf."
+    ]
+  },
+  {
+    "word": "auf sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Du brauchst den Schlüssel nicht. Die Wohnung ist auf."
+    ]
+  },
+  {
+    "word": "aufstehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich muss immer um vier Uhr aufstehen.",
+      "Soll ich aufstehen?"
+    ]
+  },
+  {
+    "word": "Aufzug",
+    "artikel": "der",
+    "plural": "-ü, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "In diesem Haus gibt es keinen Aufzug."
+    ]
+  },
+  {
+    "word": "Auge",
+    "artikel": "das",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Er hat blaue Augen."
+    ]
+  },
+  {
+    "word": "aus",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Er kommt aus Brasilien."
+    ]
+  },
+  {
+    "word": "Ausflug",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Morgen machen wir einen Ausflug nach Heidelberg."
+    ]
+  },
+  {
+    "word": "ausfüllen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Füllen Sie bitte dieses Formular aus."
+    ]
+  },
+  {
+    "word": "Ausgang",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wo ist der Ausgang?"
+    ]
+  },
+  {
+    "word": "Auskunft",
+    "artikel": "die",
+    "plural": "-ü, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Können Sie mir eine Auskunft geben?"
+    ]
+  },
+  {
+    "word": "Ausland",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Fahren Sie ins Ausland?"
+    ]
+  },
+  {
+    "word": "Ausländer",
+    "artikel": "der",
+    "plural": "-",
+    "wortart": "nomen",
+    "beispiele": [
+      "SInd Sie Ausländerin?"
+    ]
+  },
+  {
+    "word": "ausländisch",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Leider habe ich nur ausländisches Geld."
+    ]
+  },
+  {
+    "word": "ausmachen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Mach bitte das Licht aus!"
+    ]
+  },
+  {
+    "word": "Aussage",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ist die Aussage richtig oder falsch?"
+    ]
+  },
+  {
+    "word": "aussehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Das sieht schön aus."
+    ]
+  },
+  {
+    "word": "aus sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das Licht ist aus.",
+      "Die Schule ist aus."
+    ]
+  },
+  {
+    "word": "aussteigen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wo muss ich aussteigen?"
+    ]
+  },
+  {
+    "word": "Ausweis",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Hier ist mein Ausweis."
+    ]
+  },
+  {
+    "word": "(sich) ausziehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Zieh die Schuhe aus, bitte!"
+    ]
+  },
+  {
+    "word": "Auto",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Er kommt mit dem Auto."
+    ]
+  },
+  {
+    "word": "Autobahn",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wo geht‘s hier bitte zur Autobahn?"
+    ]
+  },
+  {
+    "word": "Automat",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Fahrkarten gibt es nur am Automaten."
+    ]
+  },
+  {
+    "word": "automatisch",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Du musst nichts machen. Das geht automatisch."
+    ]
+  },
+  {
+    "word": "Baby",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Kind ist noch ein Baby."
+    ]
+  },
+  {
+    "word": "Bäckerei",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich geh mal schnell zur Bäckerei."
+    ]
+  },
+  {
+    "word": "Bad",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir haben kein großes Bad."
+    ]
+  },
+  {
+    "word": "baden",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich bade nicht so gern, ich dusche lieber."
+    ]
+  },
+  {
+    "word": "Bahn",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir fahren lieber mit der Bahn.",
+      "Ich nehme die nächste Bahn."
+    ]
+  },
+  {
+    "word": "Bahnhof",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Komme ich hier zum Bahnhof?"
+    ]
+  },
+  {
+    "word": "Bahnsteig",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Auf welchem Bahnsteig fährt der Zug?"
+    ]
+  },
+  {
+    "word": "bald",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich komme bald."
+    ]
+  },
+  {
+    "word": "Balkon",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Wohnung hat auch einen kleinen Balkon."
+    ]
+  },
+  {
+    "word": "Banane",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Drei Bananen, bitte!"
+    ]
+  },
+  {
+    "word": "Bank",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Bank schließt schon um vier Uhr.",
+      "Er sitzt im Park auf einer Bank und liest."
+    ]
+  },
+  {
+    "word": "bar",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Muss ich bar zahlen oder geht‘s auch mit Karte?"
+    ]
+  },
+  {
+    "word": "Bauch",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Seit gestern tut mir der Bauch weh."
+    ]
+  },
+  {
+    "word": "Baum",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Vorsicht, fahr nicht an den Baum!"
+    ]
+  },
+  {
+    "word": "Beamte",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Fragen Sie die Beamtin an Schalter acht!"
+    ]
+  },
+  {
+    "word": "bedeuten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Was bedeutet das Wort?"
+    ]
+  },
+  {
+    "word": "beginnen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Das Spiel beginnt um 15.30 Uhr."
+    ]
+  },
+  {
+    "word": "bei",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Offenbach liegt bei Frankfurt.",
+      "Ich wohne bei meinen Eltern.",
+      "Bei uns regnet es heute.",
+      "Er arbeitet bei der Polizei."
+    ]
+  },
+  {
+    "word": "beide",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Beide Eltern arbeiten.",
+      "Wir kommen beide."
+    ]
+  },
+  {
+    "word": "Bein",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein rechtes Bein tut weh."
+    ]
+  },
+  {
+    "word": "Beispiel",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Kannst du mir ein Beispiel sagen?"
+    ]
+  },
+  {
+    "word": "zum Beispiel/z. B.",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Viele meiner Verwandten, z. B. meine beiden Brüder, arbeiten auch hier."
+    ]
+  },
+  {
+    "word": "bekannt",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Picasso ist sehr bekannt."
+    ]
+  },
+  {
+    "word": "Bekannte",
+    "artikel": "der/die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ein Bekannter von mir heißt Klaus."
+    ]
+  },
+  {
+    "word": "bekommen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Haben Sie meinen Brief bekommen?",
+      "Was bekommen Sie?",
+      "Dieses Medikament bekommen Sie in der Apotheke."
+    ]
+  },
+  {
+    "word": "benutzen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Aufzüge bitte nicht benutzen!"
+    ]
+  },
+  {
+    "word": "Beruf",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Was sind Sie von Beruf?",
+      "Was ist Ihr Beruf?"
+    ]
+  },
+  {
+    "word": "besetzt",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Nummer ist immer besetzt.",
+      "Der Platz ist besetzt."
+    ]
+  },
+  {
+    "word": "besichtigen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich möchte gern den Dom besichtigen."
+    ]
+  },
+  {
+    "word": "besser",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Es geht mir schon besser."
+    ]
+  },
+  {
+    "word": "best-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Am besten treffen wir uns morgen."
+    ]
+  },
+  {
+    "word": "bestellen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir möchten bestellen, bitte.",
+      "Dieses Buch haben wir nicht – sollen wir es für Sie bestellen?"
+    ]
+  },
+  {
+    "word": "besuchen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Darf ich dich besuchen?"
+    ]
+  },
+  {
+    "word": "Bett",
+    "artikel": "das",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir brauchen noch ein Kinderbett."
+    ]
+  },
+  {
+    "word": "bezahlen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wo muss ich bezahlen?"
+    ]
+  },
+  {
+    "word": "Bier",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Noch ein Bier bitte."
+    ]
+  },
+  {
+    "word": "Bild",
+    "artikel": "das",
+    "plural": "-er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Hast du ein Bild von deinem Sohn?"
+    ]
+  },
+  {
+    "word": "billig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Jacke kostet nur 10 Euro! Die ist aber billig!"
+    ]
+  },
+  {
+    "word": "Birne",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ein Kilo Birnen, bitte!"
+    ]
+  },
+  {
+    "word": "bis",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich fahre nur bis Stuttgart.",
+      "Ich warte bis morgen."
+    ]
+  },
+  {
+    "word": "bisschen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich spreche Englisch, Französisch und ein bisschen Deutsch."
+    ]
+  },
+  {
+    "word": "bitte",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Eine Tasse Kaffee, bitte!",
+      "Sprechen Sie bitte leise!"
+    ]
+  },
+  {
+    "word": "Bitte",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe noch eine Bitte."
+    ]
+  },
+  {
+    "word": "bitten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Darf ich Sie um etwas bitten?"
+    ]
+  },
+  {
+    "word": "bitter",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Kaffee schmeckt bitter."
+    ]
+  },
+  {
+    "word": "bleiben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich bleibe heute zu Hause.",
+      "Wir bleiben nur bis morgen."
+    ]
+  },
+  {
+    "word": "Bleistift",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Hast du einen Bleistift?"
+    ]
+  },
+  {
+    "word": "Blick",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Von diesem Hotel hat man einen guten Blick auf den Rhein."
+    ]
+  },
+  {
+    "word": "Blume",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Gefallen dir die Blumen?"
+    ]
+  },
+  {
+    "word": "Bogen",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Schreiben Sie Ihre Lösungen bitte auf den Antwortbogen."
+    ]
+  },
+  {
+    "word": "böse",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sie ist böse auf mich."
+    ]
+  },
+  {
+    "word": "brauchen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Brauchst du die Zeitung noch?"
+    ]
+  },
+  {
+    "word": "breit",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wie breit ist der Schrank?"
+    ]
+  },
+  {
+    "word": "Brief",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben Sie einen Brief für mich?"
+    ]
+  },
+  {
+    "word": "Briefmarke",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Kaufst du bitte Briefmarken bei der Post."
+    ]
+  },
+  {
+    "word": "bringen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Bringen Sie mir bitte noch einen Kaffee!",
+      "Wir müssen ihn zum Arzt bringen."
+    ]
+  },
+  {
+    "word": "Brot",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben Sie auch Weißbrot?",
+      "Nimm noch ein paar Brote für die Fahrt mit."
+    ]
+  },
+  {
+    "word": "Brötchen",
+    "artikel": "das",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Möchtest du Brötchen zum Frühstück?"
+    ]
+  },
+  {
+    "word": "Bruder",
+    "artikel": "der",
+    "plural": "-ü",
+    "wortart": "nomen",
+    "beispiele": [
+      "Sein Bruder arbeitet auch hier."
+    ]
+  },
+  {
+    "word": "Buch",
+    "artikel": "das",
+    "plural": "-ü, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Gute Bücher sind oft sehr teuer.",
+      "In diesem Wörterbuch finden Sie mehr als 20.000 Wörter."
+    ]
+  },
+  {
+    "word": "Buchstabe",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Diesen Buchstaben gibt es in meiner Sprache nicht."
+    ]
+  },
+  {
+    "word": "buchstabieren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Bitte buchstabieren Sie Ihren Namen."
+    ]
+  },
+  {
+    "word": "Bus",
+    "artikel": "der",
+    "plural": "-se",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wann kommt der nächste Bus?"
+    ]
+  },
+  {
+    "word": "Butter",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Für mich bitte ein Brötchen mit Butter und Käse."
+    ]
+  },
+  {
+    "word": "Caf",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "é, -s Sollen wir uns im Café treffen?"
+    ]
+  },
+  {
+    "word": "CD",
+    "artikel": "die",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Bring bitte deine Lieblings-CD mit."
+    ]
+  },
+  {
+    "word": "Chef",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir haben eine neue Chefin."
+    ]
+  },
+  {
+    "word": "circa/ca.",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Von Mainz nach Frankfurt sind es circa fünfzig Kilometer."
+    ]
+  },
+  {
+    "word": "Computer",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wann bekommst du deinen neuen Computer?"
+    ]
+  },
+  {
+    "word": "da",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Da hinten ist er ja.",
+      "Wir sprechen gerade über Paul. Da kommt er ja gerade.",
+      "Ich nehme das da.",
+      "Ist Herr Klein schon da?"
+    ]
+  },
+  {
+    "word": "Dame",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Damen (an der Toilette) Sehr geehrte Damen und Herren!"
+    ]
+  },
+  {
+    "word": "daneben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Du kennst doch die Post. Daneben ist die Bank."
+    ]
+  },
+  {
+    "word": "danken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich danke Ihnen für die Einladung."
+    ]
+  },
+  {
+    "word": "Dank",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Vielen Dank!",
+      "Herzlichen Dank!"
+    ]
+  },
+  {
+    "word": "danke",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Soll ich Ihnen helfen? - Nein, danke!"
+    ]
+  },
+  {
+    "word": "dann",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich muss noch schnell zur Post, dann komme ich."
+    ]
+  },
+  {
+    "word": "Datum",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Bitte schreiben Sie noch das Datum auf das Formular."
+    ]
+  },
+  {
+    "word": "dauern",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wie lange dauert der Film?"
+    ]
+  },
+  {
+    "word": "dein-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ist das dein Auto?",
+      "Ist das deins?"
+    ]
+  },
+  {
+    "word": "denn",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich kann nicht kommen, denn ich bin krank."
+    ]
+  },
+  {
+    "word": "der, die, das",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich nehme das da.",
+      "Hier ist der Brief, den du suchst.",
+      "Die Fahrkarte bekommst du am Bahnhof."
+    ]
+  },
+  {
+    "word": "dich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Blumen sind für dich."
+    ]
+  },
+  {
+    "word": "dies-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich nehme lieber diesen Kuchen."
+    ]
+  },
+  {
+    "word": "dir",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Gefallen dir die Blumen?"
+    ]
+  },
+  {
+    "word": "Disco",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Heute abend gehen wir in die Disco tanzen."
+    ]
+  },
+  {
+    "word": "Doktor",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Tochter ist krank. Wir gehen zum Doktor."
+    ]
+  },
+  {
+    "word": "Doppelzimmer",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wollen Sie ein Doppelzimmer oder ein Einzelzimmer?"
+    ]
+  },
+  {
+    "word": "Dorf",
+    "artikel": "das",
+    "plural": "-ö, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Familie lebt in einem Dorf."
+    ]
+  },
+  {
+    "word": "dort",
+    "artikel": null,
+    "plural": "-her, -hin",
+    "wortart": null,
+    "beispiele": [
+      "Deine Tasche kannst du dorthin stellen.",
+      "Dort ist unser Haus."
+    ]
+  },
+  {
+    "word": "draußen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wollen wir draußen sitzen?"
+    ]
+  },
+  {
+    "word": "drucken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Bitte drucke das Formular für mich."
+    ]
+  },
+  {
+    "word": "Drucker",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Drucker ist kaputt."
+    ]
+  },
+  {
+    "word": "drücken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Drück hier, dann geht der Computer an."
+    ]
+  },
+  {
+    "word": "durch",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Am besten gehen Sie durch die Breite Straße."
+    ]
+  },
+  {
+    "word": "Durchsage",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe die Durchsage nicht verstanden."
+    ]
+  },
+  {
+    "word": "dürfen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Sie dürfen hier nicht rauchen.",
+      "Darf ich Sie zu einem Kaffee einladen?",
+      "Es darf nicht mehr als 15 Euro kosten."
+    ]
+  },
+  {
+    "word": "Durst",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Hast du etwas zu trinken? Ich habe großen Durst."
+    ]
+  },
+  {
+    "word": "(sich) duschen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich bade nicht so gern, ich dusche lieber."
+    ]
+  },
+  {
+    "word": "Dusche",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Unsere Wohnung hat nur eine Dusche."
+    ]
+  },
+  {
+    "word": "Ecke",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "An der nächsten Ecke links."
+    ]
+  },
+  {
+    "word": "Ehefrau",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
+    ]
+  },
+  {
+    "word": "Ehemann",
+    "artikel": "der",
+    "plural": "ä, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist mein (Ehe-) Mann/meine (Ehe-) Frau."
+    ]
+  },
+  {
+    "word": "Ei",
+    "artikel": "das",
+    "plural": "-er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Möchtest du ein Ei zum Frühstück?"
+    ]
+  },
+  {
+    "word": "eilig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Hast du es eilig?"
+    ]
+  },
+  {
+    "word": "ein-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich nehme ein Bier. Willst du auch eins?",
+      "Ist hier einer, der das kann?"
+    ]
+  },
+  {
+    "word": "einfach",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Prüfung ist ganz einfach.",
+      "Hin und zurück? – Nein, bitte nur einfach.",
+      "Ich brauche nur ein einfaches Zimmer."
+    ]
+  },
+  {
+    "word": "Eingang",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Eingang ist um die Ecke."
+    ]
+  },
+  {
+    "word": "einkaufen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich muss noch für morgen einkaufen."
+    ]
+  },
+  {
+    "word": "einladen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Darf ich Sie zu einem Kaffee einladen?"
+    ]
+  },
+  {
+    "word": "Einladung",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Danke für die Einladung!"
+    ]
+  },
+  {
+    "word": "einmal",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Diese Prüfung mache ich nicht noch einmal."
+    ]
+  },
+  {
+    "word": "einsteigen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Schnell, steig ein, der Zug fährt gleich."
+    ]
+  },
+  {
+    "word": "Eintritt",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Preis für den Eintritt ist 5 Euro."
+    ]
+  },
+  {
+    "word": "Einzelzimmer",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben Sie noch ein Einzelzimmer?"
+    ]
+  },
+  {
+    "word": "Eltern",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "(pl.) Meine Eltern leben in Spanien."
+    ]
+  },
+  {
+    "word": "E-Mail",
+    "artikel": "die",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe Ihre E-Mail nicht bekommen."
+    ]
+  },
+  {
+    "word": "Empfänger",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Auf dem Brief steht dein Name, also bist du der Empfänger."
+    ]
+  },
+  {
+    "word": "empfehlen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Welchen Wein können Sie mir empfehlen?"
+    ]
+  },
+  {
+    "word": "enden",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Straße endet hier."
+    ]
+  },
+  {
+    "word": "Ende",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Sie wohnt am Ende der Straße.",
+      "Er bekommt sein Geld am Ende des Monats."
+    ]
+  },
+  {
+    "word": "entschuldigen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Entschuldigen Sie bitte!"
+    ]
+  },
+  {
+    "word": "Entschuldigung",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Entschuldigung! – Bitte."
+    ]
+  },
+  {
+    "word": "er",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Er heißt Ali."
+    ]
+  },
+  {
+    "word": "Ergebnis",
+    "artikel": "das",
+    "plural": "-se",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Ergebnis des Tests bekommen Sie in zwei Wochen."
+    ]
+  },
+  {
+    "word": "erklären",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Kannst du mir das erklären?"
+    ]
+  },
+  {
+    "word": "erlauben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Rauchen ist hier nicht erlaubt."
+    ]
+  },
+  {
+    "word": "Erwachsene",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Dieser Film ist nur für Erwachsene."
+    ]
+  },
+  {
+    "word": "erzählen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir müssen euch etwas erzählen!"
+    ]
+  },
+  {
+    "word": "es",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Es regnet."
+    ]
+  },
+  {
+    "word": "essen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Was gibt es zu essen?"
+    ]
+  },
+  {
+    "word": "Essen",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Essen ist heute sehr gut."
+    ]
+  },
+  {
+    "word": "euer",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Euer Kurs beginnt heute."
+    ]
+  },
+  {
+    "word": "fahren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich fahre mit dem Auto zur Arbeit."
+    ]
+  },
+  {
+    "word": "Fahrer",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Bitte nicht mit dem Fahrer sprechen!"
+    ]
+  },
+  {
+    "word": "Fahrkarte",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Hast du schon eine Fahrkarte?"
+    ]
+  },
+  {
+    "word": "Fahrrad",
+    "artikel": "das",
+    "plural": "-ä, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Fährst du mit dem Fahrrad oder mit dem Auto?"
+    ]
+  },
+  {
+    "word": "falsch",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das ist falsch."
+    ]
+  },
+  {
+    "word": "Familie",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Familie lebt in Spanien."
+    ]
+  },
+  {
+    "word": "Familienname",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Familiennamen sind García González."
+    ]
+  },
+  {
+    "word": "Familienstand",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Bei „Familienstand“ musst du „ledig“ ankreuzen."
+    ]
+  },
+  {
+    "word": "Farbe",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Farbe gefällt mir gut."
+    ]
+  },
+  {
+    "word": "Fax",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Schicken Sie uns einfach ein Fax!",
+      "Feier- z. B. Feierabend, Feiertag Am Montag ist Feiertag."
+    ]
+  },
+  {
+    "word": "feiern",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir feiern heute meinen Geburtstag."
+    ]
+  },
+  {
+    "word": "fehlen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Herr Müller ist nicht da, er fehlt schon seit drei Tagen.",
+      "Was fehlt Ihnen?"
+    ]
+  },
+  {
+    "word": "Fehler",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Diesen Fehler mache ich immer."
+    ]
+  },
+  {
+    "word": "fernsehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wollen wir heute Abend mal fernsehen?"
+    ]
+  },
+  {
+    "word": "fertig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Bist du fertig?",
+      "Ist mein Auto schon fertig?"
+    ]
+  },
+  {
+    "word": "Feuer",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben Sie Feuer?"
+    ]
+  },
+  {
+    "word": "Fieber",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Mann hat noch immer Fieber."
+    ]
+  },
+  {
+    "word": "Film",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich möchte gern diesen Film sehen."
+    ]
+  },
+  {
+    "word": "finden",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir müssen den Schlüssel finden."
+    ]
+  },
+  {
+    "word": "Firma",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Er arbeitet jetzt bei einer anderen Firma."
+    ]
+  },
+  {
+    "word": "Fisch",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich esse gern Fisch. Fleisch mag ich nicht."
+    ]
+  },
+  {
+    "word": "Flasche",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Eine Flasche Bier, bitte."
+    ]
+  },
+  {
+    "word": "Fleisch",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Fleisch mag ich nicht."
+    ]
+  },
+  {
+    "word": "fliegen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich fliege nicht gern. Deshalb fahre ich mit dem Zug."
+    ]
+  },
+  {
+    "word": "abfliegen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wann fliegst du ab?"
+    ]
+  },
+  {
+    "word": "Abflug",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Abflug ist um 11.20 Uhr."
+    ]
+  },
+  {
+    "word": "Flughafen",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Kannst du mich zum Flughafen bringen?"
+    ]
+  },
+  {
+    "word": "Flugzeug",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Flugzeug aus Berlin kommt heute später an."
+    ]
+  },
+  {
+    "word": "Formular",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Sie müssen dieses Formular ausfüllen."
+    ]
+  },
+  {
+    "word": "Foto",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Darf ich ein Foto machen?"
+    ]
+  },
+  {
+    "word": "fragen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Er möchte Sie etwas fragen. Wann kommen Sie?"
+    ]
+  },
+  {
+    "word": "Frage",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe eine Frage."
+    ]
+  },
+  {
+    "word": "Frau",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist Frau Becker.",
+      "Guten Tag, Frau Schmitt!",
+      "Hier arbeiten mehr Frauen als Männer."
+    ]
+  },
+  {
+    "word": "frei",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ist der Platz noch frei?"
+    ]
+  },
+  {
+    "word": "Freizeit",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "In meiner Freizeit spiele ich oft Fußball."
+    ]
+  },
+  {
+    "word": "fremd",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das weiß ich nicht; ich bin fremd hier."
+    ]
+  },
+  {
+    "word": "(sich) freuen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich freue mich auf den Urlaub."
+    ]
+  },
+  {
+    "word": "Freund",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist ein Freund von mir.",
+      "Das ist meine Freundin."
+    ]
+  },
+  {
+    "word": "früher",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Früher waren wir oft zusammen im Kino."
+    ]
+  },
+  {
+    "word": "frühstücken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Am Sonntag frühstücke ich gern im Bett."
+    ]
+  },
+  {
+    "word": "Frühstück",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Möchtest du ein Ei zum Frühstück?"
+    ]
+  },
+  {
+    "word": "Führung",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Führung durch das Haus beginnt in 3 Minuten."
+    ]
+  },
+  {
+    "word": "für",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das ist für Sie.",
+      "Das ist der Schlüssel für die Haustür.",
+      "Das ist das Brot für morgen."
+    ]
+  },
+  {
+    "word": "Fuß",
+    "artikel": "der",
+    "plural": "-ü, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Der linke Fuß tut mir weh."
+    ]
+  },
+  {
+    "word": "Fußball",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Spielt ihr gerne Fußball?"
+    ]
+  },
+  {
+    "word": "Garten",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir haben leider keinen Garten."
+    ]
+  },
+  {
+    "word": "Gast",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Am Wochenende haben wir mehrere Gäste."
+    ]
+  },
+  {
+    "word": "geben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Kannst du mir bitte deinen Kugelschreiber geben?",
+      "Es gibt keine Karten mehr."
+    ]
+  },
+  {
+    "word": "geboren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich bin in Zagreb geboren."
+    ]
+  },
+  {
+    "word": "Geburtsjahr",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Geburtsjahr Ihres Sohnes, bitte?"
+    ]
+  },
+  {
+    "word": "Geburtsort",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Bitte schreiben Sie Ihren Geburtsort auf das Formular."
+    ]
+  },
+  {
+    "word": "Geburtstag",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Herzlichen Glückwunsch zum Geburtstag!"
+    ]
+  },
+  {
+    "word": "gefallen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Das gefällt mir."
+    ]
+  },
+  {
+    "word": "gegen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Fahr nicht gegen den Baum!",
+      "Ich bin gegen diese Lösung.",
+      "Wer spielt gegen wen?"
+    ]
+  },
+  {
+    "word": "gehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich weiß nicht, wie das geht.",
+      "Wie geht‘s?",
+      "Jetzt muss ich (aber) leider gehen.",
+      "Ich muss zum Arzt gehen.",
+      "Das geht nicht!"
+    ]
+  },
+  {
+    "word": "gehören",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wem gehört das?"
+    ]
+  },
+  {
+    "word": "Geld",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Hast du noch Geld?"
+    ]
+  },
+  {
+    "word": "Gemüse",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Gemüse brauchen wir auch noch."
+    ]
+  },
+  {
+    "word": "Gepäck",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wollen Sie Ihr Gepäck mitnehmen?"
+    ]
+  },
+  {
+    "word": "gerade",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Da kommt er ja gerade."
+    ]
+  },
+  {
+    "word": "geradeaus",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Gehen Sie immer geradeaus!"
+    ]
+  },
+  {
+    "word": "gern(e)",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich gehe gerne einkaufen."
+    ]
+  },
+  {
+    "word": "Geschäft",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Geschäfte schließen um 18.30 Uhr."
+    ]
+  },
+  {
+    "word": "Geschenk",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Danke für das schöne Geschenk."
+    ]
+  },
+  {
+    "word": "Geschwister",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "(pl.) Ich habe leider keine Geschwister."
+    ]
+  },
+  {
+    "word": "Gespräch",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Gespräch mit Frau Kunz ist um 14 Uhr."
+    ]
+  },
+  {
+    "word": "gestern",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Gestern war ich krank."
+    ]
+  },
+  {
+    "word": "gestorben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Meine Frau ist gestern gestorben."
+    ]
+  },
+  {
+    "word": "Getränk",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Lieblingsgetränk ist Tomatensaft."
+    ]
+  },
+  {
+    "word": "Gewicht",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Bei „Gewicht“ schreibst du: 62 Kilo."
+    ]
+  },
+  {
+    "word": "gewinnen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wer gewinnt das Spiel?"
+    ]
+  },
+  {
+    "word": "Glas",
+    "artikel": "das",
+    "plural": "-ä, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Bitte noch ein Glas Wein!",
+      "Wir brauchen noch drei Gläser."
+    ]
+  },
+  {
+    "word": "glauben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Sie können mir glauben, es ist so.",
+      "Ich glaube, er kommt gleich."
+    ]
+  },
+  {
+    "word": "gleich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das ist mir gleich.",
+      "Das ist der gleiche Preis.",
+      "Ich komme gleich."
+    ]
+  },
+  {
+    "word": "Gleis",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Der ICE nach Berlin hält heute an Gleis 12."
+    ]
+  },
+  {
+    "word": "Glück",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Viel Glück!"
+    ]
+  },
+  {
+    "word": "glücklich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Meine Kinder sind glücklich verheiratet."
+    ]
+  },
+  {
+    "word": "Glückwunsch",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Herzlichen Glückwunsch zum Geburtstag.",
+      "Grad (Celsius) Heute haben wir dreißig Grad."
+    ]
+  },
+  {
+    "word": "gratulieren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich gratuliere dir!"
+    ]
+  },
+  {
+    "word": "grillen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Heute grillen wir im Garten."
+    ]
+  },
+  {
+    "word": "groß",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Mein Bruder und ich sind gleich groß.",
+      "Frankfurt ist eine große Stadt."
+    ]
+  },
+  {
+    "word": "Größe",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben Sie das auch in Größe 40?"
+    ]
+  },
+  {
+    "word": "Großeltern",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "(pl.) Meine Großeltern leben in Japan."
+    ]
+  },
+  {
+    "word": "Großmutter",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Großmutter heißt Eva."
+    ]
+  },
+  {
+    "word": "Großvater",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Großvater ist schon 80."
+    ]
+  },
+  {
+    "word": "Gruppe",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die erste Gruppe beginnt um 16 Uhr."
+    ]
+  },
+  {
+    "word": "Gruß",
+    "artikel": "der",
+    "plural": "-ü, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Viele Grüße an Ihre Frau.",
+      "Mit freundlichen Grüßen"
+    ]
+  },
+  {
+    "word": "gültig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Pass ist nicht mehr gültig."
+    ]
+  },
+  {
+    "word": "günstig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Dort gibt es günstige Angebote."
+    ]
+  },
+  {
+    "word": "gut",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das finde ich gut.",
+      "Ich komme um 13 Uhr. – Gut!",
+      "Guten Morgen!",
+      "Ein gutes neues Jahr!",
+      "Guten Appetit!"
+    ]
+  },
+  {
+    "word": "Haar",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Sie hat lange Haare."
+    ]
+  },
+  {
+    "word": "haben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich habe ein neues Auto."
+    ]
+  },
+  {
+    "word": "Hähnchen",
+    "artikel": "das",
+    "plural": "-",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ein Hähnchen mit Pommes bitte!"
+    ]
+  },
+  {
+    "word": "Halbpension",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Möchten Sie Vollpension oder Halbpension?"
+    ]
+  },
+  {
+    "word": "Halle",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir treffen uns in Halle B"
+    ]
+  },
+  {
+    "word": "hallo",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Hallo Inge! Wie geht’s?"
+    ]
+  },
+  {
+    "word": "halten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Dieser Zug hält nicht in Rüdesheim."
+    ]
+  },
+  {
+    "word": "Haltestelle",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "An der nächsten Haltestelle müssen Sie aussteigen."
+    ]
+  },
+  {
+    "word": "Hand",
+    "artikel": "die",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Er gibt mir die Hand."
+    ]
+  },
+  {
+    "word": "Handy",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "In der Schule bitte die Handys ausmachen!"
+    ]
+  },
+  {
+    "word": "Haus",
+    "artikel": "das",
+    "plural": "-ä, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "In welchem Haus wohnst du?",
+      "Ich gehe jetzt nach Hause.",
+      "Paul ist nicht zu Hause."
+    ]
+  },
+  {
+    "word": "Hausaufgabe",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Kannst du mir bei den Hausaufgaben helfen?"
+    ]
+  },
+  {
+    "word": "Hausfrau",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
+    ]
+  },
+  {
+    "word": "Hausmann",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Hausfrau/der Hausmann wäscht, kocht und kauft ein."
+    ]
+  },
+  {
+    "word": "Heimat",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich komme aus der Schweiz. Das ist meine Heimat."
+    ]
+  },
+  {
+    "word": "heiraten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Meine Schwester heiratet einen Japaner."
+    ]
+  },
+  {
+    "word": "heißen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich heiße Charlotte Meier.",
+      "Wie heißt das auf Deutsch?"
+    ]
+  },
+  {
+    "word": "helfen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Können Sie mir helfen, bitte?"
+    ]
+  },
+  {
+    "word": "hell",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Im Sommer ist es bis 21 Uhr hell."
+    ]
+  },
+  {
+    "word": "Herd",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "In der neuen Küche fehlt noch der Herd."
+    ]
+  },
+  {
+    "word": "Herr",
+    "artikel": "der",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Guten Tag, Herr Sommer!"
+    ]
+  },
+  {
+    "word": "herzlich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Herzlichen Glückwunsch!"
+    ]
+  },
+  {
+    "word": "heute",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Heute ist ein schöner Tag."
+    ]
+  },
+  {
+    "word": "hier",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Hier ist 06131-553221, Pamela Linke.",
+      "Hier wohne ich."
+    ]
+  },
+  {
+    "word": "Hilfe",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Hilfe! Bitte helfen Sie mir!",
+      "Brauchen Sie meine Hilfe?"
+    ]
+  },
+  {
+    "word": "hinten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Tür zum Aussteigen ist hinten."
+    ]
+  },
+  {
+    "word": "Hobby",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Hobbys sind Wandern und Schwimmen."
+    ]
+  },
+  {
+    "word": "hoch",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Mount Everest ist 8.880 Meter hoch."
+    ]
+  },
+  {
+    "word": "Hochzeit",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Zur dieser Hochzeit kommen mehr als fünfzig Gäste."
+    ]
+  },
+  {
+    "word": "holen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich hole zwei Flaschen Wasser aus der Küche."
+    ]
+  },
+  {
+    "word": "hören",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Hör mal! Was ist das?",
+      "Ich habe das Lied schon mal gehört."
+    ]
+  },
+  {
+    "word": "Hotel",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Im Urlaub sind wir in einem Hotel am Meer."
+    ]
+  },
+  {
+    "word": "Hund",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Hund ist noch jung."
+    ]
+  },
+  {
+    "word": "Hunger",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe Hunger! Wann ist das Essen fertig?"
+    ]
+  },
+  {
+    "word": "ich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich heiße Veronika."
+    ]
+  },
+  {
+    "word": "ihr/ihm/ihn",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Gib ihr/ihm bitte das Buch.",
+      "Ruf ihn bitte an."
+    ]
+  },
+  {
+    "word": "immer",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Frau Bast kommt immer zu spät."
+    ]
+  },
+  {
+    "word": "in",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich wohne in Wiesbaden.",
+      "Der Zug kommt in fünf Minuten.",
+      "Frau Rausch arbeitet in einem Geschäft.",
+      "Komm, wir gehen ins Kino."
+    ]
+  },
+  {
+    "word": "Information",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wenn Sie Fragen haben, gehen Sie zur Information.",
+      "Wir haben hier wichtige Informationen für Sie."
+    ]
+  },
+  {
+    "word": "international",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Unser Deutschkurs ist international: Silvana kommt aus Italien, Conchi aus Spanien, Yin aus China ..."
+    ]
+  },
+  {
+    "word": "Internet",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das findest du im Internet."
+    ]
+  },
+  {
+    "word": "ja",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sind Sie Herr Watanabe? – Ja."
+    ]
+  },
+  {
+    "word": "Jacke",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Zieh dir eine Jacke an. Es ist kalt."
+    ]
+  },
+  {
+    "word": "jed-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Blumen kannst du in jedem Bahnhof kaufen."
+    ]
+  },
+  {
+    "word": "jetzt",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Jetzt machen wir eine Pause."
+    ]
+  },
+  {
+    "word": "Job",
+    "artikel": "der",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Jenny hat einen neuen Job bei der Post."
+    ]
+  },
+  {
+    "word": "Jugendliche",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Viele Jugendliche kaufen gern ein."
+    ]
+  },
+  {
+    "word": "jung",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Claudia ist 21. – Was? Noch so jung?"
+    ]
+  },
+  {
+    "word": "Junge",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe zwei Kinder. Einen Jungen und ein Mädchen."
+    ]
+  },
+  {
+    "word": "Kaffee",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Zum Frühstück trinke ich immer Kaffee."
+    ]
+  },
+  {
+    "word": "kaputt",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das Glas war teuer. Es geht sehr leicht kaputt."
+    ]
+  },
+  {
+    "word": "Karte",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich schreibe meinen Bekannten eine Karte aus dem Urlaub.",
+      "Wollen wir Karten spielen?",
+      "Ich möchte auch etwas essen. Bringen Sie mir die Karte, bitte."
+    ]
+  },
+  {
+    "word": "(Kredit)-Karte",
+    "artikel": null,
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Kann ich auch mit Karte (be-) zahlen?"
+    ]
+  },
+  {
+    "word": "Kartoffel",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Für Pommes frites braucht man Kartoffeln."
+    ]
+  },
+  {
+    "word": "Kasse",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Zahlen Sie bitte an der Kasse."
+    ]
+  },
+  {
+    "word": "kaufen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Tim kauft sich ein neues Auto."
+    ]
+  },
+  {
+    "word": "kein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Es gibt keine Eintrittskarten mehr."
+    ]
+  },
+  {
+    "word": "kennen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Kennen Sie diese Frau? – Nein, leider nicht."
+    ]
+  },
+  {
+    "word": "kennenlernen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir sind neu hier. Wir möchten Sie kennenlernen."
+    ]
+  },
+  {
+    "word": "Kind",
+    "artikel": "das",
+    "plural": "-er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wie viele Kinder haben Sie?"
+    ]
+  },
+  {
+    "word": "Kindergarten",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die kleine Laura geht schon in den Kindergarten."
+    ]
+  },
+  {
+    "word": "Kino",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir sehen heute Abend im Kino einen schönen Film."
+    ]
+  },
+  {
+    "word": "Kiosk",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Am Kiosk bekommen Sie Getränke, Zigaretten und Zeitungen."
+    ]
+  },
+  {
+    "word": "klar",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Kommst du mit? – Klar!"
+    ]
+  },
+  {
+    "word": "Klasse",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "In unserer Klasse sind fünfundzwanzig Schüler.",
+      "Im Zug fahre ich immer 2. Klasse."
+    ]
+  },
+  {
+    "word": "Kleidung",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wo finde ich Kleidung? – Jacken im ersten, Jeans im zweiten Stock."
+    ]
+  },
+  {
+    "word": "klein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Eltville ist eine kleine Stadt am Rhein."
+    ]
+  },
+  {
+    "word": "kochen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Herr Georgi kann gut kochen."
+    ]
+  },
+  {
+    "word": "Koffer",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ist das Ihr Koffer?"
+    ]
+  },
+  {
+    "word": "Kollege",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wie heißt die neue Kollegin?"
+    ]
+  },
+  {
+    "word": "kommen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Woher kommen Sie? – Aus Frankreich.",
+      "Kommst du mit ins Schwimmbad?"
+    ]
+  },
+  {
+    "word": "können",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich kann Deutsch und Russisch.",
+      "Können Sie mir helfen?"
+    ]
+  },
+  {
+    "word": "Konto",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Geld überweisen wir am ersten März auf Ihr Konto."
+    ]
+  },
+  {
+    "word": "Kopf",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Kopf tut weh!"
+    ]
+  },
+  {
+    "word": "kosten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wie viel kostet das? – 10 Euro."
+    ]
+  },
+  {
+    "word": "krank",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich kann heute nicht zur Arbeit kommen, ich bin krank und liege im Bett."
+    ]
+  },
+  {
+    "word": "kriegen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich kriege 15 Euro in der Stunde für meine Arbeit."
+    ]
+  },
+  {
+    "word": "Küche",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Der neue Herd kommt in die Küche."
+    ]
+  },
+  {
+    "word": "Kuchen",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich nehme ein Stück Kuchen."
+    ]
+  },
+  {
+    "word": "Kugelschreiber",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Hast du einen Kugelschreiber für mich?"
+    ]
+  },
+  {
+    "word": "Kühlschrank",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben wir noch Milch? – Ja, im Kühlschrank."
+    ]
+  },
+  {
+    "word": "kulturell",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich bin kulturell interessiert. Ich gehe oft ins Museum."
+    ]
+  },
+  {
+    "word": "sich kümmern",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Jede Mutter kümmert sich um ihre kleinen Kinder."
+    ]
+  },
+  {
+    "word": "Kunde",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Einen Moment, bitte. Ich habe eine Kundin."
+    ]
+  },
+  {
+    "word": "Kurs",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Deutschkurs geht bis zum Sommer."
+    ]
+  },
+  {
+    "word": "kurz",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ricardo hat kurzes Haar."
+    ]
+  },
+  {
+    "word": "lachen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Kinder lachen viel."
+    ]
+  },
+  {
+    "word": "Laden",
+    "artikel": "der",
+    "plural": "-ä",
+    "wortart": "nomen",
+    "beispiele": [
+      "Im Buchladen können Sie Bücher kaufen."
+    ]
+  },
+  {
+    "word": "Land",
+    "artikel": "das",
+    "plural": "-ä, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Italien ist ein schönes Land."
+    ]
+  },
+  {
+    "word": "lang",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Jeans ist zu lang."
+    ]
+  },
+  {
+    "word": "lange",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wie lange fährt der Zug von Hamburg nach Berlin?"
+    ]
+  },
+  {
+    "word": "langsam",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Könnten Sie bitte etwas langsamer sprechen?"
+    ]
+  },
+  {
+    "word": "laufen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich möchte nicht Auto fahren, ich möchte laufen."
+    ]
+  },
+  {
+    "word": "laut",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Nicht so laut! Das Baby schläft."
+    ]
+  },
+  {
+    "word": "leben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Sie lebt bei ihrer Schwester.",
+      "Ihre Eltern leben nicht mehr."
+    ]
+  },
+  {
+    "word": "Leben",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Leben in diesem Land ist teuer."
+    ]
+  },
+  {
+    "word": "Lebensmittel",
+    "artikel": "die",
+    "plural": "(pl.)",
+    "wortart": "nomen",
+    "beispiele": [
+      "Lebensmittel bekommen Sie im Supermarkt."
+    ]
+  },
+  {
+    "word": "ledig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sind Sie verheiratet? – Nein. Ledig."
+    ]
+  },
+  {
+    "word": "legen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Legen Sie das Buch auf den Tisch."
+    ]
+  },
+  {
+    "word": "Lehrer",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Unsere Deutschlehrerin heißt Frau Müller."
+    ]
+  },
+  {
+    "word": "leicht",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Koffer ist leicht.",
+      "Deutsch ist nicht leicht."
+    ]
+  },
+  {
+    "word": "leider",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Leider kann ich nicht kommen. Ich muss zum Arzt."
+    ]
+  },
+  {
+    "word": "leise",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Seid leise. Die anderen schlafen schon."
+    ]
+  },
+  {
+    "word": "lernen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wie lange lernen Sie schon Deutsch?"
+    ]
+  },
+  {
+    "word": "lesen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich lese ein Buch von García Márquez."
+    ]
+  },
+  {
+    "word": "letzt-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Morgen ist der letzte Kurstag."
+    ]
+  },
+  {
+    "word": "Leute",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "(pl.) In der Disko sind viele Leute."
+    ]
+  },
+  {
+    "word": "Licht",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wo macht man hier das Licht an?"
+    ]
+  },
+  {
+    "word": "lieb-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Liebe Susanne, lieber Hans,"
+    ]
+  },
+  {
+    "word": "lieben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich liebe dich!"
+    ]
+  },
+  {
+    "word": "lieber",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sie fährt lieber mit der Bahn.",
+      "Lieblings- Mein Lieblingsfilm ist „Schwarze Augen“."
+    ]
+  },
+  {
+    "word": "Lied",
+    "artikel": "das",
+    "plural": "-er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Welches ist dein Lieblingslied?"
+    ]
+  },
+  {
+    "word": "liegen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Um neun Uhr liegt Judith noch im Bett.",
+      "Frankfurt liegt am Main."
+    ]
+  },
+  {
+    "word": "links",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Gehen Sie die nächste Straße links."
+    ]
+  },
+  {
+    "word": "Lkw",
+    "artikel": "der",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Dieser Lastkraftwagen ist sehr groß."
+    ]
+  },
+  {
+    "word": "Lokal",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "In unserer Straße gibt es ein neues Lokal."
+    ]
+  },
+  {
+    "word": "Lösung",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Lösung ist ganz einfach."
+    ]
+  },
+  {
+    "word": "lustig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Frau Mertens ist lustig. Sie lacht immer."
+    ]
+  },
+  {
+    "word": "machen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Was machst du heute Abend?",
+      "Ich muss jetzt das Essen machen.",
+      "Das macht 5 Euro 95.",
+      "Das macht nichts."
+    ]
+  },
+  {
+    "word": "Mädchen",
+    "artikel": "das",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Familie Kurz bekommt ein Baby. – Junge oder Mädchen?"
+    ]
+  },
+  {
+    "word": "man",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Hier darf man nicht rauchen."
+    ]
+  },
+  {
+    "word": "Mann",
+    "artikel": "der",
+    "plural": "-ä, er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Mann arbeitet bei der Polizei."
+    ]
+  },
+  {
+    "word": "männlich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Kreuzen Sie bitte an: „weiblich“ oder „männlich“."
+    ]
+  },
+  {
+    "word": "Maschine",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Waschmaschine ist günstig."
+    ]
+  },
+  {
+    "word": "Meer",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir machen Urlaub am Meer."
+    ]
+  },
+  {
+    "word": "mehr",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Dieses Auto kostet 1.000 Euro mehr als das andere."
+    ]
+  },
+  {
+    "word": "mein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Mein Vater ist Arzt."
+    ]
+  },
+  {
+    "word": "meist-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die meisten Norddeutschen sind sehr groß."
+    ]
+  },
+  {
+    "word": "Mensch",
+    "artikel": "der",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Menschen sind hier anders als bei uns."
+    ]
+  },
+  {
+    "word": "mieten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich möchte ein Auto mieten."
+    ]
+  },
+  {
+    "word": "Miete",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Miete für diese Wohnung ist 600 Euro."
+    ]
+  },
+  {
+    "word": "Milch",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Milch steht im Kühlschrank."
+    ]
+  },
+  {
+    "word": "mit",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Trinken Sie den Kaffee mit Milch?"
+    ]
+  },
+  {
+    "word": "mitbringen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich gehe einkaufen. Soll ich dir was mitbringen?"
+    ]
+  },
+  {
+    "word": "mitkommen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich gehe ins Kino. Kommst du mit?"
+    ]
+  },
+  {
+    "word": "mitmachen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Warum macht ihr nicht mit?"
+    ]
+  },
+  {
+    "word": "mitnehmen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Nehmen wir meine Schwester ins Kino mit?"
+    ]
+  },
+  {
+    "word": "Mitte",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Lehrer steht in der Mitte des Klassenzimmers."
+    ]
+  },
+  {
+    "word": "Möbel",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "(pl.) Sind die Möbel neu?"
+    ]
+  },
+  {
+    "word": "möchten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Was möchten Sie trinken?"
+    ]
+  },
+  {
+    "word": "mögen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Magst du Kaffee oder Tee?"
+    ]
+  },
+  {
+    "word": "möglich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Mit dieser Fahrkarte ist die Fahrt ab 9 Uhr möglich."
+    ]
+  },
+  {
+    "word": "Moment",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Moment mal bitte!",
+      "Einen Moment bitte."
+    ]
+  },
+  {
+    "word": "morgen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Morgen beginnt die Schule um 10 Uhr."
+    ]
+  },
+  {
+    "word": "müde",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich bin müde. Ich gehe schlafen."
+    ]
+  },
+  {
+    "word": "Mund",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Öffnen Sie den Mund."
+    ]
+  },
+  {
+    "word": "müssen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich muss jeden Tag von 8 Uhr bis 18 Uhr arbeiten."
+    ]
+  },
+  {
+    "word": "Mutter",
+    "artikel": "die",
+    "plural": "-ü",
+    "wortart": "nomen",
+    "beispiele": [
+      "Frau Berghäuser ist die Mutter von Michaela."
+    ]
+  },
+  {
+    "word": "nach",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich gehe jetzt nach Hause.",
+      "Ich fliege nach München.",
+      "Es ist schon 5 nach 12."
+    ]
+  },
+  {
+    "word": "nächst-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sehen wir uns nächste Woche?"
+    ]
+  },
+  {
+    "word": "Name",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Name ist Thomas Schmidt.",
+      "Mein Vorname ist Thomas; Schmidt ist der Familienname."
+    ]
+  },
+  {
+    "word": "nehmen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Heute gibt es Hähnchen. Das nehme ich.",
+      "Ich nehme den Bus."
+    ]
+  },
+  {
+    "word": "nein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Fährst du auch nach München? – Nein, ich habe keine Zeit."
+    ]
+  },
+  {
+    "word": "neu",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich bin der neue Kollege.",
+      "Wir haben eine neue Wohnung."
+    ]
+  },
+  {
+    "word": "nicht",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das stimmt nicht.",
+      "Das ist doch schön, nicht?"
+    ]
+  },
+  {
+    "word": "nichts",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das macht nichts.",
+      "Hier kaufe ich nichts. Der Laden gefällt mir nicht."
+    ]
+  },
+  {
+    "word": "nie",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Er kommt nie pünktlich."
+    ]
+  },
+  {
+    "word": "noch",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Vielleicht kommt er noch.",
+      "Wir warten noch fünf Minuten.",
+      "Ich habe noch 20 Euro."
+    ]
+  },
+  {
+    "word": "normal",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "75 kg. Sein Gewicht ist normal."
+    ]
+  },
+  {
+    "word": "Nummer",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Sie haben Zimmer Nummer zwölf.",
+      "Welche Hausnummer haben Sie?",
+      "Können Sie mir Ihre Nummer geben?"
+    ]
+  },
+  {
+    "word": "nur",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich möchte nur ein Glas Wasser."
+    ]
+  },
+  {
+    "word": "oben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich wohne oben."
+    ]
+  },
+  {
+    "word": "Obst",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Im Sommer ist das Obst billig."
+    ]
+  },
+  {
+    "word": "oder",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wann können Sie kommen – heute oder morgen?"
+    ]
+  },
+  {
+    "word": "öffnen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich öffne die Tür."
+    ]
+  },
+  {
+    "word": "geöffnet",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Laden ist samstags bis 16.00 Uhr geöffnet."
+    ]
+  },
+  {
+    "word": "oft",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Petra treffe ich oft."
+    ]
+  },
+  {
+    "word": "ohne",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ohne Geld kann er nichts kaufen."
+    ]
+  },
+  {
+    "word": "Öl",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Den Salat machen wir ohne Öl."
+    ]
+  },
+  {
+    "word": "Oma",
+    "artikel": "die",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Oma ist schon tot."
+    ]
+  },
+  {
+    "word": "Opa",
+    "artikel": "der",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Opa heißt Hans."
+    ]
+  },
+  {
+    "word": "Ordnung",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist in Ordnung."
+    ]
+  },
+  {
+    "word": "Ort",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Ort liegt am Meer."
+    ]
+  },
+  {
+    "word": "Papier",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Hier sind Papier und Bleistift."
+    ]
+  },
+  {
+    "word": "Papiere",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "(pl.) Haben Sie Ihre Papiere dabei?"
+    ]
+  },
+  {
+    "word": "Partner",
+    "artikel": "der",
+    "plural": "-",
+    "wortart": "nomen",
+    "beispiele": []
+  },
+  {
+    "word": "Partnerin",
+    "artikel": "die",
+    "plural": "-nen",
+    "wortart": "nomen",
+    "beispiele": [
+      "Sie ist meine Partnerin."
+    ]
+  },
+  {
+    "word": "Party",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Heute Abend machen wir eine Party."
+    ]
+  },
+  {
+    "word": "Pass",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Im Hotel brauchst du deinen Pass."
+    ]
+  },
+  {
+    "word": "Pause",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Von 12.00 bis 12.30 Uhr haben wir Mittagspause."
+    ]
+  },
+  {
+    "word": "Plan",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich kaufe mir einen Stadtplan."
+    ]
+  },
+  {
+    "word": "Platz",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Tut mir leid, der Platz ist besetzt.",
+      "Bitte nehmen Sie Platz!",
+      "Ich wohne Messeplatz 5."
+    ]
+  },
+  {
+    "word": "Polizei",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Holen Sie die Polizei!"
+    ]
+  },
+  {
+    "word": "Pommes frites",
+    "artikel": "die",
+    "plural": "(pl.)",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Kinder essen Hähnchen mit Pommes frites."
+    ]
+  },
+  {
+    "word": "Post",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wo ist die Post, bitte?",
+      "Ist Post da?"
+    ]
+  },
+  {
+    "word": "Postleitzahl",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wie ist Ihre Postleitzahl?"
+    ]
+  },
+  {
+    "word": "Praktikum",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich mache ein Praktikum bei Siemens."
+    ]
+  },
+  {
+    "word": "Praxis",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Praxis ist ab acht Uhr geöffnet."
+    ]
+  },
+  {
+    "word": "Preis",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Preise sind hoch."
+    ]
+  },
+  {
+    "word": "Problem",
+    "artikel": "das",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Problem ist die Sprache."
+    ]
+  },
+  {
+    "word": "Prospekt",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Bitte schicken Sie mir einen Prospekt von Ihrem Hotel."
+    ]
+  },
+  {
+    "word": "Prüfung",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Prüfung ist am Montag um 8.00 Uhr."
+    ]
+  },
+  {
+    "word": "pünktlich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Bus fährt pünktlich um acht Uhr.",
+      "Herr Müller ist immer pünktlich.",
+      "Rad fahren Das Kind kann schon Rad fahren."
+    ]
+  },
+  {
+    "word": "rauchen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich rauche nicht."
+    ]
+  },
+  {
+    "word": "Raum",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Unterricht ist in Raum 332."
+    ]
+  },
+  {
+    "word": "Rechnung",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Rechnung, bitte."
+    ]
+  },
+  {
+    "word": "rechts",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Schillerstraße ist hier rechts."
+    ]
+  },
+  {
+    "word": "regnen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Heute regnet es."
+    ]
+  },
+  {
+    "word": "Regen",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Bei diesem Regen gehe ich nicht raus."
+    ]
+  },
+  {
+    "word": "Reis",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich esse gern Reis."
+    ]
+  },
+  {
+    "word": "reisen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich reise gern."
+    ]
+  },
+  {
+    "word": "Reise",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir machen eine Reise nach Österreich."
+    ]
+  },
+  {
+    "word": "Reisebüro",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Mann arbeitet im Reisebüro."
+    ]
+  },
+  {
+    "word": "Reiseführer",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich kaufe mir einen Reiseführer von Berlin.",
+      "Unser Reiseführer heißt Peter."
+    ]
+  },
+  {
+    "word": "reparieren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Er hat das Fahrrad repariert."
+    ]
+  },
+  {
+    "word": "Reparatur",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Reparatur ist sehr teuer."
+    ]
+  },
+  {
+    "word": "Restaurant",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir essen heute in einem Restaurant."
+    ]
+  },
+  {
+    "word": "Rezeption",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Fragen Sie bitte im Hotel an der Rezeption."
+    ]
+  },
+  {
+    "word": "richtig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Habe ich das richtig verstanden?",
+      "Das ist richtig."
+    ]
+  },
+  {
+    "word": "riechen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Dieser Wein riecht gut."
+    ]
+  },
+  {
+    "word": "ruhig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich möchte ein ruhiges Zimmer."
+    ]
+  },
+  {
+    "word": "Saft",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Möchtest du einen Apfelsaft?"
+    ]
+  },
+  {
+    "word": "sagen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Sag mal, wie geht es dir denn?"
+    ]
+  },
+  {
+    "word": "Salat",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wie schmeckt dir der Salat?"
+    ]
+  },
+  {
+    "word": "Salz",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Herr Ober, kann ich bitte Salz haben?"
+    ]
+  },
+  {
+    "word": "Satz",
+    "artikel": null,
+    "plural": "-ä, e",
+    "wortart": null,
+    "beispiele": [
+      "Dieser Satz ist sehr einfach."
+    ]
+  },
+  {
+    "word": "S-Bahn",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich nehme lieber die S-Bahn."
+    ]
+  },
+  {
+    "word": "Schalter",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Gehen Sie bitte zum Schalter drei!"
+    ]
+  },
+  {
+    "word": "scheinen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Sonne scheint."
+    ]
+  },
+  {
+    "word": "schicken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Bitte schicken Sie mir eine E-Mail."
+    ]
+  },
+  {
+    "word": "Schild",
+    "artikel": "das",
+    "plural": "-er",
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben Sie nicht das Schild gesehen?"
+    ]
+  },
+  {
+    "word": "Schinken",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich möchte gern ein Schinkenbrot."
+    ]
+  },
+  {
+    "word": "schlafen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich schlafe meistens acht Stunden."
+    ]
+  },
+  {
+    "word": "schlecht",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Mir ist schlecht!",
+      "Sie sehen schlecht aus.",
+      "Wir haben schlechtes Wetter."
+    ]
+  },
+  {
+    "word": "schließen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Bitte, schließen Sie die Tür."
+    ]
+  },
+  {
+    "word": "geschlossen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Bank hat am Samstag geschlossen."
+    ]
+  },
+  {
+    "word": "Schluss",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich muss jetzt Schluss machen.",
+      "Zum Schluss gibt er uns allen die Hand."
+    ]
+  },
+  {
+    "word": "Schlüssel",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich gebe Ihnen noch den Zimmerschlüssel."
+    ]
+  },
+  {
+    "word": "schmecken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Schmeckt das gut?"
+    ]
+  },
+  {
+    "word": "schnell",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Er fährt schnell."
+    ]
+  },
+  {
+    "word": "schon",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ist das Essen schon fertig?"
+    ]
+  },
+  {
+    "word": "schön",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Schönen Urlaub!",
+      "Das ist sehr schön."
+    ]
+  },
+  {
+    "word": "Schrank",
+    "artikel": "der",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Gläser stehen im Schrank."
+    ]
+  },
+  {
+    "word": "schreiben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Er schreibt jeden Tag fünfzig E-Mails."
+    ]
+  },
+  {
+    "word": "Schuh",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Zieh die Schuhe aus!"
+    ]
+  },
+  {
+    "word": "Schule",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Tochter geht schon in die Schule.",
+      "Die Schule ist gleich hier um die Ecke."
+    ]
+  },
+  {
+    "word": "Schüler",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "In meinem Kurs sind acht Schülerinnen und fünf Schüler."
+    ]
+  },
+  {
+    "word": "schwer",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ist Ihr Gepäck sehr schwer?",
+      "Das ist eine schwere Arbeit."
+    ]
+  },
+  {
+    "word": "Schwester",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Schwester kommt am Dienstag."
+    ]
+  },
+  {
+    "word": "schwimmen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich schwimme jeden Tag einen Kilometer."
+    ]
+  },
+  {
+    "word": "Schwimmbad",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Kommst du mit ins Schwimmbad?"
+    ]
+  },
+  {
+    "word": "See",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Komm, wir fahren zum Starnberger See."
+    ]
+  },
+  {
+    "word": "sehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich kann dich nicht sehen.",
+      "Ich habe diesen Jungen schon einmal gesehen."
+    ]
+  },
+  {
+    "word": "Sehenswürdigkeit",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "-en Welche Sehenswürdigkeiten gibt es in Frankfurt?"
+    ]
+  },
+  {
+    "word": "sehr",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Danke sehr!",
+      "Das ist sehr schwer."
+    ]
+  },
+  {
+    "word": "sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Herr Müller ist in seinem Zimmer.",
+      "Mir ist kalt.",
+      "Ich bin dreiundzwanzig."
+    ]
+  },
+  {
+    "word": "an sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das Licht ist noch an."
+    ]
+  },
+  {
+    "word": "auf sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das Fenster ist noch auf."
+    ]
+  },
+  {
+    "word": "weg sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Herr Meier ist schon weg."
+    ]
+  },
+  {
+    "word": "zu sein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Die Tür ist zu."
+    ]
+  },
+  {
+    "word": "seit",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich wohne seit drei Jahren in Köln."
+    ]
+  },
+  {
+    "word": "selbstständig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Er ist selbstständig."
+    ]
+  },
+  {
+    "word": "sich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sie müssen sich erst anmelden."
+    ]
+  },
+  {
+    "word": "sie",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wie heißt sie?",
+      "Sie Wie heißen Sie, bitte?"
+    ]
+  },
+  {
+    "word": "sitzen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wo sitzen Sie?"
+    ]
+  },
+  {
+    "word": "so",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sie müssen das so machen!",
+      "Fahren Sie bitte nicht so schnell!",
+      "Meine Frau ist so groß wie ich.",
+      "So, das war‘s/wär‘s!"
+    ]
+  },
+  {
+    "word": "Sofa",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Sofa ist neu."
+    ]
+  },
+  {
+    "word": "sofort",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Bitte antworten Sie sofort."
+    ]
+  },
+  {
+    "word": "Sohn",
+    "artikel": "der",
+    "plural": "-ö, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist Hans, mein Sohn."
+    ]
+  },
+  {
+    "word": "sollen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Soll ich kommen?",
+      "Was soll ich mitbringen?"
+    ]
+  },
+  {
+    "word": "Sonne",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Sonne scheint."
+    ]
+  },
+  {
+    "word": "spät",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Es ist schon spät, ich muss gehen."
+    ]
+  },
+  {
+    "word": "später",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das können wir später machen."
+    ]
+  },
+  {
+    "word": "Speisekarte",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Bringen Sie mir die Speisekarte, bitte."
+    ]
+  },
+  {
+    "word": "spielen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Kinder spielen draußen.",
+      "Spielen Sie Karten?"
+    ]
+  },
+  {
+    "word": "Sport",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich mache viel Sport."
+    ]
+  },
+  {
+    "word": "Sprache",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Welche Sprachen sprichst du?"
+    ]
+  },
+  {
+    "word": "sprechen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Kann ich (mit) Herrn Klein sprechen?"
+    ]
+  },
+  {
+    "word": "Stadt",
+    "artikel": "die",
+    "plural": "-ä, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Heidelberg ist eine alte Stadt."
+    ]
+  },
+  {
+    "word": "stehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich glaube es nicht, aber es steht in der Zeitung.",
+      "Der Bus steht schon an der Haltestelle."
+    ]
+  },
+  {
+    "word": "Stelle",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe eine neue Stelle."
+    ]
+  },
+  {
+    "word": "stellen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Stell die Tasche rechts in die Ecke!"
+    ]
+  },
+  {
+    "word": "Stock",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Unsere Wohnung liegt im ersten Stock."
+    ]
+  },
+  {
+    "word": "Straße",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "In welcher Straße wohnen Sie?"
+    ]
+  },
+  {
+    "word": "Straßenbahn",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wo fährt die Straßenbahn ab?"
+    ]
+  },
+  {
+    "word": "studieren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich studiere in Mainz."
+    ]
+  },
+  {
+    "word": "Studium",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Studium beginnt im Oktober."
+    ]
+  },
+  {
+    "word": "Student",
+    "artikel": "der",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich bin Studentin."
+    ]
+  },
+  {
+    "word": "Stunde",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich bin in einer Stunde zurück."
+    ]
+  },
+  {
+    "word": "suchen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Suchst du etwas?"
+    ]
+  },
+  {
+    "word": "tanzen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Tanzen Sie gern?"
+    ]
+  },
+  {
+    "word": "Tasche",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe die Schlüssel in der Tasche."
+    ]
+  },
+  {
+    "word": "Taxi",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Es gibt heute keinen Bus mehr. Er fährt mit dem Taxi."
+    ]
+  },
+  {
+    "word": "Tee",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich trinke morgens immer Tee."
+    ]
+  },
+  {
+    "word": "Teil",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Lies bitte auch den zweiten Teil."
+    ]
+  },
+  {
+    "word": "telefonieren",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Darf ich mal telefonieren?"
+    ]
+  },
+  {
+    "word": "Telefon",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Haben Sie Telefon?"
+    ]
+  },
+  {
+    "word": "Termin",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Am besten machen wir sofort einen Termin."
+    ]
+  },
+  {
+    "word": "Test",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Test war einfach."
+    ]
+  },
+  {
+    "word": "teuer",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das ist mir zu teuer."
+    ]
+  },
+  {
+    "word": "Text",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Lesen Sie bitte diesen Text."
+    ]
+  },
+  {
+    "word": "Thema",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir sprechen heute über das Thema „Essen und Trinken“."
+    ]
+  },
+  {
+    "word": "Ticket",
+    "artikel": "das",
+    "plural": "-s",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wie viel kostet das Ticket?"
+    ]
+  },
+  {
+    "word": "Tisch",
+    "artikel": "der",
+    "plural": "-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Fotos liegen auf dem Tisch."
+    ]
+  },
+  {
+    "word": "Tochter",
+    "artikel": "die",
+    "plural": "-ö",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das ist meine Tochter Katharina."
+    ]
+  },
+  {
+    "word": "Toilette",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wo ist die Toilette, bitte?"
+    ]
+  },
+  {
+    "word": "Tomate",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Tomate ist noch grün."
+    ]
+  },
+  {
+    "word": "tot",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Sein Vater ist schon lange tot."
+    ]
+  },
+  {
+    "word": "(sich) treffen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich treffe in der Stadt einen Kollegen.",
+      "Wir treffen uns immer freitags."
+    ]
+  },
+  {
+    "word": "Treppe",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Die Toilette? Die Treppe hoch und dann links."
+    ]
+  },
+  {
+    "word": "trinken",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Möchtest du etwas trinken?"
+    ]
+  },
+  {
+    "word": "tschüss",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Junge Leute sagen meistens „tschüss!“ und nicht „auf Wiedersehen“."
+    ]
+  },
+  {
+    "word": "tun",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich habe noch etwas zu tun.",
+      "Was tut Ihr Mann?"
+    ]
+  },
+  {
+    "word": "über",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Gehen Sie hier über die Straße.",
+      "Er wohnt im zweiten Stock über Familie Meier.",
+      "Sind Sie über 18?"
+    ]
+  },
+  {
+    "word": "übernachten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Du kannst bei mir übernachten."
+    ]
+  },
+  {
+    "word": "überweisen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Sie können das Geld auch überweisen."
+    ]
+  },
+  {
+    "word": "Uhr",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Es ist vier Uhr."
+    ]
+  },
+  {
+    "word": "um",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Er kommt um sieben Uhr.",
+      "Da kommt er gerade um die Ecke."
+    ]
+  },
+  {
+    "word": "umziehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Nächsten Monat ziehen wir um."
+    ]
+  },
+  {
+    "word": "und",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Peter und Helmut sind meine Söhne."
+    ]
+  },
+  {
+    "word": "unser-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das ist unsere Lehrerin."
+    ]
+  },
+  {
+    "word": "unten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Er wohnt ganz unten im Haus."
+    ]
+  },
+  {
+    "word": "unter",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Unter uns wohnt eine Familie mit drei Kindern."
+    ]
+  },
+  {
+    "word": "Unterricht",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir haben Unterricht von 8.00 bis 12.00 Uhr."
+    ]
+  },
+  {
+    "word": "unterschreiben",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wo muss ich unterschreiben?"
+    ]
+  },
+  {
+    "word": "Unterschrift",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Hier fehlt noch Ihre Unterschrift."
+    ]
+  },
+  {
+    "word": "Urlaub",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich nehme im September Urlaub."
+    ]
+  },
+  {
+    "word": "Vater",
+    "artikel": "der",
+    "plural": "-ä",
+    "wortart": "nomen",
+    "beispiele": [
+      "Mein Vater ist Arbeiter."
+    ]
+  },
+  {
+    "word": "verboten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Hier ist Rauchen verboten."
+    ]
+  },
+  {
+    "word": "verdienen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich verdiene 1.500 Euro im Monat."
+    ]
+  },
+  {
+    "word": "Verein",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Es gibt einen neuen Sportverein in der Stadt."
+    ]
+  },
+  {
+    "word": "verheiratet",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich bin verheiratet und habe drei Kinder."
+    ]
+  },
+  {
+    "word": "verkaufen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Er verkauft sein altes Auto."
+    ]
+  },
+  {
+    "word": "Verkäufer",
+    "artikel": "der",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Meine Mutter ist Verkäuferin im Kaufhaus."
+    ]
+  },
+  {
+    "word": "vermieten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Die Wohnung ist schon vermietet."
+    ]
+  },
+  {
+    "word": "Vermieter",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Unser Vermieter heißt Huber. Er wohnt auch hier."
+    ]
+  },
+  {
+    "word": "verstehen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Können Sie mich verstehen?"
+    ]
+  },
+  {
+    "word": "Verwandte",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Peter besucht seine Verwandten in Polen."
+    ]
+  },
+  {
+    "word": "viel",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Hier regnet es viel."
+    ]
+  },
+  {
+    "word": "vielleicht",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich komme vielleicht mit dem Bus."
+    ]
+  },
+  {
+    "word": "von",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das Auto von Felix ist kaputt.",
+      "Er kommt gerade von Köln/von zu Hause."
+    ]
+  },
+  {
+    "word": "vor",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Termin war vor einer Stunde.",
+      "Das Auto steht vor der Tür."
+    ]
+  },
+  {
+    "word": "Vorname",
+    "artikel": "der",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich heiße Müller, mein Vorname ist Eva."
+    ]
+  },
+  {
+    "word": "Vorsicht",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Vorsicht! Da kommt ein Auto."
+    ]
+  },
+  {
+    "word": "(sich) vorstellen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir wollen uns kennenlernen. Können Sie sich bitte vorstellen?"
+    ]
+  },
+  {
+    "word": "Vorwahl",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wie ist die Vorwahl von München?"
+    ]
+  },
+  {
+    "word": "wandern",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wir wandern um den Chiemsee."
+    ]
+  },
+  {
+    "word": "wann",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wann bist du fertig?",
+      "Wann kann ich Sie anrufen?",
+      "Wann sind Sie geboren?"
+    ]
+  },
+  {
+    "word": "warten",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Können Sie ein paar Minuten warten?",
+      "Auf wen warten Sie?"
+    ]
+  },
+  {
+    "word": "warum",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Warum kommt er nicht?"
+    ]
+  },
+  {
+    "word": "was",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Was ist das?",
+      "Was möchten Sie?"
+    ]
+  },
+  {
+    "word": "was für ein",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Was für eine Farbe möchten Sie?"
+    ]
+  },
+  {
+    "word": "(sich) waschen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wo kann ich mir die Hände waschen?",
+      "Ich muss morgen waschen."
+    ]
+  },
+  {
+    "word": "Wasser",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ein Glas Wasser, bitte."
+    ]
+  },
+  {
+    "word": "weh tun",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich muss zum Arzt. Mein Bein tut weh."
+    ]
+  },
+  {
+    "word": "weiblich",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Kreuzen Sie bitte an: „weiblich“ oder „männlich“."
+    ]
+  },
+  {
+    "word": "Wein",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Nein danke, ich möchte keinen Wein."
+    ]
+  },
+  {
+    "word": "weit",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Zum Bahnhof ist es nicht weit."
+    ]
+  },
+  {
+    "word": "weiter",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Bus fährt nicht weiter."
+    ]
+  },
+  {
+    "word": "welch-",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Welches Buch möchtest du?"
+    ]
+  },
+  {
+    "word": "Welt",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Es gibt viele Probleme auf der Welt."
+    ]
+  },
+  {
+    "word": "wenig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Ich habe leider nur wenig verstanden.",
+      "Er verdient wenig."
+    ]
+  },
+  {
+    "word": "wer",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wer ist das?"
+    ]
+  },
+  {
+    "word": "werden",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Mein Sohn will Arzt werden."
+    ]
+  },
+  {
+    "word": "Wetter",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir hatten schlechtes Wetter."
+    ]
+  },
+  {
+    "word": "wichtig",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Dieses Formular ist sehr wichtig."
+    ]
+  },
+  {
+    "word": "wie",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wie heißt du?",
+      "Er schreibt wie ein Kind.",
+      "Meine Frau ist so groß wie ich.",
+      "Wie soll ich das machen?",
+      "Wie groß ist die Wohnung?",
+      "Wie bitte?",
+      "Wie lange bist du schon hier?"
+    ]
+  },
+  {
+    "word": "wiederholen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Können Sie das bitte wiederholen?"
+    ]
+  },
+  {
+    "word": "Wiederhören",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir müssen jetzt Schluss machen.",
+      "Also auf Wiederhören!"
+    ]
+  },
+  {
+    "word": "Wiedersehen",
+    "artikel": "das",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Auf Wiedersehen!"
+    ]
+  },
+  {
+    "word": "wie viel",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wie viel Milch nehmen Sie?"
+    ]
+  },
+  {
+    "word": "willkommen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Herzlich willkommen!"
+    ]
+  },
+  {
+    "word": "Wind",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Der Wind kommt aus Osten."
+    ]
+  },
+  {
+    "word": "wir",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wir lernen Deutsch."
+    ]
+  },
+  {
+    "word": "wissen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Weißt du, wie er heißt?"
+    ]
+  },
+  {
+    "word": "wo",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wo waren Sie im Urlaub?",
+      "Wo ist die Post?",
+      "Wo sind Sie geboren?"
+    ]
+  },
+  {
+    "word": "woher",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Woher kommen Sie?"
+    ]
+  },
+  {
+    "word": "wohin",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Wohin fährt dieser Bus?",
+      "Wohin wollen Sie am Wochenende?"
+    ]
+  },
+  {
+    "word": "wohnen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich wohne in München."
+    ]
+  },
+  {
+    "word": "Wohnung",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Seit wann haben Sie diese Wohnung?"
+    ]
+  },
+  {
+    "word": "wollen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Wollen Sie einen Kaffee trinken?"
+    ]
+  },
+  {
+    "word": "Wort",
+    "artikel": "das",
+    "plural": "-ö, er/-e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich kenne das Wort nicht."
+    ]
+  },
+  {
+    "word": "wunderbar",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Das Essen schmeckt wunderbar."
+    ]
+  },
+  {
+    "word": "zahlen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Zahlen, bitte!"
+    ]
+  },
+  {
+    "word": "Zeit",
+    "artikel": "die",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich habe heute keine Zeit."
+    ]
+  },
+  {
+    "word": "zurzeit",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Zurzeit habe ich sehr viel zu tun."
+    ]
+  },
+  {
+    "word": "Zeitung",
+    "artikel": "die",
+    "plural": "-en",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich lese gern Zeitung."
+    ]
+  },
+  {
+    "word": "Zigarette",
+    "artikel": "die",
+    "plural": "-n",
+    "wortart": "nomen",
+    "beispiele": [
+      "Wie teuer sind die Zigaretten?"
+    ]
+  },
+  {
+    "word": "Zimmer",
+    "artikel": "das",
+    "plural": "–",
+    "wortart": "nomen",
+    "beispiele": [
+      "Das Zimmer ist groß.",
+      "Öffne im Schlafzimmer das Fenster, bitte!",
+      "Die Wohnung hat drei Zimmer.",
+      "Ich habe ein Zimmer bestellt."
+    ]
+  },
+  {
+    "word": "Zoll",
+    "artikel": "der",
+    "plural": null,
+    "wortart": "nomen",
+    "beispiele": [
+      "Wir müssen noch durch den Zoll."
+    ]
+  },
+  {
+    "word": "zu",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Der Bus fährt zum Bahnhof.",
+      "Ich gehe zu Fuß.",
+      "Ich bin zu Hause."
+    ]
+  },
+  {
+    "word": "zufrieden",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Ich bin mit der Wohnung zufrieden."
+    ]
+  },
+  {
+    "word": "Zug",
+    "artikel": "der",
+    "plural": "-ü, e",
+    "wortart": "nomen",
+    "beispiele": [
+      "Ich fahre gern mit dem Zug."
+    ]
+  },
+  {
+    "word": "zurück",
+    "artikel": null,
+    "plural": null,
+    "wortart": null,
+    "beispiele": [
+      "Einmal Frankfurt und zurück.",
+      "Wann kommst du zurück?"
+    ]
+  },
+  {
+    "word": "zusammen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Sollen wir zusammen essen gehen?",
+      "Das macht zusammen 2 Euro 80."
+    ]
+  },
+  {
+    "word": "zwischen",
+    "artikel": null,
+    "plural": null,
+    "wortart": "verb",
+    "beispiele": [
+      "Heidelberg liegt zwischen Frankfurt und Stuttgart.",
+      "Zwischen 8 und 10 Uhr bin ich zu Hause."
+    ]
+  }
+]
