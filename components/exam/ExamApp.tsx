@@ -2,8 +2,9 @@
 
 import type { JSX } from "react";
 import { useMemo, useState } from "react";
+import { examPages, isAttemptComplete } from "../../lib/exam-flow";
 import { gradeExam, objectiveKey, type GradeResult } from "../../lib/grading";
-import type { AttemptAnswers, DialogLine, Exam, HoerItem, LesenTeil3Item, Optionen } from "../../lib/types";
+import type { AttemptAnswers, DialogLine, Exam, ExamSectionId, HoerItem, LesenTeil3Item, Optionen } from "../../lib/types";
 import { TranscriptPlayer } from "./TranscriptPlayer";
 
 const emptyAnswers: AttemptAnswers = {
@@ -21,10 +22,12 @@ export function ExamApp({ exam }: { exam: Exam }) {
   const [answers, setAnswers] = useState<AttemptAnswers>(emptyAnswers);
   const [resolved, setResolved] = useState(false);
   const [showAnswers, setShowAnswers] = useState(false);
+  const [activeSection, setActiveSection] = useState<ExamSectionId>("hoeren");
 
   const grade = useMemo(() => (resolved ? gradeExam(exam, answers) : null), [exam, answers, resolved]);
   const answeredCount = Object.values(answers.objective).filter(Boolean).length;
   const totalObjective = grade?.objectiveTotal ?? 35;
+  const attemptComplete = isAttemptComplete(exam, answers);
 
   function setObjective(key: string, value: string) {
     setAnswers((current) => ({ ...current, objective: { ...current.objective, [key]: value } }));
@@ -60,13 +63,19 @@ export function ExamApp({ exam }: { exam: Exam }) {
       </header>
 
       <nav className="section-nav" aria-label="Prüfungsteile">
-        <a href="#hoeren">Hören</a>
-        <a href="#lesen">Lesen</a>
-        <a href="#schreiben">Schreiben</a>
-        <a href="#sprechen">Sprechen</a>
+        {examPages.map((page) => (
+          <button
+            type="button"
+            className={activeSection === page.id ? "active" : ""}
+            key={page.id}
+            onClick={() => setActiveSection(page.id)}
+          >
+            {page.label}
+          </button>
+        ))}
       </nav>
 
-      <section id="hoeren" className="exam-section">
+      {activeSection === "hoeren" ? <section id="hoeren" className="exam-section">
         <h2 className="section-heading">Hören</h2>
         <h3>Teil 1</h3>
         {exam.hoeren.teil1.items.map((item) => (
@@ -104,9 +113,9 @@ export function ExamApp({ exam }: { exam: Exam }) {
             showAnswers={showAnswers}
           />
         ))}
-      </section>
+      </section> : null}
 
-      <section id="lesen" className="exam-section">
+      {activeSection === "lesen" ? <section id="lesen" className="exam-section">
         <h2 className="section-heading">Lesen</h2>
         <h3>Teil 1</h3>
         {exam.lesen.teil1.texte.map((text) => (
@@ -172,9 +181,9 @@ export function ExamApp({ exam }: { exam: Exam }) {
             showAnswers={showAnswers}
           />
         ))}
-      </section>
+      </section> : null}
 
-      <section id="schreiben" className="exam-section">
+      {activeSection === "schreiben" ? <section id="schreiben" className="exam-section">
         <h2 className="section-heading">Schreiben</h2>
         <h3>Teil 1</h3>
         <article className="question-card">
@@ -212,9 +221,9 @@ export function ExamApp({ exam }: { exam: Exam }) {
           />
           {showAnswers ? <p className="answer-hint">Musterlösung: {exam.schreiben.teil2.musterloesung}</p> : null}
         </article>
-      </section>
+      </section> : null}
 
-      <section id="sprechen" className="exam-section">
+      {activeSection === "sprechen" ? <section id="sprechen" className="exam-section">
         <h2 className="section-heading">Sprechen</h2>
         <article className="question-card">
           <h3>Teil 1</h3>
@@ -267,9 +276,9 @@ export function ExamApp({ exam }: { exam: Exam }) {
             placeholder="Notizen zur eigenen Antwort"
           />
         </article>
-      </section>
+      </section> : null}
 
-      {grade ? (
+      {activeSection === "sprechen" && grade ? (
         <section className="exam-section" aria-live="polite">
           <h2 className="section-heading">Zusammenfassung</h2>
           <p>
@@ -280,7 +289,7 @@ export function ExamApp({ exam }: { exam: Exam }) {
         </section>
       ) : null}
 
-      <div className="action-bar">
+      {activeSection === "sprechen" && attemptComplete ? <div className="action-bar">
         <div className="action-bar-inner">
           <button type="button" className="primary-button" onClick={resolve} disabled={resolved}>
             Resolve
@@ -297,7 +306,7 @@ export function ExamApp({ exam }: { exam: Exam }) {
             Redo exam
           </button>
         </div>
-      </div>
+      </div> : null}
     </main>
   );
 }

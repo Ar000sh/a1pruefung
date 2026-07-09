@@ -46,7 +46,8 @@ textarea {
 .score-panel { border: 1px solid var(--line); background: var(--card); padding: 14px; min-width: 220px; }
 .score-value { display: block; font-size: 2rem; font-weight: 700; color: var(--accent-strong); }
 .section-nav { position: sticky; top: 0; z-index: 10; display: flex; gap: 8px; flex-wrap: wrap; padding: 12px 0; background: color-mix(in srgb, var(--paper) 92%, white); border-bottom: 1px solid var(--line); }
-.section-nav a { color: var(--ink); text-decoration: none; border: 1px solid var(--line); background: var(--card); padding: 8px 10px; border-radius: 6px; }
+.section-nav button { color: var(--ink); border: 1px solid var(--line); background: var(--card); padding: 8px 10px; border-radius: 6px; cursor: pointer; }
+.section-nav button.active { color: #fff; border-color: var(--accent-strong); background: var(--accent-strong); }
 .exam-section { padding: 28px 0; border-bottom: 1px solid var(--line); }
 .section-heading { margin: 0 0 16px; font-size: 1.75rem; }
 .question-card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 16px; margin: 12px 0; }
@@ -71,7 +72,7 @@ textarea {
 .primary-button { padding: 11px 16px; color: #fff; background: var(--accent-strong); }
 .secondary-button { padding: 11px 16px; color: var(--accent-strong); background: var(--card); }
 .small-button:disabled, .primary-button:disabled, .secondary-button:disabled, input:disabled, textarea:disabled { cursor: not-allowed; opacity: 0.68; }
-.small-button:focus-visible, .primary-button:focus-visible, .secondary-button:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 45%, white); outline-offset: 2px; }
+.small-button:focus-visible, .primary-button:focus-visible, .secondary-button:focus-visible, .section-nav button:focus-visible, input:focus-visible, textarea:focus-visible, a:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 45%, white); outline-offset: 2px; }
 .action-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 20; background: rgba(247, 245, 239, 0.96); border-top: 1px solid var(--line); }
 .action-bar-inner { width: min(1240px, calc(100% - 28px)); margin: 0 auto; padding: 12px 0; display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
 @media (max-width: 760px) {
