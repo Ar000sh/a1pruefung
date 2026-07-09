@@ -1,7 +1,6 @@
-import { ExamApp } from "../components/exam/ExamApp";
-import { getExamById } from "../lib/exams";
+import { ExamHome } from "../components/exam/ExamHome";
+import { getExamChoices } from "../lib/exams";
 
 export default function HomePage() {
-  const exam = getExamById("uebungssatz-03");
-  return <ExamApp exam={exam} />;
+  return <ExamHome exams={getExamChoices()} />;
 }

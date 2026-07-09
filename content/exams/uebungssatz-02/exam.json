@@ -1,0 +1,332 @@
+{
+  "id": "uebungssatz-02",
+  "_hinweis": "Inhaltsgetreu aus dem Goethe-Zertifikat A1 Übungssatz 02 (© Goethe-Institut/telc) transkribiert – nur für privates Üben. REKONSTRUIERT (Original liegt nur als Bild vor, bitte ggf. gegen das PDF prüfen): Lesen Teil 1, zweiter Text (Frau Stein) inkl. Aufgaben 3–5; Lesen Teil 3, Schilder 14 (Haustür) und 15 (Bahnhof); Sprechen Teil 3 Bildkarten. ORIGINAL sind u. a. Sprechen Teil 2 (Themen Beruf & Sport mit Stichwortkarten).",
+  "hoeren": {
+    "teil1": {
+      "beispiel": {
+        "nr": 0,
+        "dialog": [
+          { "sprecher": "Frau", "text": "Ach, Verzeihung, wo finde ich Herrn Schneider vom Betriebsrat?" },
+          { "sprecher": "Mann", "text": "Schneider. Warten Sie mal. Ich glaube, der ist in Zimmer Nummer 254. Ja, stimmt, Zimmer 254. Das ist im zweiten Stock. Da können Sie den Aufzug hier nehmen." },
+          { "sprecher": "Frau", "text": "Zweiter Stock, Zimmer 254. Okay, vielen Dank." }
+        ],
+        "frage": "Welche Zimmernummer hat Herr Schneider?",
+        "optionen": { "a": "Zimmer 2", "b": "Zimmer 245", "c": "Zimmer 254" },
+        "loesung": "c",
+        "hoerdurchgaenge": 2
+      },
+      "items": [
+        {
+          "nr": 1,
+          "dialog": [
+            { "sprecher": "Hanna", "text": "Wo wollen wir dieses Jahr unsere Party machen?" },
+            { "sprecher": "Steffi", "text": "Ich bin für eine Feier am See. Wir können schwimmen, grillen …" },
+            { "sprecher": "Hanna", "text": "Ich bin nicht dafür. Ich finde eine Party im Garten viel besser. Bei Regen können wir schnell ins Haus und im Haus schön weiter feiern." },
+            { "sprecher": "Steffi", "text": "In Ordnung. Da können wir ja auch grillen." }
+          ],
+          "frage": "Wo wollen die Freundinnen die Party machen?",
+          "optionen": { "a": "Im Garten", "b": "Im Haus", "c": "Am See" },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 2,
+          "dialog": [
+            { "sprecher": "Martin", "text": "Möchtest du heute Abend mit mir in das Konzert von Rosenstolz gehen?" },
+            { "sprecher": "Luisa", "text": "Hmm. Gern. Aber wann beginnt das Konzert? Ich bin ja bis um halb acht im Spanisch-Kurs." },
+            { "sprecher": "Martin", "text": "Dann gibt es kein Problem. Die fangen um neun Uhr an. Wollen wir uns um halb neun an der Kasse treffen?" },
+            { "sprecher": "Luisa", "text": "Ja, wunderbar. Dann bis heute Abend." }
+          ],
+          "frage": "Wann wollen sie sich treffen?",
+          "optionen": { "a": "Um 19.30 Uhr", "b": "Um 20.30 Uhr", "c": "Um 21.00 Uhr" },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 3,
+          "dialog": [
+            { "sprecher": "Dame", "text": "Entschuldigen Sie bitte. Ich suche ein Taxi, vielleicht dort vorne rechts?" },
+            { "sprecher": "Herr", "text": "Nein, da vorne rechts gibt es keine. Gehen Sie hier geradeaus und an der Ecke nach links. Sie müssen dann noch circa 100 Meter gehen. Da stehen schon die Taxis." },
+            { "sprecher": "Dame", "text": "Vielen Dank." }
+          ],
+          "frage": "Wo stehen Taxis?",
+          "optionen": { "a": "An der Ecke rechts", "b": "Die Straße geradeaus", "c": "Geradeaus und links" },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 4,
+          "dialog": [
+            { "sprecher": "Herr", "text": "Guten Tag. Ich möchte einen Sprachkurs besuchen. Wie lange dauern Ihre Kurse?" },
+            { "sprecher": "Dame", "text": "Die Sommerkurse jetzt im Juli und August zwei Wochen. Unsere normalen Kurse dauern aber drei oder vier Wochen." },
+            { "sprecher": "Herr", "text": "Gut. Ich möchte einen Sommerkurs." },
+            { "sprecher": "Dame", "text": "Im Juli oder August?" },
+            { "sprecher": "Herr", "text": "Anfang Juli." }
+          ],
+          "frage": "Wie lange dauern die Sommerkurse?",
+          "optionen": { "a": "Zwei Wochen", "b": "Drei Wochen", "c": "Vier Wochen" },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 5,
+          "dialog": [
+            { "sprecher": "Mann", "text": "Hallo Johanna, wir treffen uns heute Nachmittag im Park. Kommst du auch?" },
+            { "sprecher": "Frau", "text": "Ja, gerne. Soll ich was mitbringen?" },
+            { "sprecher": "Mann", "text": "Vielleicht ein Kartenspiel." },
+            { "sprecher": "Frau", "text": "Okay. Und etwas zu essen?" },
+            { "sprecher": "Mann", "text": "Nein, das machen wir schon. Ich bringe Salat mit und Clara Saft." }
+          ],
+          "frage": "Was soll Johanna mitbringen?",
+          "optionen": { "a": "Salat", "b": "Saft", "c": "Karten" },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 6,
+          "dialog": [
+            { "sprecher": "Dame", "text": "Guten Tag. Ich möchte bitte Frau Horn sprechen." },
+            { "sprecher": "Herr", "text": "Frau Horn ist leider nicht im Büro. Sie ist von Mittwoch bis Freitag im Urlaub. Aber am Montag kommt sie aus dem Urlaub zurück. Ab acht Uhr ist sie im Büro." },
+            { "sprecher": "Dame", "text": "Aha, na dann rufe ich nächsten Mittwoch wieder an. Da habe ich Zeit." }
+          ],
+          "frage": "Wann ist Frau Horn aus dem Urlaub zurück?",
+          "optionen": { "a": "Am Mittwoch", "b": "Am Freitag", "c": "Am Montag" },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        }
+      ]
+    },
+    "teil2": {
+      "beispiel": {
+        "nr": 0,
+        "durchsage": "Frau Katrin Gundlach, angekommen aus Budapest, wird zum Informationsschalter in der Ankunftshalle C gebeten. Frau Gundlach bitte zum Informationsschalter in der Ankunftshalle C.",
+        "aussage": "Frau Gundlach soll zur Information in Halle C kommen.",
+        "loesung": "richtig",
+        "hoerdurchgaenge": 1
+      },
+      "items": [
+        {
+          "nr": 7,
+          "durchsage": "Liebe Fahrgäste, diese Straßenbahn hat ein Problem mit den Türen. Sie schließen nicht mehr richtig. Leider können wir nicht weiterfahren. Bitte steigen Sie an der nächsten Haltestelle aus. Dort haben Sie Anschluss an den Bus Linie 19.",
+          "aussage": "Die Fahrgäste sollen den Bus nehmen.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 8,
+          "durchsage": "Liebe Kunden, heute haben wir tolle Sonderangebote bei den Badmöbeln. Kommen Sie doch mal in den dritten Stock und sehen Sie sich um. Und am Wochenende feiert unser Möbelhaus Geburtstag. Sie sind herzlich eingeladen!",
+          "aussage": "Die Kunden sollen in den zweiten Stock kommen.",
+          "loesung": "falsch",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 9,
+          "durchsage": "Achtung. Hier spricht die Polizei. Es gibt ein großes Feuer in der Firma Chemotec. Bitte schließen Sie alle Türen und Fenster und gehen Sie nicht aus dem Haus.",
+          "aussage": "Die Leute sollen zu Hause bleiben.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 10,
+          "durchsage": "Willkommen in Berlin Hauptbahnhof. Ihre nächsten Züge: ICE 389 nach Dresden 18.48 Uhr, Gleis 3. Intercity nach Innsbruck 18.52 Uhr fährt heute nicht. Fahrgäste nach Innsbruck benutzen bitte den ICE 346 nach München um 19.20 Uhr und steigen dort um.",
+          "aussage": "Fahrgäste nach Innsbruck sollen mit dem ICE 346 fahren.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        }
+      ]
+    },
+    "teil3": {
+      "items": [
+        {
+          "nr": 11,
+          "nachricht": "Hallo Barbara, hier Greta. Ich will am Montagmorgen das Formular für die Wohnungsanmeldung holen. Möchtest du mitkommen? Du kannst dich ja dann auch gleich beim Amt anmelden. Bitte ruf mich noch heute Abend an. Morgen hat das Amt keine Sprechstunden. Tschüss.",
+          "frage": "Wann will Greta das Formular holen?",
+          "optionen": { "a": "Heute Abend", "b": "Morgen", "c": "Montagmorgen" },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 12,
+          "nachricht": "Hallo Siggi, hier Heinz. Es geht um heute Abend. Ich sehe gerade, das Restaurant Zwiebel hat heute geschlossen. Können wir uns am Bahnhof treffen und dann zusammen ein anderes Restaurant suchen? Das italienische Restaurant um die Ecke soll gut und nicht teuer sein. Bis heute Abend. Tschüss.",
+          "frage": "Wo möchte Heinz Siggi treffen?",
+          "optionen": { "a": "Am Bahnhof", "b": "Im italienischen Restaurant", "c": "Im Restaurant „Zwiebel“" },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 13,
+          "nachricht": "Guten Tag, hier Eva Schmitz. Leider bin ich krank und kann morgen nicht kommen. Geht es auch am Mittwoch um 10 Uhr? Da habe ich sowieso einen Termin von 11.00 bis 12.00 Uhr in Ihrem Institut.",
+          "frage": "Wann möchte Eva Schmitz am Mittwoch kommen?",
+          "optionen": { "a": "Um 10.00 Uhr", "b": "Um 11.00 Uhr", "c": "Um 12.00 Uhr" },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 14,
+          "nachricht": "Guten Tag, Sie rufen wegen der Wohnungsanzeige an? Die genaue Adresse ist Am Achterkamp 5. Bitte sprechen Sie Ihre Nummer auf den Anrufbeantworter, ich rufe Sie dann zurück und sage Ihnen, wann Sie die Wohnung sehen können. Bitte keine E-Mail-Adressen!",
+          "frage": "Was soll man sagen?",
+          "optionen": { "a": "Die Adresse", "b": "Die E-Mail-Adresse", "c": "Die Telefonnummer" },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 15,
+          "nachricht": "Guten Morgen, Frau Seiler. Hier Ernst Müller. Mein Auto ist leider kaputt. Ich muss das Fahrrad nehmen und komme also ein bisschen später ins Büro. Die Straßenbahn ist zu weit weg von mir zu Hause. Bitte entschuldigen Sie mich bei Herrn Krause. Danke.",
+          "frage": "Wie kommt Herr Müller ins Büro?",
+          "optionen": { "a": "Mit dem Fahrrad", "b": "Mit der Straßenbahn", "c": "Mit dem Auto" },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        }
+      ]
+    }
+  },
+  "lesen": {
+    "teil1": {
+      "texte": [
+        {
+          "titel": "Nachricht von Winfried Beck",
+          "text": "Liebe Frau Dehner, vielen Dank für die Einladung zu Ihrem Jazz-Konzert. Ich komme gern und ich freue mich sehr auf das Konzert. Ich danke Ihnen auch, dass ich in Ihrem Gästezimmer schlafen kann und kein Hotel suchen muss. Mein Zug kommt schon um circa 16 Uhr an. Kann ich Ihnen am Nachmittag dann vor dem Konzert etwas helfen? Bis bald und herzliche Grüße, Winfried Beck",
+          "aussagen": [
+            { "nr": 1, "aussage": "Herr Beck übernachtet im Hotel.", "loesung": "falsch" },
+            { "nr": 2, "aussage": "Herr Beck bietet Frau Dehner seine Hilfe an.", "loesung": "richtig" }
+          ]
+        },
+        {
+          "titel": "Nachricht von Frau Stein (REKONSTRUIERT – Original nur als Bild)",
+          "text": "Sehr geehrter Herr Dr. Falk, ich bin diese Woche auf einer Konferenz in München und habe leider sehr viel zu tun. Am Mittwoch habe ich aber ab 14 Uhr Zeit. Können wir uns dann treffen? Am Donnerstag fliege ich schon wieder nach Hause. Mit freundlichen Grüßen, Petra Stein",
+          "aussagen": [
+            { "nr": 3, "aussage": "Frau Stein ist in Berlin.", "loesung": "falsch" },
+            { "nr": 4, "aussage": "Am Mittwoch hat Frau Stein frei.", "loesung": "richtig" },
+            { "nr": 5, "aussage": "Frau Stein will am Freitag Dr. Falk treffen.", "loesung": "falsch" }
+          ]
+        }
+      ]
+    },
+    "teil2": {
+      "items": [
+        {
+          "nr": 6,
+          "situation": "Sie wollen viele Freunde zu Ihrem Geburtstag einladen. Sie suchen einen Ort.",
+          "anzeige_a": "www.raum-in-koeln.de – Raum für Tanz, Sport, Hochzeiten und andere private Feiern zu vermieten. Auch abends Termine frei, günstige Preise.",
+          "anzeige_b": "www.wohnen-in-koeln.de – Schöne Zimmer und Apartments für 2–12 Wochen im Großraum Köln zu interessanten Preisen.",
+          "loesung": "a"
+        },
+        {
+          "nr": 7,
+          "situation": "Der Computer ist kaputt. Sie können ihn nicht allein reparieren.",
+          "anzeige_a": "www.computer-loesungen.de – Für alles, was mit Computern, Druckern, Scannern, Internet usw. zu tun hat. Auch Reparaturen.",
+          "anzeige_b": "www.technohaus.de – Gebrauchte Kühlschränke, Herde, Waschmaschinen, Computer, Drucker, Fernseher, Radios, Handys usw. zu supergünstigen Preisen!",
+          "loesung": "a"
+        },
+        {
+          "nr": 8,
+          "situation": "Sie möchten am Samstagabend mit Freunden tanzen gehen.",
+          "anzeige_a": "www.tanzen-macht-spass.de – Tanzschule Renz. Informieren Sie sich jetzt über die neuen Tanzkurse für Jugendliche und Erwachsene. Bitte bestellen Sie unseren Tanzplan.",
+          "anzeige_b": "www.wohin-am-wochenende.de – Ins Aladin! Das neue Tanz-Restaurant. Erst gut essen, dann tanzen – die ganze Nacht! Freitag + Samstag haben wir bis 4 Uhr geöffnet.",
+          "loesung": "b"
+        },
+        {
+          "nr": 9,
+          "situation": "Sie möchten am Wochenende Fußball spielen.",
+          "anzeige_a": "www.freizeitsport-freiburg.de – Basketball, Fitness, Fußball und mehr. Montags bis donnerstags 18.30 bis 21.00 Uhr im Südpark am See.",
+          "anzeige_b": "www.fc-1897.de/training – Der Fußballklub FC 1897 sucht Spieler und Spielerinnen. Treffpunkt: Sportanlage Ulrichsplatz, sonntags 10–12 Uhr. Keine Anmeldung.",
+          "loesung": "b"
+        },
+        {
+          "nr": 10,
+          "situation": "Sie studieren und möchten ein bisschen arbeiten.",
+          "anzeige_a": "Unsere Bäckerei braucht Hilfe. Junge Verkäuferin/Junger Verkäufer gesucht für Zeitungskiosk, 42-Stunden-Woche bei guter Bezahlung. Tel. 0176 – 55 44 321",
+          "anzeige_b": "Wir suchen eine junge Frau/einen jungen Mann im Verkauf am Samstag von 7 bis 11 Uhr. Tel. 0160 – 683 456 20",
+          "loesung": "b"
+        }
+      ]
+    },
+    "teil3": {
+      "beispiel": {
+        "nr": 0,
+        "schild": "An der Tür der Sprachschule: Das Sprachzentrum ist umgezogen. Zum Deutschlernen gehen Sie in die Beethovenstraße 23.",
+        "aussage": "Zum Deutschlernen gehen Sie in die Beethovenstraße 23.",
+        "loesung": "richtig"
+      },
+      "items": [
+        {
+          "nr": 11,
+          "schild": "Vor einem Blumenladen: Neu! Neu! Neu! Liebe Kunden! Ab sofort haben wir auch sonntags von 9–12 Uhr für Sie geöffnet!",
+          "aussage": "Am Sonntagvormittag bekommen Sie hier Blumen.",
+          "loesung": "richtig"
+        },
+        {
+          "nr": 12,
+          "schild": "Im Restaurant: Liebe Gäste, im nächsten Monat kocht bei uns ein Koch aus Kalkutta indische Spezialitäten. Wir freuen uns auf Ihren Besuch.",
+          "aussage": "Jeden Montag bietet das Restaurant indisches Essen an.",
+          "loesung": "falsch"
+        },
+        {
+          "nr": 13,
+          "schild": "Bei der Straßenbahn: Linie 8 – ab 1.5. nur bis Hauptbahnhof. Zur Weiterfahrt nach Huchting: Linie 1 oder Bus Nr. 53.",
+          "aussage": "Es ist der 2. Mai, 21 Uhr. Sie können jetzt nicht zum Hauptbahnhof fahren.",
+          "loesung": "falsch"
+        },
+        {
+          "nr": 14,
+          "schild": "An einer Haustür (REKONSTRUIERT): Achtung – diese Wohnung ist bereits vermietet. Eine Besichtigung ist nicht mehr möglich.",
+          "aussage": "Sie können die Wohnung nicht besichtigen.",
+          "loesung": "richtig"
+        },
+        {
+          "nr": 15,
+          "schild": "Im Bahnhof (REKONSTRUIERT): Fahrkartenschalter geöffnet täglich 6.00–22.00 Uhr. Außerhalb dieser Zeiten benutzen Sie bitte den Fahrkartenautomaten.",
+          "aussage": "Ab 22 Uhr können Sie keine Fahrkarten mehr kaufen.",
+          "loesung": "falsch"
+        }
+      ]
+    }
+  },
+  "schreiben": {
+    "teil1": {
+      "ausgangstext": "Ihr Freund, Vladimir Serjakov, 30 Jahre alt, kommt aus Sankt Petersburg in Russland und lebt seit einem Monat in Hamburg. Er hat eine neue Stelle bei TUI als Reiseleiter. Seit gestern hat er 39 Grad Fieber. Heute geht er zum Arzt. In der Patientenanmeldung fehlen fünf Informationen (Name und Vorname sind schon eingetragen).",
+      "formularfelder": [
+        { "feld": "Wohnort", "loesung": "Hamburg" },
+        { "feld": "Alter", "loesung": "30 Jahre" },
+        { "feld": "Beruf", "loesung": "Reiseleiter" },
+        { "feld": "Krank seit", "loesung": "gestern" },
+        { "feld": "Beschwerden / Grund", "loesung": "Ich habe Fieber (39 Grad)" }
+      ]
+    },
+    "teil2": {
+      "situation": "Ihr neuer Kollege, Herr Jensch, lädt Sie am Dienstag um 15 Uhr zu seiner Geburtstagsfeier im Büro ein. Schreiben Sie Herrn Jensch eine E-Mail. Schreiben Sie zu jedem Punkt ein bis zwei Sätze (circa 30 Wörter) und vergessen Sie Anrede und Gruß nicht.",
+      "inhaltspunkte": [
+        "Warum schreiben Sie?",
+        "Sagen Sie: Sie kommen später.",
+        "Fragen Sie: Können Sie helfen?"
+      ],
+      "musterloesung": "Sehr geehrter Herr Jensch, vielen Dank für die Einladung zu Ihrer Geburtstagsfeier am Dienstag. Ich komme gern, aber ich habe um 15 Uhr noch einen Termin und komme deshalb ein bisschen später. Kann ich vielleicht etwas mitbringen oder Ihnen beim Vorbereiten helfen? Mit freundlichen Grüßen, Ihr Kollege Max"
+    }
+  },
+  "sprechen": {
+    "teil1": {
+      "beschreibung": "Sich vorstellen: Erzählen Sie, wer Sie sind – Name, Herkunft, Wohnort, Sprachen, Hobby. Am Ende buchstabieren Sie etwas (z. B. Ihren Namen oder Wohnort) und nennen eine Nummer (Telefon, Handy oder Hausnummer).",
+      "fragen": [
+        "Wie ist Ihr Name?",
+        "Woher kommen Sie?",
+        "Wo leben Sie?",
+        "Welche Sprachen sprechen Sie?",
+        "Was ist Ihr Hobby?",
+        "Können Sie Ihren Namen buchstabieren?",
+        "Wie ist Ihre Telefonnummer?"
+      ]
+    },
+    "teil2": {
+      "themen": [
+        { "thema": "Beruf", "karten": ["Arbeitszeit", "Kollegen", "Spaß", "Arbeitskleidung", "Arbeitsplatz", "Aufgaben"] },
+        { "thema": "Sport", "karten": ["Lieblingssport", "schwimmen", "Wochenende", "Abend", "Ball", "Fahrrad"] }
+      ]
+    },
+    "teil3": {
+      "bildkarten": [
+        { "beschreibung": "Rekonstruiert: ein Taxi (Bildkarte im Original).", "beispielbitte": "Können Sie mir bitte ein Taxi rufen?" },
+        { "beschreibung": "Rekonstruiert: eine Uhr, es ist 18.00 Uhr (Bildkarte im Original).", "beispielbitte": "Sagen Sie mir bitte, wie spät es ist?" }
+      ]
+    }
+  }
+}

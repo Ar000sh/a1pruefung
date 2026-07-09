@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="Train exam illustration">
+  <rect width="240" height="160" rx="20" fill="#f5f0ff"/>
+  <rect x="42" y="48" width="150" height="68" rx="14" fill="#4b3f72"/>
+  <rect x="58" y="62" width="38" height="24" rx="5" fill="#fffaf0"/>
+  <rect x="106" y="62" width="38" height="24" rx="5" fill="#fffaf0"/>
+  <rect x="154" y="62" width="22" height="38" rx="5" fill="#ff7a45"/>
+  <circle cx="73" cy="118" r="13" fill="#2d2740"/><circle cx="162" cy="118" r="13" fill="#2d2740"/>
+  <path d="M32 135h178" stroke="#e03a26" stroke-width="7" stroke-linecap="round"/>
+  <path d="M199 35l18 18-18 18" fill="none" stroke="#f6c453" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

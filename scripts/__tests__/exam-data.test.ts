@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert";
-import { getExamById } from "../../lib/exams.ts";
+import { getExamById, getExamChoices } from "../../lib/exams.ts";
 
 test("loads uebungssatz-03 with all four sections", () => {
   const exam = getExamById("uebungssatz-03");
@@ -33,4 +33,15 @@ test("uebungssatz-03 has the expected objective item counts", () => {
 
 test("unknown exam id throws a clear error", () => {
   assert.throws(() => getExamById("missing"), /Unknown exam id: missing/);
+});
+
+test("exam choices expose selectable local exams", () => {
+  const choices = getExamChoices();
+
+  assert.deepStrictEqual(
+    choices.map((choice) => choice.id),
+    ["modellsatz", "uebungssatz-01", "uebungssatz-02", "uebungssatz-03"],
+  );
+  assert.ok(choices.every((choice) => choice.exam.id === choice.id));
+  assert.ok(choices.every((choice) => choice.imageSrc.startsWith("/illustrations/")));
 });

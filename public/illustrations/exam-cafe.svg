@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="Cafe exam illustration">
+  <rect width="240" height="160" rx="20" fill="#f2fff8"/>
+  <path d="M52 92h76l-10 42H63z" fill="#e03a26"/>
+  <path d="M128 101c35-6 35 35 2 32" fill="none" stroke="#e03a26" stroke-width="10"/>
+  <path d="M75 75c-12-22 18-22 6-44M105 75c-12-22 18-22 6-44" fill="none" stroke="#f6c453" stroke-width="6" stroke-linecap="round"/>
+  <path d="M39 136h165" stroke="#2d2740" stroke-width="6" stroke-linecap="round"/>
+  <path d="M157 58h42v78h-42z" fill="#fff" stroke="#4b3f72" stroke-width="5"/>
+  <path d="M166 77h24M166 96h24M166 115h17" stroke="#2f9d8f" stroke-width="5" stroke-linecap="round"/>
+</svg>

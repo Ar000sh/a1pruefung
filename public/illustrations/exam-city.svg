@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" role="img" aria-label="City exam illustration">
+  <rect width="240" height="160" rx="20" fill="#fff8eb"/>
+  <rect x="34" y="54" width="38" height="74" rx="6" fill="#4b3f72"/>
+  <rect x="82" y="35" width="52" height="93" rx="6" fill="#ff7a45"/>
+  <rect x="144" y="62" width="50" height="66" rx="6" fill="#2f9d8f"/>
+  <path d="M25 129h190" stroke="#2d2740" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="62" cy="129" r="13" fill="#f6c453"/><circle cx="176" cy="129" r="13" fill="#f6c453"/>
+  <text x="44" y="35" font-size="24" font-family="Georgia,serif" font-weight="700" fill="#e03a26">A1</text>
+</svg>
