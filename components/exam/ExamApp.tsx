@@ -3,7 +3,7 @@
 import type { JSX } from "react";
 import { useMemo, useState } from "react";
 import { gradeExam, objectiveKey, type GradeResult } from "../../lib/grading";
-import type { AttemptAnswers, DialogLine, Exam, HoerItem, LesenTeil3Item } from "../../lib/types";
+import type { AttemptAnswers, DialogLine, Exam, HoerItem, LesenTeil3Item, Optionen } from "../../lib/types";
 import { TranscriptPlayer } from "./TranscriptPlayer";
 
 const emptyAnswers: AttemptAnswers = {
@@ -359,7 +359,7 @@ function HoerItemCard(props: {
   const options =
     props.part === "teil2"
       ? binaryOptions()
-      : choiceOptions(Object.keys(props.item.optionen ?? { a: "a", b: "b", c: "c" }));
+      : optionTextChoices(props.item.optionen);
 
   return (
     <article className={`question-card ${statusClass(props.grade, key)}`}>
@@ -416,6 +416,11 @@ function binaryOptions() {
 
 function choiceOptions(values: string[]) {
   return values.map((value) => ({ value, label: value.toUpperCase() }));
+}
+
+function optionTextChoices(optionen: Optionen | undefined) {
+  if (!optionen) return choiceOptions(["a", "b", "c"]);
+  return Object.entries(optionen).map(([value, label]) => ({ value, label: `${value.toUpperCase()}: ${label}` }));
 }
 
 function transcriptLines(item: HoerItem): DialogLine[] {
