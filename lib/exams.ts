@@ -26,8 +26,8 @@ const examChoices: ExamChoice[] = [
   {
     id: "modellsatz",
     title: "Modellsatz",
-    subtitle: "Start with the official-style baseline.",
-    description: "A balanced A1 exam with all four skills.",
+    subtitle: "Starte mit dem klassischen Prüfungssatz.",
+    description: "Ein ausgewogener A1-Test mit allen vier Teilen.",
     imageSrc: "/illustrations/exam-city.svg",
     accent: "coral",
     exam: exams.modellsatz,
@@ -35,8 +35,8 @@ const examChoices: ExamChoice[] = [
   {
     id: "uebungssatz-01",
     title: "Übungssatz 01",
-    subtitle: "Daily life, hobbies, and simple plans.",
-    description: "Practice routine situations at a calm pace.",
+    subtitle: "Alltag, Freizeit und einfache Pläne.",
+    description: "Übe typische Situationen in ruhigem Tempo.",
     imageSrc: "/illustrations/exam-cafe.svg",
     accent: "mint",
     exam: exams["uebungssatz-01"],
@@ -44,8 +44,8 @@ const examChoices: ExamChoice[] = [
   {
     id: "uebungssatz-02",
     title: "Übungssatz 02",
-    subtitle: "Shopping, food, and appointments.",
-    description: "Work through practical everyday topics.",
+    subtitle: "Einkaufen, Essen und Termine.",
+    description: "Bearbeite praktische Themen aus dem Alltag.",
     imageSrc: "/illustrations/exam-market.svg",
     accent: "gold",
     exam: exams["uebungssatz-02"],
@@ -53,8 +53,8 @@ const examChoices: ExamChoice[] = [
   {
     id: "uebungssatz-03",
     title: "Übungssatz 03",
-    subtitle: "Travel, services, and messages.",
-    description: "Train announcements, signs, and short notes.",
+    subtitle: "Reisen, Service und Nachrichten.",
+    description: "Trainiere Durchsagen, Schilder und kurze Mitteilungen.",
     imageSrc: "/illustrations/exam-train.svg",
     accent: "violet",
     exam: exams["uebungssatz-03"],

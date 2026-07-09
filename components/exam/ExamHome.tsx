@@ -9,10 +9,10 @@ interface ExamHomeProps {
 }
 
 const skillCards = [
-  { title: "Lesen", text: "Read short texts and answer exam-style questions.", icon: "📖" },
-  { title: "Hören", text: "Use transcript playback and check comprehension.", icon: "🎧" },
-  { title: "Schreiben", text: "Complete forms and write short messages.", icon: "✍️" },
-  { title: "Sprechen", text: "Practice prompts, cards, and spoken routines.", icon: "🎙️" },
+  { title: "Lesen", text: "Kurze Texte lesen und Prüfungsfragen beantworten.", imageSrc: "/illustrations/skill-reading.svg" },
+  { title: "Hören", text: "Transkripte anhören und das Verstehen prüfen.", imageSrc: "/illustrations/skill-listening.svg" },
+  { title: "Schreiben", text: "Formulare ausfüllen und kurze Nachrichten schreiben.", imageSrc: "/illustrations/skill-writing.svg" },
+  { title: "Sprechen", text: "Aufgaben, Karten und mündliche Routinen üben.", imageSrc: "/illustrations/skill-speaking.svg" },
 ];
 
 export function ExamHome({ exams }: ExamHomeProps) {
@@ -24,7 +24,7 @@ export function ExamHome({ exams }: ExamHomeProps) {
       <>
         <div className="exam-return-bar">
           <button type="button" className="secondary-button" onClick={() => setSelectedExamId(null)}>
-            Back to tests
+            Zurück zur Auswahl
           </button>
           <span>{selectedExam.title}</span>
         </div>
@@ -36,7 +36,7 @@ export function ExamHome({ exams }: ExamHomeProps) {
   return (
     <main className="home-shell">
       <header className="home-topbar">
-        <a className="brand-mark" href="#top" aria-label="Deutschstunde home">
+        <a className="brand-mark" href="#top" aria-label="Deutschstunde Startseite">
           <span className="brand-icon" aria-hidden="true">
             <span />
             <span />
@@ -44,29 +44,29 @@ export function ExamHome({ exams }: ExamHomeProps) {
           </span>
           <strong>Deutschstunde</strong>
         </a>
-        <span className="level-pill">Level A1</span>
+        <span className="level-pill">Niveau A1</span>
       </header>
 
       <section className="home-hero" id="top">
         <div className="hero-copy">
           <p className="eyebrow">Willkommen</p>
-          <h1>Learn German the way exams test it.</h1>
+          <h1>Deutsch lernen, wie es in der Prüfung vorkommt.</h1>
           <p>
-            Choose a full A1 practice test, work through reading, listening, writing, and speaking, then resolve your answers when everything is complete.
+            Wähle einen kompletten A1-Übungssatz und trainiere Lesen, Hören, Schreiben und Sprechen. Am Ende kannst du deine Antworten auswerten.
           </p>
           <a className="hero-cta" href="#practice-tests">
-            Choose a test
+            Prüfung wählen
           </a>
         </div>
         <div className="hero-image-card">
-          <img src="/illustrations/hero-study.svg" alt="Illustrated German study desk" />
+          <img src="/illustrations/hero-study.svg" alt="Illustrierter Schreibtisch zum Deutschlernen" />
         </div>
       </section>
 
-      <section className="skill-grid" aria-label="Practice skills">
+      <section className="skill-grid" aria-label="Prüfungsteile">
         {skillCards.map((card) => (
           <article className="skill-card" key={card.title}>
-            <span className="skill-icon" aria-hidden="true">{card.icon}</span>
+            <img src={card.imageSrc} alt="" />
             <h2>{card.title}</h2>
             <p>{card.text}</p>
           </article>
@@ -75,9 +75,9 @@ export function ExamHome({ exams }: ExamHomeProps) {
 
       <section className="test-section" id="practice-tests">
         <div>
-          <p className="eyebrow">Practice tests</p>
-          <h2>Pick your exam set</h2>
-          <p>Each test keeps all four parts together so your practice feels like the real structure.</p>
+          <p className="eyebrow">Übungssätze</p>
+          <h2>Wähle deinen Prüfungssatz</h2>
+          <p>Jeder Satz enthält alle vier Teile, damit dein Training zur echten Prüfungsstruktur passt.</p>
         </div>
         <div className="test-grid">
           {exams.map((exam) => (
@@ -92,7 +92,9 @@ export function ExamHome({ exams }: ExamHomeProps) {
               <span className="test-title">{exam.title}</span>
               <span className="test-subtitle">{exam.subtitle}</span>
               <span className="test-description">{exam.description}</span>
-              <span className="test-meta" aria-hidden="true">📖 1&nbsp;&nbsp;🎧 1&nbsp;&nbsp;✍️ 1&nbsp;&nbsp;🎙️ 1</span>
+              <span className="test-meta" aria-hidden="true">
+                Lesen 1&nbsp;&nbsp;Hören 1&nbsp;&nbsp;Schreiben 1&nbsp;&nbsp;Sprechen 1
+              </span>
             </button>
           ))}
         </div>

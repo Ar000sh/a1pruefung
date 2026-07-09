@@ -39,7 +39,7 @@ textarea {
   padding: 32px 0;
 }
 
-.home-shell { width: min(1040px, calc(100% - 32px)); margin: 0 auto; padding: 0 0 56px; }
+.home-shell { width: min(1320px, calc(100% - 20px)); margin: 0 auto; padding: 0 0 56px; }
 .home-topbar { height: 52px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); }
 .brand-mark { display: inline-flex; gap: 10px; align-items: center; color: var(--ink); text-decoration: none; font-family: Georgia, "Times New Roman", serif; font-size: 1.1rem; }
 .brand-icon { position: relative; width: 20px; height: 20px; display: inline-grid; grid-template-columns: repeat(2, 9px); grid-template-rows: repeat(2, 9px); gap: 2px; }
@@ -48,7 +48,7 @@ textarea {
 .brand-icon span:nth-child(2) { background: #2f9d8f; }
 .brand-icon span:nth-child(3) { background: #ff7a45; grid-column: 2; }
 .level-pill, .test-level { border-radius: 999px; background: #f1dfbd; color: #5b4830; font-size: 0.78rem; font-weight: 700; padding: 5px 11px; }
-.home-hero { min-height: 380px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 0.9fr); gap: 48px; align-items: center; padding: 58px 0 42px; }
+.home-hero { min-height: 380px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, 0.95fr); gap: 36px; align-items: center; padding: 58px 0 42px; }
 .hero-copy h1 { margin: 12px 0 16px; max-width: 560px; font-family: Georgia, "Times New Roman", serif; font-size: clamp(2.45rem, 7vw, 4.85rem); line-height: 0.95; letter-spacing: 0; }
 .hero-copy p:not(.eyebrow) { max-width: 520px; color: #594c42; font-size: 1.08rem; line-height: 1.55; }
 .eyebrow { margin: 0; color: #e03a26; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase; }
@@ -56,8 +56,8 @@ textarea {
 .hero-image-card { border: 1px solid var(--line); border-radius: 8px; background: #fffdf8; padding: 14px; box-shadow: 0 22px 45px rgba(80, 50, 20, 0.08); }
 .hero-image-card img { display: block; width: 100%; height: auto; }
 .skill-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; padding: 28px 0 58px; }
-.skill-card { border: 1px solid var(--line); border-radius: 8px; background: #fffdf8; padding: 18px; min-height: 138px; }
-.skill-icon { display: block; font-size: 1.5rem; margin-bottom: 12px; }
+.skill-card { border: 1px solid var(--line); border-radius: 8px; background: #fffdf8; padding: 14px; min-height: 210px; }
+.skill-card img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 6px; margin-bottom: 12px; }
 .skill-card h2, .test-section h2 { margin: 0 0 8px; font-family: Georgia, "Times New Roman", serif; letter-spacing: 0; }
 .skill-card p, .test-section p, .test-subtitle, .test-description, .test-meta { color: #62584f; line-height: 1.45; }
 .skill-card p { margin: 0; font-size: 0.94rem; }

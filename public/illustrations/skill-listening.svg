@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 120" role="img" aria-label="Hören">
+  <rect width="180" height="120" rx="18" fill="#f4fbff"/>
+  <path d="M49 74c4-32 20-50 42-50s38 18 42 50" fill="none" stroke="#4b3f72" stroke-width="9" stroke-linecap="round"/>
+  <rect x="34" y="66" width="28" height="42" rx="14" fill="#ff7a45" stroke="#4b3f72" stroke-width="5"/>
+  <rect x="118" y="66" width="28" height="42" rx="14" fill="#ff7a45" stroke="#4b3f72" stroke-width="5"/>
+  <path d="M83 69c15-13 30-13 45 0M81 88c17-10 34-10 51 0" stroke="#2f9d8f" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="138" cy="28" r="15" fill="#e03a26"/>
+</svg>
