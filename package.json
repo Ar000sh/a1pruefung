@@ -4,9 +4,23 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "test": "node --test \"scripts/__tests__/**/*.test.ts\"",
     "extract-wordlist": "node scripts/extract-wordlist.ts",
     "check-vocab": "node scripts/check-vocab.ts",
     "render-exam": "node scripts/render-exam.ts"
+  },
+  "dependencies": {
+    "next": "^16.2.10",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3"
   }
 }
