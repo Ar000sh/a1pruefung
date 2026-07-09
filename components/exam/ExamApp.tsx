@@ -44,6 +44,14 @@ export function ExamApp({ exam }: { exam: Exam }) {
     setShowAnswers(false);
   }
 
+  function selectSection(sectionId: ExamSectionId) {
+    setActiveSection(sectionId);
+    requestAnimationFrame(() => {
+      const behavior = window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+      document.getElementById(sectionId)?.scrollIntoView({ behavior, block: "start" });
+    });
+  }
+
   return (
     <main className="exam-shell">
       <header className="exam-header">
@@ -68,7 +76,7 @@ export function ExamApp({ exam }: { exam: Exam }) {
             type="button"
             className={activeSection === page.id ? "active" : ""}
             key={page.id}
-            onClick={() => setActiveSection(page.id)}
+            onClick={() => selectSection(page.id)}
           >
             {page.label}
           </button>
