@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import type { DialogLine } from "../../lib/types";
 
 interface TranscriptPlayerProps {
@@ -8,6 +9,12 @@ interface TranscriptPlayerProps {
 }
 
 export function TranscriptPlayer({ lines, label }: TranscriptPlayerProps) {
+  const [canSpeak, setCanSpeak] = useState(false);
+
+  useEffect(() => {
+    setCanSpeak("speechSynthesis" in window);
+  }, []);
+
   function play() {
     if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
@@ -16,8 +23,6 @@ export function TranscriptPlayer({ lines, label }: TranscriptPlayerProps) {
     utterance.lang = "de-DE";
     window.speechSynthesis.speak(utterance);
   }
-
-  const canSpeak = typeof window !== "undefined" && "speechSynthesis" in window;
 
   return (
     <div className="transcript">
