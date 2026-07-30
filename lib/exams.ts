@@ -2,6 +2,8 @@ import modellsatz from "../content/exams/modellsatz/exam.json" with { type: "jso
 import uebungssatz01 from "../content/exams/uebungssatz-01/exam.json" with { type: "json" };
 import uebungssatz02 from "../content/exams/uebungssatz-02/exam.json" with { type: "json" };
 import uebungssatz03 from "../content/exams/uebungssatz-03/exam.json" with { type: "json" };
+import uebungssatz04 from "../content/exams/uebungssatz-04/exam.json" with { type: "json" };
+import uebungssatz05 from "../content/exams/uebungssatz-05/exam.json" with { type: "json" };
 
 import type { Exam } from "./types.ts";
 
@@ -16,10 +18,12 @@ export interface ExamChoice {
 }
 
 const exams: Record<string, Exam> = {
-  "uebungssatz-03": uebungssatz03 as Exam,
   modellsatz: modellsatz as Exam,
-  "uebungssatz-02": uebungssatz02 as Exam,
   "uebungssatz-01": uebungssatz01 as Exam,
+  "uebungssatz-02": uebungssatz02 as Exam,
+  "uebungssatz-03": uebungssatz03 as Exam,
+  "uebungssatz-04": uebungssatz04 as Exam,
+  "uebungssatz-05": uebungssatz05 as Exam,
 };
 
 const examChoices: ExamChoice[] = [
@@ -58,6 +62,24 @@ const examChoices: ExamChoice[] = [
     imageSrc: "/illustrations/exam-train.svg",
     accent: "violet",
     exam: exams["uebungssatz-03"],
+  },
+  {
+    id: "uebungssatz-04",
+    title: "Übungssatz 04",
+    subtitle: "Arzt, Arbeit und Alltag.",
+    description: "Übe Terminverstehen, Anzeigen und einfache Nachrichten.",
+    imageSrc: "/illustrations/exam-home.svg",
+    accent: "sky",
+    exam: exams["uebungssatz-04"],
+  },
+  {
+    id: "uebungssatz-05",
+    title: "Übungssatz 05",
+    subtitle: "Reisen, Wohnen und Termine.",
+    description: "Bearbeite kurze Ansagen, Anzeigen und Schreibaufgaben.",
+    imageSrc: "/illustrations/exam-journey.svg",
+    accent: "sage",
+    exam: exams["uebungssatz-05"],
   },
 ];
 

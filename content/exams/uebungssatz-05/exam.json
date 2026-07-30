@@ -1,0 +1,453 @@
+{
+  "id": "uebungssatz-05",
+  "hoeren": {
+    "teil1": {
+      "beispiel": {
+        "nr": 0,
+        "dialog": [
+          {
+            "sprecher": "Mann",
+            "text": "Entschuldigung, wo ist der Bahnhof?"
+          },
+          {
+            "sprecher": "Frau",
+            "text": "Gehen Sie geradeaus und dann links."
+          }
+        ],
+        "frage": "Was soll der Mann tun?",
+        "optionen": {
+          "a": "rechts gehen",
+          "b": "geradeaus gehen",
+          "c": "links gehen"
+        },
+        "loesung": "b",
+        "hoerdurchgaenge": 2
+      },
+      "items": [
+        {
+          "nr": 1,
+          "dialog": [
+            {
+              "sprecher": "A",
+              "text": "Wann beginnt die Klasse?"
+            },
+            {
+              "sprecher": "B",
+              "text": "Um neun Uhr."
+            }
+          ],
+          "frage": "Wann beginnt die Klasse?",
+          "optionen": {
+            "a": "um 8 Uhr",
+            "b": "um 9 Uhr",
+            "c": "um 10 Uhr"
+          },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 2,
+          "dialog": [
+            {
+              "sprecher": "Kundin",
+              "text": "Haben Sie auch Tickets f?r morgen?"
+            },
+            {
+              "sprecher": "Verk?ufer",
+              "text": "Ja, morgen kostet das Ticket nur f?nf Euro."
+            }
+          ],
+          "frage": "Wie viel kostet das Ticket morgen?",
+          "optionen": {
+            "a": "5 Euro",
+            "b": "10 Euro",
+            "c": "15 Euro"
+          },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 3,
+          "dialog": [
+            {
+              "sprecher": "Nachbarin",
+              "text": "Ihr Paket liegt bei mir im dritten Stock."
+            }
+          ],
+          "frage": "Wo liegt das Paket?",
+          "optionen": {
+            "a": "im ersten Stock",
+            "b": "im zweiten Stock",
+            "c": "im dritten Stock"
+          },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 4,
+          "dialog": [
+            {
+              "sprecher": "Trainer",
+              "text": "Der Kurs findet heute nicht statt. Wir sehen uns am Montag wieder."
+            }
+          ],
+          "frage": "Wann ist der nächste Kurs?",
+          "optionen": {
+            "a": "heute",
+            "b": "am Montag",
+            "c": "am Freitag"
+          },
+          "loesung": "b",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 5,
+          "dialog": [
+            {
+              "sprecher": "Frau",
+              "text": "Ich nehme lieber den kleinen Kaffee ohne Zucker."
+            }
+          ],
+          "frage": "Was bestellt die Frau?",
+          "optionen": {
+            "a": "grossen Kaffee",
+            "b": "Tee",
+            "c": "kleinen Kaffee"
+          },
+          "loesung": "c",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 6,
+          "dialog": [
+            {
+              "sprecher": "Kollege",
+              "text": "Wir fahren am Samstag mit dem Zug ans Meer."
+            }
+          ],
+          "frage": "Wohin fahren die Kollegen?",
+          "optionen": {
+            "a": "ans Meer",
+            "b": "in die Berge",
+            "c": "in die Stadt"
+          },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        }
+      ]
+    },
+    "teil2": {
+      "beispiel": {
+        "nr": 0,
+        "durchsage": "Liebe Fahrg?ste, der Zug nach Bremen f?hrt heute von Gleis 5 ab.",
+        "aussage": "Der Zug nach Bremen f?hrt von Gleis 5.",
+        "loesung": "richtig",
+        "hoerdurchgaenge": 1
+      },
+      "items": [
+        {
+          "nr": 7,
+          "durchsage": "Die Apotheke schliesst heute schon um 17 Uhr.",
+          "aussage": "Die Apotheke ist bis 17 Uhr offen.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 8,
+          "durchsage": "Der Bus nach Zentrum f?llt wegen einer Baustelle aus.",
+          "aussage": "Der Bus f?hrt heute nicht.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 9,
+          "durchsage": "Im Schwimmbad gibt es heute Abend freien Eintritt f?r Kinder.",
+          "aussage": "Kinder m?ssen heute Abend Eintritt bezahlen.",
+          "loesung": "falsch",
+          "hoerdurchgaenge": 1
+        },
+        {
+          "nr": 10,
+          "durchsage": "Am Bahnhof wurde eine bla? Tasche gefunden. Bitte kommen Sie zum Fundb?ro.",
+          "aussage": "Eine bla? Tasche wurde gefunden.",
+          "loesung": "richtig",
+          "hoerdurchgaenge": 1
+        }
+      ]
+    },
+    "teil3": {
+      "items": [
+        {
+          "nr": 11,
+          "nachricht": "Hallo Paula, ich bin gleich da. Warte bitte kurz an der Haltestelle.",
+          "frage": "Wo soll Paula warten?",
+          "optionen": {
+            "a": "an der Haltestelle",
+            "b": "im Supermarkt",
+            "c": "zu Hause"
+          },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 12,
+          "nachricht": "Guten Tag, hier ist die Bank. Ihr Termin ist am Donnerstag um halb zwei.",
+          "frage": "Wann ist der Termin?",
+          "optionen": {
+            "a": "um 13:30 Uhr",
+            "b": "um 14:30 Uhr",
+            "c": "um 15:30 Uhr"
+          },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 13,
+          "nachricht": "Ich kann heute nicht kochen. Lass uns bitte Pizza bestellen.",
+          "frage": "Was möchte die Person machen?",
+          "optionen": {
+            "a": "Pizza bestellen",
+            "b": "ins Restaurant gehen",
+            "c": "selbst kochen"
+          },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 14,
+          "nachricht": "Treffen wir uns morgen im Park? Ich bringe den Ball mit.",
+          "frage": "Wohin sollen sich die Personen treffen?",
+          "optionen": {
+            "a": "im Park",
+            "b": "am Bahnhof",
+            "c": "im Kino"
+          },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        },
+        {
+          "nr": 15,
+          "nachricht": "Mein Laptop geht nicht an. Kannst du mir helfen?",
+          "frage": "Was ist kaputt?",
+          "optionen": {
+            "a": "der Laptop",
+            "b": "das Fahrrad",
+            "c": "das Buch"
+          },
+          "loesung": "a",
+          "hoerdurchgaenge": 2
+        }
+      ]
+    }
+  },
+  "lesen": {
+    "teil1": {
+      "texte": [
+        {
+          "titel": "SMS von Paul",
+          "text": "Hallo Maja, ich komme heute sp?ter. Der Zug hat Versp?tung und kommt erst um 19 Uhr an. Warte bitte nicht vor dem Haus, ich rufe dich an.",
+          "aussagen": [
+            {
+              "nr": 1,
+              "aussage": "Der Zug kommt erst um 19 Uhr an.",
+              "loesung": "richtig"
+            },
+            {
+              "nr": 2,
+              "aussage": "Maja soll vor dem Haus warten.",
+              "loesung": "falsch"
+            }
+          ]
+        },
+        {
+          "titel": "Mail von Frau Keller",
+          "text": "Liebe Anna, wir treffen uns am Dienstag nicht im Cafe, sondern im Park. Bitte bring dein Deutschbuch mit. Wir lernen dort zusammen und machen danach einen Spaziergang.",
+          "aussagen": [
+            {
+              "nr": 3,
+              "aussage": "Das Treffen ist im Cafe.",
+              "loesung": "falsch"
+            },
+            {
+              "nr": 4,
+              "aussage": "Anna soll ihr Deutschbuch mitbringen.",
+              "loesung": "richtig"
+            },
+            {
+              "nr": 5,
+              "aussage": "Nach dem Treffen machen die Personen einen Spaziergang.",
+              "loesung": "richtig"
+            }
+          ]
+        }
+      ]
+    },
+    "teil2": {
+      "items": [
+        {
+          "nr": 6,
+          "situation": "Sie suchen ein Zimmer in einer Jugendherberge.",
+          "anzeige_a": "Jugendherberge Stadtzentrum: 20 Betten, Frühstück, WLAN.",
+          "anzeige_b": "Mietwohnung mit Balkon, 3 Zimmer, ab 900 Euro.",
+          "loesung": "a"
+        },
+        {
+          "nr": 7,
+          "situation": "Sie möchten einen Job im Cafe.",
+          "anzeige_a": "Cafe Blum sucht Kellnerin oder Kellner, Teilzeit.",
+          "anzeige_b": "Buchhandlung sucht Aushilfe f?r Lager.",
+          "loesung": "a"
+        },
+        {
+          "nr": 8,
+          "situation": "Sie wollen Deutsch am Morgen lernen.",
+          "anzeige_a": "Deutschkurs A1, Montag bis Freitag, 8 bis 10 Uhr.",
+          "anzeige_b": "Deutschkurs A1, Samstag, 14 bis 16 Uhr.",
+          "loesung": "a"
+        },
+        {
+          "nr": 9,
+          "situation": "Sie brauchen Informationen zu Zugverbindungen.",
+          "anzeige_a": "Reiseb?ro Sonnenschein: Pauschalreisen ans Meer.",
+          "anzeige_b": "Reiseauskunft: Zugzeiten, Preise und Gleise.",
+          "loesung": "b"
+        },
+        {
+          "nr": 10,
+          "situation": "Sie möchten einen Arzttermin buchen.",
+          "anzeige_a": "Praxis Dr. Lang: Terminvereinbarung per Telefon.",
+          "anzeige_b": "B?ckerei Lang: Brote, Kuchen, Kaffee.",
+          "loesung": "a"
+        }
+      ]
+    },
+    "teil3": {
+      "beispiel": {
+        "nr": 0,
+        "schild": "Supermarkt: Heute bis 20 Uhr ge?ffnet.",
+        "aussage": "Der Supermarkt ist heute abends offen.",
+        "loesung": "richtig"
+      },
+      "items": [
+        {
+          "nr": 11,
+          "schild": "Museum: Montag geschlossen.",
+          "aussage": "Am Montag kann man das Museum besuchen.",
+          "loesung": "falsch"
+        },
+        {
+          "nr": 12,
+          "schild": "Post: Briefmarken gibt es am Schalter 2.",
+          "aussage": "Briefmarken bekommt man an Schalter 2.",
+          "loesung": "richtig"
+        },
+        {
+          "nr": 13,
+          "schild": "Kino: Filmstart 17.30 Uhr.",
+          "aussage": "Der Film beginnt um halb sechs.",
+          "loesung": "richtig"
+        },
+        {
+          "nr": 14,
+          "schild": "Praxis: Bitte melden Sie sich an der Rezeption.",
+          "aussage": "Man soll zur Rezeption gehen.",
+          "loesung": "richtig"
+        },
+        {
+          "nr": 15,
+          "schild": "Haltestelle: Linie 3 f?hrt heute nicht.",
+          "aussage": "Die Linie 3 f?hrt heute.",
+          "loesung": "falsch"
+        }
+      ]
+    }
+  },
+  "schreiben": {
+    "teil1": {
+      "ausgangstext": "Das ist Herr Mehmet Yildiz. Er kommt aus der Türkei und arbeitet als Mechaniker. Er ist am 5. Juni 1985 geboren.",
+      "formularfelder": [
+        {
+          "feld": "Nachname",
+          "loesung": "Yildiz"
+        },
+        {
+          "feld": "Vorname",
+          "loesung": "Mehmet"
+        },
+        {
+          "feld": "Herkunftsland",
+          "loesung": "Türkei"
+        },
+        {
+          "feld": "Beruf",
+          "loesung": "Mechaniker"
+        },
+        {
+          "feld": "Geburtsdatum",
+          "loesung": "5.6.1985"
+        }
+      ]
+    },
+    "teil2": {
+      "situation": "Sie möchten mit Ihrer Familie im Sommer nach Berlin reisen. Schreiben Sie eine Nachricht an ein Reiseb?ro.",
+      "inhaltspunkte": [
+        "Warum schreiben Sie?",
+        "Fragen Sie nach einer günstigen Unterkunft.",
+        "Fragen Sie nach der besten Zugverbindung."
+      ],
+      "musterloesung": "Sehr geehrte Damen und Herren, wir möchten im Sommer mit unserer Familie nach Berlin reisen und brauchen noch Hilfe. Können Sie uns eine günstige Unterkunft empfehlen? Bitte schicken Sie uns auch Informationen zur besten Zugverbindung. Vielen Dank. Mit freundlichen Grüßen, Mehmet Yildiz"
+    }
+  },
+  "sprechen": {
+    "teil1": {
+      "beschreibung": "Stellen Sie sich vor: Name, Herkunft, Wohnort, Sprachen und Beruf. Buchstabieren Sie Ihren Namen und nennen Sie eine Nummer.",
+      "fragen": [
+        "Wie heissen Sie?",
+        "Woher kommen Sie?",
+        "Wo wohnen Sie?",
+        "Welche Sprachen sprechen Sie?",
+        "Was ist Ihr Beruf?",
+        "Können Sie Ihren Namen buchstabieren?",
+        "Wie ist Ihre Telefonnummer?"
+      ]
+    },
+    "teil2": {
+      "themen": [
+        {
+          "thema": "Reisen",
+          "karten": [
+            "Zug",
+            "Hotel",
+            "Koffer",
+            "Fahrkarte",
+            "Bahnhof",
+            "Urlaub"
+          ]
+        },
+        {
+          "thema": "Wohnen",
+          "karten": [
+            "Haus",
+            "Miete",
+            "K?che",
+            "Zimmer",
+            "Nachbar",
+            "Wohnung"
+          ]
+        }
+      ]
+    },
+    "teil3": {
+      "bildkarten": [
+        {
+          "beschreibung": "Ein Kind hat Durst.",
+          "beispielbitte": "Kann ich bitte ein Glas Wasser haben?"
+        },
+        {
+          "beschreibung": "Das Telefon klingelt.",
+          "beispielbitte": "Können Sie bitte ans Telefon gehen?"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+# Local state contains the Speech access key in plaintext — never commit it.
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
