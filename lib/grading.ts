@@ -1,4 +1,4 @@
-import type { AttemptAnswers, Exam, ObjectiveStatus } from "./types.ts";
+import type { AttemptAnswers, Exam, ExamSectionId, ObjectiveStatus, SectionFlags } from "./types.ts";
 
 export interface GradeItem {
   expected: string;
@@ -89,5 +89,48 @@ export function gradeExam(exam: Exam, answers: AttemptAnswers): GradeResult {
       schreibenTeil2: normalizeAnswer(answers.schreibenTeil2) ? "answered" : "empty",
       sprechen: answers.sprechenPracticed ? "practiced" : "not-practiced",
     },
+  };
+}
+
+export interface SectionScore {
+  correct: number;
+  wrong: number;
+  unanswered: number;
+  total: number;
+}
+
+/**
+ * Grades the whole attempt, then keeps only the sections the learner has
+ * actually submitted. Filtering the finished result — rather than grading each
+ * section separately — leaves the per-item scoring logic above untouched.
+ */
+export function gradeSections(exam: Exam, answers: AttemptAnswers, flags: SectionFlags): GradeResult {
+  const full = gradeExam(exam, answers);
+  const items: Record<string, GradeItem> = {};
+
+  for (const [key, item] of Object.entries(full.items)) {
+    const section = key.split(".")[0] as ExamSectionId;
+    if (flags[section]) items[key] = item;
+  }
+
+  const values = Object.values(items);
+  return {
+    items,
+    objectiveCorrect: values.filter((item) => item.status === "correct").length,
+    objectiveTotal: values.length,
+    review: full.review,
+  };
+}
+
+export function sectionScore(grade: GradeResult, section: ExamSectionId): SectionScore {
+  const items = Object.entries(grade.items)
+    .filter(([key]) => key.startsWith(`${section}.`))
+    .map(([, item]) => item);
+
+  return {
+    correct: items.filter((item) => item.status === "correct").length,
+    wrong: items.filter((item) => item.status === "wrong").length,
+    unanswered: items.filter((item) => item.status === "unanswered").length,
+    total: items.length,
   };
 }
