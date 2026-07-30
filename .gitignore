@@ -2,3 +2,6 @@ node_modules/
 .next/
 .npm-cache/
 .env*.local
+
+# TypeScript build cache — rewritten on every tsc run
+*.tsbuildinfo
