@@ -1,6 +1,9 @@
 export type ExamSectionId = "hoeren" | "lesen" | "schreiben" | "sprechen";
 export type ObjectiveStatus = "unanswered" | "correct" | "wrong";
 
+/** One boolean per exam section, e.g. which sections have been graded. */
+export type SectionFlags = Record<ExamSectionId, boolean>;
+
 export interface Optionen {
   a: string;
   b: string;
