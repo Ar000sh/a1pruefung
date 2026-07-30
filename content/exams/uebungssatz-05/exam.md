@@ -23,8 +23,8 @@ b) um 9 Uhr
 c) um 10 Uhr
 
 **Item 2 (2x hören)**
-- Kundin: Haben Sie auch Tickets f?r morgen?
-- Verk?ufer: Ja, morgen kostet das Ticket nur f?nf Euro.
+- Kundin: Haben Sie auch Tickets für morgen?
+- Verkäufer: Ja, morgen kostet das Ticket nur fünf Euro.
 
 Frage: Wie viel kostet das Ticket morgen?
 a) 5 Euro
@@ -66,9 +66,9 @@ c) in die Stadt
 ### Teil 2
 
 **Item 0 (1x hören)**
-Durchsage: Liebe Fahrg?ste, der Zug nach Bremen f?hrt heute von Gleis 5 ab.
+Durchsage: Liebe Fahrgäste, der Zug nach Bremen fährt heute von Gleis 5 ab.
 
-Aussage: Der Zug nach Bremen f?hrt von Gleis 5.
+Aussage: Der Zug nach Bremen fährt von Gleis 5.
 
 **Item 7 (1x hören)**
 Durchsage: Die Apotheke schliesst heute schon um 17 Uhr.
@@ -76,19 +76,19 @@ Durchsage: Die Apotheke schliesst heute schon um 17 Uhr.
 Aussage: Die Apotheke ist bis 17 Uhr offen.
 
 **Item 8 (1x hören)**
-Durchsage: Der Bus nach Zentrum f?llt wegen einer Baustelle aus.
+Durchsage: Der Bus nach Zentrum fällt wegen einer Baustelle aus.
 
-Aussage: Der Bus f?hrt heute nicht.
+Aussage: Der Bus fährt heute nicht.
 
 **Item 9 (1x hören)**
-Durchsage: Im Schwimmbad gibt es heute Abend freien Eintritt f?r Kinder.
+Durchsage: Im Schwimmbad gibt es heute Abend freien Eintritt für Kinder.
 
-Aussage: Kinder m?ssen heute Abend Eintritt bezahlen.
+Aussage: Kinder müssen heute Abend Eintritt bezahlen.
 
 **Item 10 (1x hören)**
-Durchsage: Am Bahnhof wurde eine bla? Tasche gefunden. Bitte kommen Sie zum Fundb?ro.
+Durchsage: Am Bahnhof wurde eine blaue Tasche gefunden. Bitte kommen Sie zum Fundbüro.
 
-Aussage: Eine bla? Tasche wurde gefunden.
+Aussage: Eine blaue Tasche wurde gefunden.
 
 ### Teil 3
 
@@ -138,7 +138,7 @@ c) das Buch
 
 **SMS von Paul**
 
-Hallo Maja, ich komme heute sp?ter. Der Zug hat Versp?tung und kommt erst um 19 Uhr an. Warte bitte nicht vor dem Haus, ich rufe dich an.
+Hallo Maja, ich komme heute später. Der Zug hat Verspätung und kommt erst um 19 Uhr an. Warte bitte nicht vor dem Haus, ich rufe dich an.
 
 1. Der Zug kommt erst um 19 Uhr an.
 2. Maja soll vor dem Haus warten.
@@ -161,7 +161,7 @@ b) Mietwohnung mit Balkon, 3 Zimmer, ab 900 Euro.
 **Item 7**: Sie möchten einen Job im Cafe.
 
 a) Cafe Blum sucht Kellnerin oder Kellner, Teilzeit.
-b) Buchhandlung sucht Aushilfe f?r Lager.
+b) Buchhandlung sucht Aushilfe für Lager.
 
 **Item 8**: Sie wollen Deutsch am Morgen lernen.
 
@@ -170,17 +170,17 @@ b) Deutschkurs A1, Samstag, 14 bis 16 Uhr.
 
 **Item 9**: Sie brauchen Informationen zu Zugverbindungen.
 
-a) Reiseb?ro Sonnenschein: Pauschalreisen ans Meer.
+a) Reisebüro Sonnenschein: Pauschalreisen ans Meer.
 b) Reiseauskunft: Zugzeiten, Preise und Gleise.
 
 **Item 10**: Sie möchten einen Arzttermin buchen.
 
 a) Praxis Dr. Lang: Terminvereinbarung per Telefon.
-b) B?ckerei Lang: Brote, Kuchen, Kaffee.
+b) Bäckerei Lang: Brote, Kuchen, Kaffee.
 
 ### Teil 3
 
-**Beispiel 0**: Supermarkt: Heute bis 20 Uhr ge?ffnet.
+**Beispiel 0**: Supermarkt: Heute bis 20 Uhr geöffnet.
 
 Aussage: Der Supermarkt ist heute abends offen.
 
@@ -200,9 +200,9 @@ Aussage: Der Film beginnt um halb sechs.
 
 Aussage: Man soll zur Rezeption gehen.
 
-**Item 15**: Haltestelle: Linie 3 f?hrt heute nicht.
+**Item 15**: Haltestelle: Linie 3 fährt heute nicht.
 
-Aussage: Die Linie 3 f?hrt heute.
+Aussage: Die Linie 3 fährt heute.
 
 ## Schreiben
 
@@ -218,7 +218,7 @@ Das ist Herr Mehmet Yildiz. Er kommt aus der Türkei und arbeitet als Mechaniker
 
 ### Teil 2
 
-Sie möchten mit Ihrer Familie im Sommer nach Berlin reisen. Schreiben Sie eine Nachricht an ein Reiseb?ro.
+Sie möchten mit Ihrer Familie im Sommer nach Berlin reisen. Schreiben Sie eine Nachricht an ein Reisebüro.
 
 - Warum schreiben Sie?
 - Fragen Sie nach einer günstigen Unterkunft.
@@ -242,7 +242,7 @@ Stellen Sie sich vor: Name, Herkunft, Wohnort, Sprachen und Beruf. Buchstabieren
 
 **Reisen**: Zug, Hotel, Koffer, Fahrkarte, Bahnhof, Urlaub
 
-**Wohnen**: Haus, Miete, K?che, Zimmer, Nachbar, Wohnung
+**Wohnen**: Haus, Miete, Küche, Zimmer, Nachbar, Wohnung
 
 ### Teil 3
 

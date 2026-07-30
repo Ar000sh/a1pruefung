@@ -10,7 +10,7 @@
             "text": "Entschuldigung, was kostet das grosse Brot?"
           },
           {
-            "sprecher": "Verk?ufer",
+            "sprecher": "Verkäufer",
             "text": "Das grosse Brot kostet drei Euro."
           },
           {
@@ -33,14 +33,14 @@
           "dialog": [
             {
               "sprecher": "A",
-              "text": "F?hrt der Bus um halb acht?"
+              "text": "Fährt der Bus um halb acht?"
             },
             {
               "sprecher": "B",
               "text": "Nein, erst um acht Uhr zehn."
             }
           ],
-          "frage": "Wann f?hrt der Bus?",
+          "frage": "Wann fährt der Bus?",
           "optionen": {
             "a": "um 7:30 Uhr",
             "b": "um 8:10 Uhr",
@@ -71,12 +71,12 @@
           "dialog": [
             {
               "sprecher": "Vermieterin",
-              "text": "Die Schl?ssel k?nnen Sie heute bei Frau Berg im B?ro abholen."
+              "text": "Die Schlüssel können Sie heute bei Frau Berg im Büro abholen."
             }
           ],
-          "frage": "Wo soll die Person die Schl?ssel abholen?",
+          "frage": "Wo soll die Person die Schlüssel abholen?",
           "optionen": {
-            "a": "im B?ro",
+            "a": "im Büro",
             "b": "am Bahnhof",
             "c": "im Supermarkt"
           },
@@ -87,7 +87,7 @@
           "nr": 4,
           "dialog": [
             {
-              "sprecher": "Verk?ufer",
+              "sprecher": "Verkäufer",
               "text": "Die Tomaten kosten heute nur ein Euro sechzig pro Kilo."
             }
           ],
@@ -105,7 +105,7 @@
           "dialog": [
             {
               "sprecher": "Trainerin",
-              "text": "Der Schwimmkurs f?r Kinder ist am Freitag von vier bis f?nf Uhr."
+              "text": "Der Schwimmkurs für Kinder ist am Freitag von vier bis fünf Uhr."
             }
           ],
           "frage": "Wann ist der Schwimmkurs?",
@@ -125,7 +125,7 @@
               "text": "Ich fahre mit meiner Familie nächste Woche nach Köln."
             }
           ],
-          "frage": "Wohin f?hrt der Mann?",
+          "frage": "Wohin fährt der Mann?",
           "optionen": {
             "a": "nach Köln",
             "b": "nach Berlin",
@@ -139,23 +139,23 @@
     "teil2": {
       "beispiel": {
         "nr": 0,
-        "durchsage": "Achtung, liebe Fahrg?ste. Der Zug nach Frankfurt f?hrt heute mit f?nfzehn Minuten Versp?tung.",
-        "aussage": "Der Zug hat Versp?tung.",
+        "durchsage": "Achtung, liebe Fahrgäste. Der Zug nach Frankfurt fährt heute mit fünfzehn Minuten Verspätung.",
+        "aussage": "Der Zug hat Verspätung.",
         "loesung": "richtig",
         "hoerdurchgaenge": 1
       },
       "items": [
         {
           "nr": 7,
-          "durchsage": "Die Post ist am Freitag nur bis 12 Uhr ge?ffnet. Am Nachmittag bleibt sie geschlossen.",
+          "durchsage": "Die Post ist am Freitag nur bis 12 Uhr geöffnet. Am Nachmittag bleibt sie geschlossen.",
           "aussage": "Am Freitag kann man am Nachmittag zur Post gehen.",
           "loesung": "falsch",
           "hoerdurchgaenge": 1
         },
         {
           "nr": 8,
-          "durchsage": "Liebe Kundinnen und Kunden, unser B?ro ist heute ab 15 Uhr wieder ge?ffnet.",
-          "aussage": "Das B?ro ist um 15 Uhr offen.",
+          "durchsage": "Liebe Kundinnen und Kunden, unser Büro ist heute ab 15 Uhr wieder geöffnet.",
+          "aussage": "Das Büro ist um 15 Uhr offen.",
           "loesung": "richtig",
           "hoerdurchgaenge": 1
         },
@@ -168,8 +168,8 @@
         },
         {
           "nr": 10,
-          "durchsage": "Der Bus nach Mainz f?llt heute leider aus. Bitte nehmen Sie die Linie 4.",
-          "aussage": "Der Bus nach Mainz f?hrt heute nicht.",
+          "durchsage": "Der Bus nach Mainz fällt heute leider aus. Bitte nehmen Sie die Linie 4.",
+          "aussage": "Der Bus nach Mainz fährt heute nicht.",
           "loesung": "richtig",
           "hoerdurchgaenge": 1
         }
@@ -179,12 +179,12 @@
       "items": [
         {
           "nr": 11,
-          "nachricht": "Hallo Lea, hier ist Nina. Ich bin schon im Cafe. Ruf mich bitte sp?ter an, wenn du Zeit hast.",
+          "nachricht": "Hallo Lea, hier ist Nina. Ich bin schon im Cafe. Ruf mich bitte später an, wenn du Zeit hast.",
           "frage": "Was soll Lea machen?",
           "optionen": {
             "a": "spater anrufen",
             "b": "sofort kommen",
-            "c": "ins B?ro gehen"
+            "c": "ins Büro gehen"
           },
           "loesung": "a",
           "hoerdurchgaenge": 2
@@ -215,7 +215,7 @@
         },
         {
           "nr": 14,
-          "nachricht": "Wir treffen uns am Samstag um acht Uhr am Bahnhof. Bitte sei p?nktlich.",
+          "nachricht": "Wir treffen uns am Samstag um acht Uhr am Bahnhof. Bitte sei pünktlich.",
           "frage": "Wo ist das Treffen?",
           "optionen": {
             "a": "am Bahnhof",
@@ -308,7 +308,7 @@
         {
           "nr": 9,
           "situation": "Sie möchten mit dem Zug nach Berlin fahren.",
-          "anzeige_a": "Bahn online: Tickets f?r Fl?ge und Busse.",
+          "anzeige_a": "Bahn online: Tickets für Flüge und Busse.",
           "anzeige_b": "Bahn online: Zugtickets nach Berlin, Hamburg und München.",
           "loesung": "b"
         },
@@ -338,7 +338,7 @@
         {
           "nr": 12,
           "schild": "Schwimmbad: Kinder bis 6 Jahre zahlen keinen Eintritt.",
-          "aussage": "Kinder unter sieben Jahren m?ssen nichts bezahlen.",
+          "aussage": "Kinder unter sieben Jahren müssen nichts bezahlen.",
           "loesung": "richtig"
         },
         {
@@ -416,7 +416,7 @@
         {
           "thema": "Arbeit",
           "karten": [
-            "B?ro",
+            "Büro",
             "Kollegen",
             "Chef",
             "Pausen",

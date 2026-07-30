@@ -50,11 +50,11 @@
           "dialog": [
             {
               "sprecher": "Kundin",
-              "text": "Haben Sie auch Tickets f?r morgen?"
+              "text": "Haben Sie auch Tickets für morgen?"
             },
             {
-              "sprecher": "Verk?ufer",
-              "text": "Ja, morgen kostet das Ticket nur f?nf Euro."
+              "sprecher": "Verkäufer",
+              "text": "Ja, morgen kostet das Ticket nur fünf Euro."
             }
           ],
           "frage": "Wie viel kostet das Ticket morgen?",
@@ -139,8 +139,8 @@
     "teil2": {
       "beispiel": {
         "nr": 0,
-        "durchsage": "Liebe Fahrg?ste, der Zug nach Bremen f?hrt heute von Gleis 5 ab.",
-        "aussage": "Der Zug nach Bremen f?hrt von Gleis 5.",
+        "durchsage": "Liebe Fahrgäste, der Zug nach Bremen fährt heute von Gleis 5 ab.",
+        "aussage": "Der Zug nach Bremen fährt von Gleis 5.",
         "loesung": "richtig",
         "hoerdurchgaenge": 1
       },
@@ -154,22 +154,22 @@
         },
         {
           "nr": 8,
-          "durchsage": "Der Bus nach Zentrum f?llt wegen einer Baustelle aus.",
-          "aussage": "Der Bus f?hrt heute nicht.",
+          "durchsage": "Der Bus nach Zentrum fällt wegen einer Baustelle aus.",
+          "aussage": "Der Bus fährt heute nicht.",
           "loesung": "richtig",
           "hoerdurchgaenge": 1
         },
         {
           "nr": 9,
-          "durchsage": "Im Schwimmbad gibt es heute Abend freien Eintritt f?r Kinder.",
-          "aussage": "Kinder m?ssen heute Abend Eintritt bezahlen.",
+          "durchsage": "Im Schwimmbad gibt es heute Abend freien Eintritt für Kinder.",
+          "aussage": "Kinder müssen heute Abend Eintritt bezahlen.",
           "loesung": "falsch",
           "hoerdurchgaenge": 1
         },
         {
           "nr": 10,
-          "durchsage": "Am Bahnhof wurde eine bla? Tasche gefunden. Bitte kommen Sie zum Fundb?ro.",
-          "aussage": "Eine bla? Tasche wurde gefunden.",
+          "durchsage": "Am Bahnhof wurde eine blaue Tasche gefunden. Bitte kommen Sie zum Fundbüro.",
+          "aussage": "Eine blaue Tasche wurde gefunden.",
           "loesung": "richtig",
           "hoerdurchgaenge": 1
         }
@@ -245,7 +245,7 @@
       "texte": [
         {
           "titel": "SMS von Paul",
-          "text": "Hallo Maja, ich komme heute sp?ter. Der Zug hat Versp?tung und kommt erst um 19 Uhr an. Warte bitte nicht vor dem Haus, ich rufe dich an.",
+          "text": "Hallo Maja, ich komme heute später. Der Zug hat Verspätung und kommt erst um 19 Uhr an. Warte bitte nicht vor dem Haus, ich rufe dich an.",
           "aussagen": [
             {
               "nr": 1,
@@ -295,7 +295,7 @@
           "nr": 7,
           "situation": "Sie möchten einen Job im Cafe.",
           "anzeige_a": "Cafe Blum sucht Kellnerin oder Kellner, Teilzeit.",
-          "anzeige_b": "Buchhandlung sucht Aushilfe f?r Lager.",
+          "anzeige_b": "Buchhandlung sucht Aushilfe für Lager.",
           "loesung": "a"
         },
         {
@@ -308,7 +308,7 @@
         {
           "nr": 9,
           "situation": "Sie brauchen Informationen zu Zugverbindungen.",
-          "anzeige_a": "Reiseb?ro Sonnenschein: Pauschalreisen ans Meer.",
+          "anzeige_a": "Reisebüro Sonnenschein: Pauschalreisen ans Meer.",
           "anzeige_b": "Reiseauskunft: Zugzeiten, Preise und Gleise.",
           "loesung": "b"
         },
@@ -316,7 +316,7 @@
           "nr": 10,
           "situation": "Sie möchten einen Arzttermin buchen.",
           "anzeige_a": "Praxis Dr. Lang: Terminvereinbarung per Telefon.",
-          "anzeige_b": "B?ckerei Lang: Brote, Kuchen, Kaffee.",
+          "anzeige_b": "Bäckerei Lang: Brote, Kuchen, Kaffee.",
           "loesung": "a"
         }
       ]
@@ -324,7 +324,7 @@
     "teil3": {
       "beispiel": {
         "nr": 0,
-        "schild": "Supermarkt: Heute bis 20 Uhr ge?ffnet.",
+        "schild": "Supermarkt: Heute bis 20 Uhr geöffnet.",
         "aussage": "Der Supermarkt ist heute abends offen.",
         "loesung": "richtig"
       },
@@ -355,8 +355,8 @@
         },
         {
           "nr": 15,
-          "schild": "Haltestelle: Linie 3 f?hrt heute nicht.",
-          "aussage": "Die Linie 3 f?hrt heute.",
+          "schild": "Haltestelle: Linie 3 fährt heute nicht.",
+          "aussage": "Die Linie 3 fährt heute.",
           "loesung": "falsch"
         }
       ]
@@ -389,7 +389,7 @@
       ]
     },
     "teil2": {
-      "situation": "Sie möchten mit Ihrer Familie im Sommer nach Berlin reisen. Schreiben Sie eine Nachricht an ein Reiseb?ro.",
+      "situation": "Sie möchten mit Ihrer Familie im Sommer nach Berlin reisen. Schreiben Sie eine Nachricht an ein Reisebüro.",
       "inhaltspunkte": [
         "Warum schreiben Sie?",
         "Fragen Sie nach einer günstigen Unterkunft.",
@@ -429,7 +429,7 @@
           "karten": [
             "Haus",
             "Miete",
-            "K?che",
+            "Küche",
             "Zimmer",
             "Nachbar",
             "Wohnung"

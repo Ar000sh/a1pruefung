@@ -6,7 +6,7 @@
 
 **Item 0 (2x hören)**
 - Kundin: Entschuldigung, was kostet das grosse Brot?
-- Verk?ufer: Das grosse Brot kostet drei Euro.
+- Verkäufer: Das grosse Brot kostet drei Euro.
 - Kundin: Danke, dann nehme ich eins.
 
 Frage: Wie viel kostet das grosse Brot?
@@ -15,10 +15,10 @@ b) 2 Euro
 c) 3 Euro
 
 **Item 1 (2x hören)**
-- A: F?hrt der Bus um halb acht?
+- A: Fährt der Bus um halb acht?
 - B: Nein, erst um acht Uhr zehn.
 
-Frage: Wann f?hrt der Bus?
+Frage: Wann fährt der Bus?
 a) um 7:30 Uhr
 b) um 8:10 Uhr
 c) um 8:30 Uhr
@@ -32,15 +32,15 @@ b) am Mittwoch
 c) am Donnerstag
 
 **Item 3 (2x hören)**
-- Vermieterin: Die Schl?ssel k?nnen Sie heute bei Frau Berg im B?ro abholen.
+- Vermieterin: Die Schlüssel können Sie heute bei Frau Berg im Büro abholen.
 
-Frage: Wo soll die Person die Schl?ssel abholen?
-a) im B?ro
+Frage: Wo soll die Person die Schlüssel abholen?
+a) im Büro
 b) am Bahnhof
 c) im Supermarkt
 
 **Item 4 (2x hören)**
-- Verk?ufer: Die Tomaten kosten heute nur ein Euro sechzig pro Kilo.
+- Verkäufer: Die Tomaten kosten heute nur ein Euro sechzig pro Kilo.
 
 Frage: Wie viel kosten die Tomaten pro Kilo?
 a) 1,60 Euro
@@ -48,7 +48,7 @@ b) 2,60 Euro
 c) 3,60 Euro
 
 **Item 5 (2x hören)**
-- Trainerin: Der Schwimmkurs f?r Kinder ist am Freitag von vier bis f?nf Uhr.
+- Trainerin: Der Schwimmkurs für Kinder ist am Freitag von vier bis fünf Uhr.
 
 Frage: Wann ist der Schwimmkurs?
 a) am Donnerstag
@@ -58,7 +58,7 @@ c) am Samstag
 **Item 6 (2x hören)**
 - Kollege: Ich fahre mit meiner Familie nächste Woche nach Köln.
 
-Frage: Wohin f?hrt der Mann?
+Frage: Wohin fährt der Mann?
 a) nach Köln
 b) nach Berlin
 c) nach Wien
@@ -66,19 +66,19 @@ c) nach Wien
 ### Teil 2
 
 **Item 0 (1x hören)**
-Durchsage: Achtung, liebe Fahrg?ste. Der Zug nach Frankfurt f?hrt heute mit f?nfzehn Minuten Versp?tung.
+Durchsage: Achtung, liebe Fahrgäste. Der Zug nach Frankfurt fährt heute mit fünfzehn Minuten Verspätung.
 
-Aussage: Der Zug hat Versp?tung.
+Aussage: Der Zug hat Verspätung.
 
 **Item 7 (1x hören)**
-Durchsage: Die Post ist am Freitag nur bis 12 Uhr ge?ffnet. Am Nachmittag bleibt sie geschlossen.
+Durchsage: Die Post ist am Freitag nur bis 12 Uhr geöffnet. Am Nachmittag bleibt sie geschlossen.
 
 Aussage: Am Freitag kann man am Nachmittag zur Post gehen.
 
 **Item 8 (1x hören)**
-Durchsage: Liebe Kundinnen und Kunden, unser B?ro ist heute ab 15 Uhr wieder ge?ffnet.
+Durchsage: Liebe Kundinnen und Kunden, unser Büro ist heute ab 15 Uhr wieder geöffnet.
 
-Aussage: Das B?ro ist um 15 Uhr offen.
+Aussage: Das Büro ist um 15 Uhr offen.
 
 **Item 9 (1x hören)**
 Durchsage: Am Informationsschalter wurde ein roter Regenschirm gefunden. Bitte melden Sie sich dort.
@@ -86,19 +86,19 @@ Durchsage: Am Informationsschalter wurde ein roter Regenschirm gefunden. Bitte m
 Aussage: Ein Regenschirm wurde gefunden.
 
 **Item 10 (1x hören)**
-Durchsage: Der Bus nach Mainz f?llt heute leider aus. Bitte nehmen Sie die Linie 4.
+Durchsage: Der Bus nach Mainz fällt heute leider aus. Bitte nehmen Sie die Linie 4.
 
-Aussage: Der Bus nach Mainz f?hrt heute nicht.
+Aussage: Der Bus nach Mainz fährt heute nicht.
 
 ### Teil 3
 
 **Item 11 (2x hören)**
-Nachricht: Hallo Lea, hier ist Nina. Ich bin schon im Cafe. Ruf mich bitte sp?ter an, wenn du Zeit hast.
+Nachricht: Hallo Lea, hier ist Nina. Ich bin schon im Cafe. Ruf mich bitte später an, wenn du Zeit hast.
 
 Frage: Was soll Lea machen?
 a) spater anrufen
 b) sofort kommen
-c) ins B?ro gehen
+c) ins Büro gehen
 
 **Item 12 (2x hören)**
 Nachricht: Guten Tag, hier ist die Praxis Doktor Weber. Ihr Termin ist morgen um elf Uhr, nicht um zehn.
@@ -117,7 +117,7 @@ b) Sie arbeitet.
 c) Sie ist im Urlaub.
 
 **Item 14 (2x hören)**
-Nachricht: Wir treffen uns am Samstag um acht Uhr am Bahnhof. Bitte sei p?nktlich.
+Nachricht: Wir treffen uns am Samstag um acht Uhr am Bahnhof. Bitte sei pünktlich.
 
 Frage: Wo ist das Treffen?
 a) am Bahnhof
@@ -170,7 +170,7 @@ b) Cafe Luna: Kaffee, Kuchen, Tee, Saft.
 
 **Item 9**: Sie möchten mit dem Zug nach Berlin fahren.
 
-a) Bahn online: Tickets f?r Fl?ge und Busse.
+a) Bahn online: Tickets für Flüge und Busse.
 b) Bahn online: Zugtickets nach Berlin, Hamburg und München.
 
 **Item 10**: Sie suchen Informationen zu Freizeitangeboten in der Stadt.
@@ -190,7 +190,7 @@ Aussage: Am Mittwoch kann man in die Bibliothek gehen.
 
 **Item 12**: Schwimmbad: Kinder bis 6 Jahre zahlen keinen Eintritt.
 
-Aussage: Kinder unter sieben Jahren m?ssen nichts bezahlen.
+Aussage: Kinder unter sieben Jahren müssen nichts bezahlen.
 
 **Item 13**: Restaurant Sonne: Mittagstisch von 12 bis 14 Uhr.
 
@@ -240,7 +240,7 @@ Stellen Sie sich vor: Name, Herkunft, Wohnort, Sprachen und Hobby. Buchstabieren
 
 ### Teil 2
 
-**Arbeit**: B?ro, Kollegen, Chef, Pausen, Telefon, Computer
+**Arbeit**: Büro, Kollegen, Chef, Pausen, Telefon, Computer
 
 **Familie**: Kinder, Eltern, Besuch, Essen, Geburtstag, Wochenende
 
