@@ -2,8 +2,8 @@
 
 import type { JSX } from "react";
 import { useMemo, useState } from "react";
-import { examPages, isAttemptComplete, requiredObjectiveKeys } from "../../lib/exam-flow";
-import { gradeExam, objectiveKey, type GradeResult } from "../../lib/grading";
+import { examPages, isSectionComplete, requiredObjectiveKeys, sectionObjectiveKeys } from "../../lib/exam-flow";
+import { gradeSections, objectiveKey, sectionScore, type GradeResult } from "../../lib/grading";
 import type {
   AttemptAnswers,
   DialogLine,
@@ -13,13 +13,14 @@ import type {
   LesenTeil3Item,
   ObjectiveStatus,
   Optionen,
+  SectionFlags,
 } from "../../lib/types";
+import { SectionActions } from "./SectionActions";
 import { TranscriptPlayer } from "./TranscriptPlayer";
 import { Antwortbogen } from "../ui/antwortbogen";
 import { RevealScript } from "../ui/reveal";
 import {
   answerHint,
-  btnPrimary,
   btnSecondary,
   choiceItem,
   fieldRow,
@@ -59,13 +60,20 @@ function navCountClass(active: boolean, complete: boolean): string {
   return `${base} bg-[color-mix(in_srgb,var(--color-ink)_8%,transparent)] text-muted`;
 }
 
+const noFlags: SectionFlags = { hoeren: false, lesen: false, schreiben: false, sprechen: false };
+
 export function ExamApp({ exam }: { exam: Exam }) {
   const [answers, setAnswers] = useState<AttemptAnswers>(emptyAnswers);
-  const [resolved, setResolved] = useState(false);
-  const [showAnswers, setShowAnswers] = useState(false);
+  const [sectionState, setSectionState] = useState<{ resolved: SectionFlags; revealed: SectionFlags }>({
+    resolved: noFlags,
+    revealed: noFlags,
+  });
   const [activeSection, setActiveSection] = useState<ExamSectionId>("hoeren");
 
-  const grade = useMemo(() => (resolved ? gradeExam(exam, answers) : null), [exam, answers, resolved]);
+  const grade = useMemo(
+    () => gradeSections(exam, answers, sectionState.resolved),
+    [exam, answers, sectionState.resolved],
+  );
 
   const sectionKeys = useMemo(() => {
     const groups: Record<string, string[]> = {};
@@ -78,21 +86,72 @@ export function ExamApp({ exam }: { exam: Exam }) {
 
   const totalObjective = requiredObjectiveKeys(exam).length;
   const answeredCount = requiredObjectiveKeys(exam).filter((key) => answers.objective[key]?.trim()).length;
-  const attemptComplete = isAttemptComplete(exam, answers);
+  const allResolved = examPages.every((page) => sectionState.resolved[page.id]);
 
   function setObjective(key: string, value: string) {
     setAnswers((current) => ({ ...current, objective: { ...current.objective, [key]: value } }));
   }
 
-  function resolve() {
-    setResolved(true);
-    setShowAnswers(false);
+  function resolveSection(section: ExamSectionId) {
+    setSectionState((current) => ({
+      // Sprechen has nothing to score, so revealing its examples *is* finishing it.
+      resolved: { ...current.resolved, [section]: true },
+      revealed: section === "sprechen" ? { ...current.revealed, sprechen: true } : current.revealed,
+    }));
+  }
+
+  function revealSection(section: ExamSectionId) {
+    if (section === "sprechen") {
+      resolveSection("sprechen");
+      return;
+    }
+    setSectionState((current) => ({
+      ...current,
+      revealed: { ...current.revealed, [section]: true },
+    }));
+  }
+
+  function resetSection(section: ExamSectionId) {
+    setAnswers((current) => {
+      const objective = { ...current.objective };
+      for (const key of sectionObjectiveKeys(exam, section)) delete objective[key];
+      return {
+        objective,
+        schreibenTeil2: section === "schreiben" ? "" : current.schreibenTeil2,
+        sprechenNotes: section === "sprechen" ? "" : current.sprechenNotes,
+        sprechenPracticed: section === "sprechen" ? false : current.sprechenPracticed,
+      };
+    });
+    setSectionState((current) => ({
+      resolved: { ...current.resolved, [section]: false },
+      revealed: { ...current.revealed, [section]: false },
+    }));
   }
 
   function redo() {
     setAnswers(cloneEmptyAnswers());
-    setResolved(false);
-    setShowAnswers(false);
+    setSectionState({ resolved: noFlags, revealed: noFlags });
+  }
+
+  function actionsFor(section: ExamSectionId, label: string) {
+    const keys = sectionObjectiveKeys(exam, section);
+    const answered = keys.filter((key) => answers.objective[key]?.trim()).length;
+    const resolved = sectionState.resolved[section];
+
+    return (
+      <SectionActions
+        section={section}
+        label={label}
+        complete={isSectionComplete(exam, answers, section)}
+        resolved={resolved}
+        revealed={sectionState.revealed[section]}
+        remaining={keys.length - answered}
+        score={resolved ? sectionScore(grade, section) : null}
+        onResolve={() => resolveSection(section)}
+        onReveal={() => revealSection(section)}
+        onReset={() => resetSection(section)}
+      />
+    );
   }
 
   function selectSection(sectionId: ExamSectionId) {
@@ -104,7 +163,7 @@ export function ExamApp({ exam }: { exam: Exam }) {
   }
 
   return (
-    <main className="mx-auto w-[min(1120px,calc(100%-32px))] pt-8 pb-[140px]">
+    <main className="mx-auto w-[min(1120px,calc(100%-32px))] pt-8 pb-20">
       <RevealScript />
       <header className="grid gap-7 pb-7 pt-5 md:grid-cols-[1fr_auto] md:items-center">
         <div data-reveal>
@@ -117,7 +176,13 @@ export function ExamApp({ exam }: { exam: Exam }) {
           className="grid min-w-[240px] gap-3 rounded-md border border-line bg-surface p-[18px] shadow-card max-md:min-w-0"
           aria-live="polite"
         >
-          <Antwortbogen total={totalObjective} answered={answeredCount} correct={grade ? grade.objectiveCorrect : null} />
+          {/* Held back until every section is in: a hit count from one section
+              beside the question total of all four would read as a bad score. */}
+          <Antwortbogen
+            total={totalObjective}
+            answered={answeredCount}
+            correct={allResolved ? grade.objectiveCorrect : null}
+          />
         </aside>
       </header>
 
@@ -148,16 +213,17 @@ export function ExamApp({ exam }: { exam: Exam }) {
           <h2 className={sectionHeading}>Hören</h2>
           <h3 className={teilLabel}>Teil 1</h3>
           {exam.hoeren.teil1.items.map((item) => (
-            <HoerItemCard key={item.nr} item={item} part="teil1" answers={answers} setObjective={setObjective} grade={grade} showAnswers={showAnswers} />
+            <HoerItemCard key={item.nr} item={item} part="teil1" answers={answers} setObjective={setObjective} grade={grade} showAnswers={sectionState.revealed.hoeren} locked={sectionState.resolved.hoeren} />
           ))}
           <h3 className={teilLabel}>Teil 2</h3>
           {exam.hoeren.teil2.items.map((item) => (
-            <HoerItemCard key={item.nr} item={item} part="teil2" answers={answers} setObjective={setObjective} grade={grade} showAnswers={showAnswers} />
+            <HoerItemCard key={item.nr} item={item} part="teil2" answers={answers} setObjective={setObjective} grade={grade} showAnswers={sectionState.revealed.hoeren} locked={sectionState.resolved.hoeren} />
           ))}
           <h3 className={teilLabel}>Teil 3</h3>
           {exam.hoeren.teil3.items.map((item) => (
-            <HoerItemCard key={item.nr} item={item} part="teil3" answers={answers} setObjective={setObjective} grade={grade} showAnswers={showAnswers} />
+            <HoerItemCard key={item.nr} item={item} part="teil3" answers={answers} setObjective={setObjective} grade={grade} showAnswers={sectionState.revealed.hoeren} locked={sectionState.resolved.hoeren} />
           ))}
+          {actionsFor("hoeren", "Hören")}
         </section>
       ) : null}
 
@@ -176,8 +242,8 @@ export function ExamApp({ exam }: { exam: Exam }) {
                     <p className={questionTitle}>
                       {aussage.nr}. {aussage.aussage}
                     </p>
-                    <ChoiceGroup name={key} options={binaryOptions()} selected={answers.objective[key]} onChange={(value) => setObjective(key, value)} disabled={resolved} />
-                    <AnswerHint grade={grade} itemKey={key} showAnswers={showAnswers} />
+                    <ChoiceGroup name={key} options={binaryOptions()} selected={answers.objective[key]} onChange={(value) => setObjective(key, value)} disabled={sectionState.resolved.lesen} />
+                    <AnswerHint grade={grade} itemKey={key} showAnswers={sectionState.revealed.lesen} />
                   </div>
                 );
               })}
@@ -198,16 +264,17 @@ export function ExamApp({ exam }: { exam: Exam }) {
                 <p>
                   <strong>B:</strong> {item.anzeige_b}
                 </p>
-                <ChoiceGroup name={key} options={choiceOptions(["a", "b"])} selected={answers.objective[key]} onChange={(value) => setObjective(key, value)} disabled={resolved} />
-                <AnswerHint grade={grade} itemKey={key} showAnswers={showAnswers} />
+                <ChoiceGroup name={key} options={choiceOptions(["a", "b"])} selected={answers.objective[key]} onChange={(value) => setObjective(key, value)} disabled={sectionState.resolved.lesen} />
+                <AnswerHint grade={grade} itemKey={key} showAnswers={sectionState.revealed.lesen} />
               </article>
             );
           })}
 
           <h3 className={teilLabel}>Teil 3</h3>
           {exam.lesen.teil3.items.map((item) => (
-            <LesenTeil3Card key={item.nr} item={item} part="teil3" answers={answers} setObjective={setObjective} grade={grade} showAnswers={showAnswers} />
+            <LesenTeil3Card key={item.nr} item={item} part="teil3" answers={answers} setObjective={setObjective} grade={grade} showAnswers={sectionState.revealed.lesen} locked={sectionState.resolved.lesen} />
           ))}
+          {actionsFor("lesen", "Lesen")}
         </section>
       ) : null}
 
@@ -222,8 +289,8 @@ export function ExamApp({ exam }: { exam: Exam }) {
               return (
                 <label className={fieldRow(statusClass(grade, key))} key={key}>
                   <span className="font-semibold text-[0.9rem]">{field.feld}</span>
-                  <input className={inputBase} value={answers.objective[key] ?? ""} onChange={(event) => setObjective(key, event.target.value)} disabled={resolved} />
-                  <AnswerHint grade={grade} itemKey={key} showAnswers={showAnswers} />
+                  <input className={inputBase} value={answers.objective[key] ?? ""} onChange={(event) => setObjective(key, event.target.value)} disabled={sectionState.resolved.schreiben} />
+                  <AnswerHint grade={grade} itemKey={key} showAnswers={sectionState.revealed.schreiben} />
                 </label>
               );
             })}
@@ -241,10 +308,13 @@ export function ExamApp({ exam }: { exam: Exam }) {
               className={textAreaBase}
               value={answers.schreibenTeil2}
               onChange={(event) => setAnswers((current) => ({ ...current, schreibenTeil2: event.target.value }))}
-              disabled={resolved}
+              disabled={sectionState.resolved.schreiben}
             />
-            {showAnswers ? <p className={answerHint}>Musterlösung: {exam.schreiben.teil2.musterloesung}</p> : null}
+            {sectionState.revealed.schreiben ? (
+              <p className={answerHint}>Musterlösung: {exam.schreiben.teil2.musterloesung}</p>
+            ) : null}
           </article>
+          {actionsFor("schreiben", "Schreiben")}
         </section>
       ) : null}
 
@@ -280,7 +350,9 @@ export function ExamApp({ exam }: { exam: Exam }) {
             {exam.sprechen.teil3.bildkarten.map((karte) => (
               <div className="my-2.5 rounded-sm border border-line bg-surface px-3.5 py-3" key={karte.beschreibung}>
                 <p>{karte.beschreibung}</p>
-                {showAnswers ? <p className={answerHint}>Beispiel: {karte.beispielbitte}</p> : null}
+                {sectionState.revealed.sprechen ? (
+                  <p className={answerHint}>Beispiel: {karte.beispielbitte}</p>
+                ) : null}
               </div>
             ))}
           </article>
@@ -291,53 +363,59 @@ export function ExamApp({ exam }: { exam: Exam }) {
                 className="mt-0.5 accent-coral"
                 checked={answers.sprechenPracticed}
                 onChange={(event) => setAnswers((current) => ({ ...current, sprechenPracticed: event.target.checked }))}
-                disabled={resolved}
               />
               <span>Sprechen geübt</span>
             </label>
+            {/* Never locked: Sprechen is not scored, so notes stay editable. */}
             <textarea
               className={textAreaBase}
               value={answers.sprechenNotes}
               onChange={(event) => setAnswers((current) => ({ ...current, sprechenNotes: event.target.value }))}
-              disabled={resolved}
               placeholder="Notizen zur eigenen Antwort"
             />
           </article>
+          {actionsFor("sprechen", "Sprechen")}
         </section>
       ) : null}
 
-      {activeSection === "sprechen" && grade ? (
+      {allResolved ? (
         <section className={examSection} aria-live="polite">
           <h2 className={sectionHeading}>Zusammenfassung</h2>
-          <p className="text-ink-2">
-            {grade.objectiveCorrect} von {grade.objectiveTotal} objektiven Aufgaben richtig. Schreiben Teil 2:{" "}
-            {grade.review.schreibenTeil2 === "answered" ? "beantwortet" : "leer"}. Sprechen:{" "}
-            {grade.review.sprechen === "practiced" ? "geübt" : "nicht geübt"}.
-          </p>
+          <ul className="mt-4 grid gap-2">
+            {examPages.map((page) => {
+              const score = sectionScore(grade, page.id);
+              return (
+                <li className="flex justify-between border-b border-line py-2" key={page.id}>
+                  <span className="font-semibold">{page.label}</span>
+                  <span className="font-mono text-ink-2">
+                    {page.id === "sprechen"
+                      ? answers.sprechenPracticed
+                        ? "geübt"
+                        : "nicht geübt"
+                      : `${score.correct} / ${score.total}`}
+                  </span>
+                </li>
+              );
+            })}
+            <li className="flex justify-between py-2">
+              <span className="font-display text-[1.15rem] font-semibold">Gesamt</span>
+              <span className="font-mono text-[1.15rem] font-bold text-coral">
+                {grade.objectiveCorrect} / {grade.objectiveTotal}
+              </span>
+            </li>
+          </ul>
+          <button type="button" className={`${btnSecondary} mt-5`} onClick={redo}>
+            Neu starten
+          </button>
         </section>
-      ) : null}
-
-      {activeSection === "sprechen" && attemptComplete ? (
-        <div className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-[color-mix(in_srgb,var(--color-paper)_86%,transparent)] backdrop-blur-[12px]">
-          <div className="mx-auto flex w-[min(1120px,calc(100%-32px))] flex-wrap justify-end gap-3 py-3.5 max-md:justify-stretch">
-            <button type="button" className={`${btnPrimary} max-md:flex-1`} onClick={resolve} disabled={resolved}>
-              Auswerten
-            </button>
-            <button type="button" className={`${btnSecondary} max-md:flex-1`} onClick={() => setShowAnswers(true)} disabled={!resolved || showAnswers}>
-              Lösungen zeigen
-            </button>
-            <button type="button" className={`${btnSecondary} max-md:flex-1`} onClick={redo}>
-              Neu starten
-            </button>
-          </div>
-        </div>
       ) : null}
     </main>
   );
 }
 
-function statusClass(grade: GradeResult | null, key: string): ObjectiveStatus | "" {
-  if (!grade) return "";
+// An ungraded section simply has no entry here, so a missing key means
+// "not graded yet" and renders neutral.
+function statusClass(grade: GradeResult, key: string): ObjectiveStatus | "" {
   return grade.items[key]?.status ?? "";
 }
 
@@ -346,11 +424,11 @@ function AnswerHint({
   itemKey,
   showAnswers,
 }: {
-  grade: GradeResult | null;
+  grade: GradeResult;
   itemKey: string;
   showAnswers: boolean;
 }): JSX.Element | null {
-  if (!showAnswers || !grade?.items[itemKey]) return null;
+  if (!showAnswers || !grade.items[itemKey]) return null;
   return <p className={answerHint}>Richtige Antwort: {grade.items[itemKey].expected}</p>;
 }
 
@@ -386,8 +464,9 @@ function HoerItemCard(props: {
   part: string;
   answers: AttemptAnswers;
   setObjective: (key: string, value: string) => void;
-  grade: GradeResult | null;
+  grade: GradeResult;
   showAnswers: boolean;
+  locked: boolean;
 }): JSX.Element {
   const key = objectiveKey("hoeren", props.part, props.item.nr);
   const transcript = transcriptLines(props.item);
@@ -405,7 +484,7 @@ function HoerItemCard(props: {
         options={options}
         selected={props.answers.objective[key]}
         onChange={(value) => props.setObjective(key, value)}
-        disabled={props.grade !== null}
+        disabled={props.locked}
       />
       <AnswerHint grade={props.grade} itemKey={key} showAnswers={props.showAnswers} />
     </article>
@@ -417,8 +496,9 @@ function LesenTeil3Card(props: {
   part: string;
   answers: AttemptAnswers;
   setObjective: (key: string, value: string) => void;
-  grade: GradeResult | null;
+  grade: GradeResult;
   showAnswers: boolean;
+  locked: boolean;
 }): JSX.Element {
   const key = objectiveKey("lesen", props.part, props.item.nr);
   return (
@@ -432,7 +512,7 @@ function LesenTeil3Card(props: {
         options={binaryOptions()}
         selected={props.answers.objective[key]}
         onChange={(value) => props.setObjective(key, value)}
-        disabled={props.grade !== null}
+        disabled={props.locked}
       />
       <AnswerHint grade={props.grade} itemKey={key} showAnswers={props.showAnswers} />
     </article>

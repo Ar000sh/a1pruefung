@@ -27,12 +27,6 @@ export function requiredObjectiveKeys(exam: Exam): string[] {
   ];
 }
 
-export function isAttemptComplete(exam: Exam, answers: AttemptAnswers): boolean {
-  const hasObjectiveAnswers = requiredObjectiveKeys(exam).every((key) => Boolean(answers.objective[key]?.trim()));
-  const hasWriting = Boolean(answers.schreibenTeil2.trim());
-  return hasObjectiveAnswers && hasWriting && answers.sprechenPracticed;
-}
-
 export function sectionObjectiveKeys(exam: Exam, section: ExamSectionId): string[] {
   return requiredObjectiveKeys(exam).filter((key) => key.startsWith(`${section}.`));
 }
